@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebSocket demo</title>
+    </head>
+    <body>
+        <h1>
+            Cute
+        </h1>
+        <button id="left">
+            Left
+        </button>
+        <button id="right">
+            Right
+      </button>
+        <script>
+            const ws = new WebSocket("ws://127.0.0.1:5678/");
+            const messages = document.createElement('ul');
+            ws.binaryType = "arraybuffer";
+
+            ws.onopen = (event) => {
+                ws.send("hi");
+            }
+
+            ws.onmessage = (event) => {
+                console.log(event);
+                const messages = document.getElementsByTagName('ul')[0];
+                const message = document.createElement('li');
+                const str = String.fromCharCode.apply(null, new Uint8Array(event.data));
+                const content = document.createTextNode(str);
+                message.appendChild(content);
+                messages.appendChild(message);
+            };
+
+            ws.onclose = (event) => {
+                console.log("Is this enough");
+            }
+
+			// addEventListener("load", () => connect())
+            document.body.appendChild(messages);
+        </script>
+    </body>
+</html>
