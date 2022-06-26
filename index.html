@@ -1,38 +1,3512 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>WebSocket demo</title>
+        <title>Cosi Fan Tutte Surtitles</title>
     </head>
     <body>
         <h1>
-            Cute
+            Cosi Fan Tutte
         </h1>
-        <button id="left">
-            Left
-        </button>
-        <button id="right">
-            Right
-      </button>
+        <h2 id="singers">
+            Singers
+        </h2>
+        <p id="text">Text</p>
         <script>
+            const data = [
+              {
+                "singers": "Act 1",
+                "text": []
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["My Dorabella couldn't", "Do such a thing:"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Heaven made her", "As faithful as she's fair."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["My Fiordiligi simply", "Couldn't betray me:"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["I believe her constancy", "Equals her beauty."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["My hair is already grey,", "I speak with authority;"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["But let's have done", "With argument."]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["No, you've told us", "They could be faithless;"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["If you're honest", "You will prove it."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Let's not trouble with proof."]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["No, no, we demand it:", "Or out with your sword"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["And we'll break up this friendship,", "He strikes at my honour"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Who allows his lips", "To utter a word"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Which does her wrong."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["O what folly", "To try to discover"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["The wrong which will make us wretched", "When we've found it!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Draw your sword!", "Choose which of us you'd prefer."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["I'm a peaceable man", "And don't touch steel,"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Except at table."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Either fight,", "Or say at once"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Why you suspect our sweethearts", "Could possibly be untrue."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Sweet simplicity, how I love it!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["A truce to your jests,", "Or I swear, by heaven..."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["And I swear by this world,", "My friends, I'm not jesting;"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["I'd only like to know", "What kind of creatures"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": [
+                  "Are these beauties of yours,",
+                  "if they're flesh and blood and bone like us,"
+                ]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": [
+                  "If they eat like us, and wear skirts,",
+                  "If, in fact, they're goddesses or women..."
+                ]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["They're women,", "but the like of them..."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["And in woman you expect", "To find fidelity?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["How I love such simplicity!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Woman's constancy", "Is like the Arabian Phoenix;"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Everyone swears it exists,", "But no one knows where."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["The phoenix is my Dorabella!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["The phoenix is my Fiordiligi!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": [
+                  "It's neither one nor the other.",
+                  "It never existed, and never will."
+                ]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Woman's constancy", "Is like the Arabian Phoenix;"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Everyone swears it exists,", "But no one knows where."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Poets' nonsense!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Old men's drivel!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Well then, listen,", "But without flying into a rage:"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["What proof have you", "That your loves are always true to you?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["What makes you so sure", "That their hearts are steadfast?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Long acquaintance..."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Their noble upbringing..."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Their sublime thoughts..."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Kindred feelings..."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Unselfishness..."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Steadfast characters..."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Their promises..."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Their protests..."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Their oaths..."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Tears and sighs, caresses, swoons.", "Excuse me if I laugh..."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Confound you!", "Stop taunting us!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Gently, gently;", "what if I prove conclusively to you today"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["That they're just like the others?"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["It couldn't be!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Impossible!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Shall we bet on it?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["We're on!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["A hundred sequins."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["A thousand, if you like."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["My hand on it!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Both hands!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Swear not to give a sign, a whisper,", "A hint of all this"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["To your Penelopes."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["We swear."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["On your honour as soldiers?"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["On our honour as soldiers."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["And you'll do", "Everything I tell you to?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Everything!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Even more!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Well done!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["And well done,", "Dear Don Alfonso!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["We'll make merry at your expense."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["What shall we do with the hundred sequins?"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Ah tell me sister,", "If one could ever find"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["A nobler face,", "A sweeter mouth."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Just look,", "See what fire is in his eye,"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["If flames and darts", "Do not seem to flash forth!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["This is the face", "Of a soldier and a lover."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["This is a face", "Both charming and alarming."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Io sono felice."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["How happy I am!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["If ever my heart", "Changes its affection,"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["May love make me", "Live in pain."]
+              },
+              {
+                "singers": "Recitative",
+                "text": []
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": [
+                  "This morning I feel in the mood",
+                  "For some mischief: I've a fire,"
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["A tingling in my veins."]
+              },
+              {
+                "singers": "There they are!",
+                "text": []
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["No, it's not them:", "It's their friend Don Alfonso."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Welcome,", "Don Alfonso!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Your servant!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": [
+                  "What is it? Why are you alone?",
+                  "You shed a tear? Speak, for pity's sake:"
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["What has happened? My lover..."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["My dearest..."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["O cruel fate!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["I would speak, but my courage fails,", "My lips stammer."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["I cannot say the words,", "Which stay locked inside me."]
+              },
+              {
+                "singers": "What will you do? What shall I?",
+                "text": ["O dire misfortune!", "It could not be worse."]
+              },
+              {
+                "singers": "What will you do? What shall I?",
+                "text": ["I grieve for you and for them!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Mercy! For pity's sake,", "Don Alfonso, do not torment us so."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["You will need to summon", "All your courage, my dears."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["O heaven! What harm has befallen them?", "What disaster?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Is my beloved killed?"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Is mine dead?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["No, not dead, but nearly as bad."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Wounded?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["No."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Sick?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Not that either."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Well, what then?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["The royal command has called them", "To the battlefield."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Alas, what do I hear?"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["And they are going?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["At once."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Is there no way of stopping them?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["None."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Not a single farewell?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["The poor fellows", "Hadn't the courage to see you;"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["But if you wish it,", "They are willing."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Where are they?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Come in, my friends!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": [
+                  "O Heaven, I feel my steps falter",
+                  "In their progress towards you."
+                ]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["My trembling lips", "Cannot utter the words."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": [
+                  "In moments of the greatest stress",
+                  "A hero calls up all his strength."
+                ]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": [
+                  "Now that we have heard the news,",
+                  "One detail remains for you to do;"
+                ]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Be brave, and plunge your blade", "Into this heart."]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["My love, blame fate", "If I must abandon you."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["No, no, do not go!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Cruel one, do not leave me!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["I would sooner tear my heart out!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["I would sooner die at your feet!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["What did I say?"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Do you see now?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Patience, friend;", "We've not reached the end yet!"]
+              },
+              {
+                "singers": "All",
+                "text": ["Thus destiny confounds", "Our mortal hopes."]
+              },
+              {
+                "singers": "All",
+                "text": ["Ah who, amid such sorrow,", "Can ever more delight in life?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["O heavens!", "That is the fatal drum that comes"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["To tear me from my treasure!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Friends, here is the boat."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["I'm fainting!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["I'm dying!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Where are they?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["They've gone."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["O most cruel,", "Bitter parting!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Have courage,", "Dearest ladies;"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Look; in the distance", "Your lovers are waving."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["God speed you, my love!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["God speed you!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": [
+                  "O heavens! How swiftly their boat",
+                  "Disappears! It's gone already!"
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["It's out of sight! Heaven grant it", "A safe voyage!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["May Heaven protect them too", "On the field of battle!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Preserve your lovers", "And my friends."]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Don Alfonso",
+                "text": ["Gentle be the breeze,", "Calm be the waves,"]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Don Alfonso",
+                "text": ["And every element", "Smile in favour"]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Don Alfonso",
+                "text": ["On their wish."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["What a wretched life", "A lady's maid leads!"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "From morning till night working,",
+                  "Sweating and toiling, and after all"
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "One's done there's nothing for oneself!",
+                  "I've been beating this for half an hour,"
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "And now the chocolate's ready; yet though my tongue's",
+                  "Hanging out, must I just stand and smell it?"
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Aren't my tastes just like yours?", "O dearest ladies,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["You have the substance", "And I only the smell!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Damnit, I'm going to try it.", "Delicious!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Someone's coming!", "Goodness, it's my ladies!"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "Here's your breakfast, ladies.",
+                  "Dorabella flings it all to the ground"
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Jiminy! What are you doing?"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Ah!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Ah! ah!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["What's happened?"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Where is a dagger?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Where is the poison?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Ladies, I beg you!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Ah leave me! Flee the dread effect", "Of a distracted love!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": [
+                  "Close those windows; I hate the light,",
+                  "I hate the air I breathe, I hate myself."
+                ]
+              },
+              {
+                "singers": "Dorabella",
+                "text": [
+                  "Who mocks at my grief? Who consoles me?",
+                  "Ah fly; leave me alone, for pity's sake!"
+                ]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Implacable pangs", "Which torment me,"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Do not subside", "Within my being"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Until my anguish", "Brings me death."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["If I remain alive", "I will furnish the Furies"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["With a wretched example", "Of tragic love"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["With the dreadful sound", "Of my sighs."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["My lady Dorabella,", "My lady Fiordiligi,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Tell me: what has happened?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["O dreadful disaster!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Get on with it!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Our lovers", "Have left Naples."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Is that all?", "They'll be back."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Who knows!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["What do you mean, who knows?", "Where have they gone?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["To the field of battle!"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "So much the better for them:",
+                  "You'll see them return crowned with laurel."
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["But they might be killed!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Why then,", "So much the better for you."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Fool, what are you saying?"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "The simple truth: you lose these two",
+                  "But all the rest are left."
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Ah, without Guglielmo,", "I think I'd die!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Ah, without Ferrando", "I think I'd bury myself alive!"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "Splendid! That's what you think, but you wouldn't;",
+                  "No woman yet has ever died for love."
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Die for a man? There's lots more", "Where he came from."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": [
+                  "And do you believe anyone could love",
+                  "Another man who once had had"
+                ]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["A Guglielmo, a Ferrando for lover?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["The others have everything", "That these have."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["You love this man now;", "So you'd love another:"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["One's as good as the other", "Since neither's worth a thing."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["But we won't go into that;", "They're still alive"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["And will come back alive;", "But they're far away,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["And rather than", "Waste time in idle tears,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Think about enjoying yourselves."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Enjoying ourselves?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Certainly! And what's more,", "Making love furiously, as your"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Dear gentlemen will be doing on active service!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": [
+                  "Don't insult those pure souls like this,",
+                  "Those models of fidelity and perfect love."
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "Go on with you! The times are past",
+                  "For spinning such tales even to babies!"
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": ["You look for fidelity", "In men, in soldiers?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Don't tell me that, for pity's sake!", "All of them"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Are made of the same stuff;", "The quivering leaves,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["The inconstant breezes", "Have more stability"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Than men.", "Crocodile tears,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Lying looks,", "Deceiving words,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["False endearments", "Are the basis"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Of their tricks.", "In us they only prize"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Their own pleasure;", "Then they despise us,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Deny us affection,", "And from such tyrants"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["There's no mercy to be had.", "We woman should pay out"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["This hurtful,", "Impudent breed"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["In their own coin;", "Let's love them"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "To suit our convenience and our vanity!",
+                  "La ra la, la ra la, la ra la, la."
+                ]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["I present you, my friends,", "To pretty Miss Despina;"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["The consolation of your heart", "Lies in her hands alone."]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": [
+                  "By those hands, which with joy I kiss,",
+                  "By that smile so full of charm,"
+                ]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Make my treasure turn on me", "Her clear and lovely eyes."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["What sights! What clothes!", "What faces! What moustaches!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["I wonder what they are...", "Wallachians or Turks."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["What do you think of their appearance?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["To be quite frank,", "They're exceptional in their ugliness,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Enough to make one renounce love."]
+              },
+              {
+                "singers": "Ferrando, Guglielmo and Don Alfonso",
+                "text": ["Now the plan is quite decided;", "If she doesn't recognise us,"]
+              },
+              {
+                "singers": "Ferrando, Guglielmo and Don Alfonso",
+                "text": ["There's no more need to fear."]
+              },
+              {
+                "singers": "Fiordiligi e Dorabella",
+                "text": ["Oh Despina! Despina!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["The ladies!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Now's the moment!", "Use your wits: I'll hide in here."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Impudent baggage!", "What are you doing with those people?"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Turn them out at once,", "Or you'll be as sorry for it as they."]
+              },
+              {
+                "singers": "Despina, Ferrando and Guglielmo",
+                "text": ["Ah, ladies, pardon!", "See at your lovely feet"]
+              },
+              {
+                "singers": "Despina, Ferrando and Guglielmo",
+                "text": ["Two wretches languishing,", "Tortured with love by your beauty."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": [
+                  "Great heavens! What do I hear?",
+                  "Who was the shameless instigator"
+                ]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Of this vile betrayal?"]
+              },
+              {
+                "singers": "Despina, Ferrando and Guglielmo",
+                "text": ["Pray calm your indignation!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["I can contain myself no more!", "My heart within my breast"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Is filled with outrage", "And with fear!"]
+              },
+              {
+                "singers": "Despina and Don Alfonso",
+                "text": ["I'm a bit suspicious", "Of this rage and fury!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["What balm to this heart", "Is all this rage and fury!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Forgive me, beloved;", "This heart of mine is innocent."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": [
+                  "Begone, bold creatures! Leave this house!",
+                  "And with the unwelcome breath of base words"
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Do not profane our hearts,", "Our ears and our affections!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": [
+                  "In vain do you, or others, seek to seduce",
+                  "Our souls; the unsullied faith which"
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": [
+                  "We plighted to our dear loves",
+                  "We shall know bow to preserve for them"
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Until death, despite the world and fate."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Like a rock standing impervious", "To winds and tempest,"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["So stands my heart ever strong", "In faith and love."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": [
+                  "Between us we have kindled",
+                  "A flame which warms, and consoles us,"
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["And death alone could", "Change my heart's devotion."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Respect this example", "Of constancy, you abject creatures,"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["And do not let a base hope", "Make you so rash again!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["And may I ask to know", "The reason for this laughter?"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Oh what a face!", "Don't you think, my dear sir,"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["That we have good cause?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["How much will you pay,", "And we'll drop our wager?"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Pay half."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["We'll let you off with", "Twenty-four sequins."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Poor little innocents!", "Come here; I'll give you"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["My little finger to suck on."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["And you still have", "The courage to go on?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Before evening", "We'll talk of this."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Whenever you like."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Meanwhile", "Silence and obedience."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Until tomorrow morning."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["We are soldiers", "And accept discipline."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Very well: both of you go", "And wait for me in the garden:"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["There I'll give you your orders."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["But don't we eat today?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["What's it matter?", "When the battle's over"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Our supper will taste the better."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["A breath of love", "From our treasures"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Will afford our hearts", "Sweet sustenance."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["A heart nourished", "On the hope of love"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Has no need", "Of greater inducement."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": [
+                  "It's quite absurd! There are",
+                  "So few constant women in this world,"
+                ]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["And here are two of them!", "It can't be."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": [
+                  "Come here, and tell me",
+                  "Where your mistresses are and what they're doing."
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": ["The poor fools", "Are standing in the garden"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "Bewailing the loss of their lovers",
+                  "To the breezes and the mosquitos."
+                ]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["And how do you think", "This will end?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Can we hope", "They'll come to their senses?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Well, I would;", "Where they weep, I'd laugh."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["To choke with despair", "Because a lover goes away!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Have you ever seen such folly!", "If one goes, take two others."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Well said! that's sense.", "I'd better compliment her."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["It's a law of nature, and not", "Merely sense."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["What is love?", "Pleasure, convenience, taste,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Enjoyment, amusement,", "Pastime, fun, it's no longer love"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "If it becomes a burden and",
+                  "Instead of pleasure brings pain and torment."
+                ]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["But meanwhile our sillies\u2026"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["They'll do", "What we say."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["It's good that they should know", "They're loved by them."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["They know it."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Then they'll readmit them,", "They'll spin the usual tale,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["And devil take the hindmost!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["But how can you bring them back", "Now they've gone, and make"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["These tiger?cats of yours", "Listen to them again"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["And let themselves be tempted?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Leave me the bother", "Of running the show."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["When Despina runs something", "It can't fail: I've already led"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "A thousand men by the nose:",
+                  "I should know how to manage two women."
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Are your two whiskered monsieurs rich?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Rolling in it."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Where are they?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["In the street,", "Waiting for me."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Then off you go", "And bring them to me here"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["By the little door;", "I'll wait for you in my room."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["If you'll do all I tell you,", "Before tomorrow your friends"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "Will win the day: they'll have their way,",
+                  "And I'll have the glory."
+                ]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Ah, how my lot has changed", "All in a moment!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Ah, what a sea of torment", "Is life henceforth for me!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["So long as the cruel stars", "Left my dear one with me,"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["I knew not what grief was,", "I knew not what it was to pine."]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Let us die, yes, let us die", "And thus melt their hard hearts."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["There is yet a hope:", "I beg you, do not do it!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Goodness, what terrible cries!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Let me be!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Wait!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["May arsenic set me free", "From such cruelty!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Heavens, was that poison?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Poison good and proper,", "That in a few moments"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Will deprive them of their lives!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["The tragic sight", "Turns my heart to ice."]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Draw near, cruel ones;", "See the dire effect"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Of despairing love", "And at least pity us."]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["May the sun's rays", "Be darkened for me!"]
+              },
+              {
+                "singers": "Don Alfonso, Fiordiligi and Dorabella",
+                "text": ["The very fibres of my being failing,", "And my tongue and lips"]
+              },
+              {
+                "singers": "Don Alfonso, Fiordiligi and Dorabella",
+                "text": ["Cannot form a word."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Since these unfortunates", "Are near to death,"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["At least try to show them", "A little pity."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Help, someone, come quickly", "O Heaven, can no one hear!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Despina!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Did someone call?"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Despina!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["What do I see?", "I fear the poor things are dead,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Or very near to dying!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Alas, only too true!", "Distraught, despairing,"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["They have taken poison!", "Oh strange love!"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "It would be shameful of you",
+                  "To forsake these unhappy wretches."
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": ["You must aid them."]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Don Alfonso",
+                "text": ["Whatever can we do?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["They still show signs of life;", "Give them a little comfort"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["From your kindly hands.", "You hurry away with me"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["And we'll seek", "A doctor and an antidote."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["What a tribulation!", "No more dreadful situation"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Could ever be imagined!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["No more farcical comedy", "Could ever be imagined!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Ah!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["The poor dears are sighing!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["What shall we do?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["You suggest something."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["At a moment so painful", "Who could forsake them?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Their faces are quite interesting!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["We could go a little further."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["His head is very cold."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["This one's cold as ice."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["And his pulse?"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["I can't feel it."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["This one's beating very slowly."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": [
+                  "Oh, if help is long in coming,",
+                  "There'll be no more hope of life!"
+                ]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Both have become", "Calmer and more gentle;"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["We shall see if their pity", "Will turn into love."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Poor dears! Their death", "Would fill me with grief."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Here's the doctor,", "Gentle ladies!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Despina dressed up!", "How heavily she's disguised!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Salvete, amabiles", "Buonae puellae!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["He speaks a language", "We do not understand."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Let's speak, then,", "As you command me."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["I know Greek and Arabic,", "Turkish and the Vandal tongue;"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["And I can speak", "Swabian and Tartar too."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Keep all these languages", "For yourself, sir;"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["For the moment,", "Look at these poor fellows;"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["They've taken poison;", "What can be done?"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Yes, doctor,", "What can be done?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["First I must know", "The nature of this potion"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["And the reason it was taken;", "Whether it was swallowed"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Hot or cold,", "A little or much,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["In one draught", "Or in several."]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Don Alfonso",
+                "text": ["They took arsenic,", "Good doctor,"]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Don Alfonso",
+                "text": ["And drank it here.", "The cause was love"]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Don Alfonso",
+                "text": ["And they swallowed it", "In a single gulp."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Don't worry,", "Don't be afraid;"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Here is an earnest", "Of my skill."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["He's taken a piece", "Of iron in his hand."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["This is", "A piece of magnet,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["The stone which the great", "Doctor Mesmer discovered"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["In Germany", "And then became"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["So famous in France."]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Don Alfonso",
+                "text": ["Look, they're moving,", "Twisting, shaking!"]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Don Alfonso",
+                "text": ["They'll hit their heads", "On the ground in a moment."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Ah, hold their foreheads", "Steady, will you?"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["We're standing ready!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Hold tight!", "Courage! Now they"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Are safe from death."]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Don Alfonso",
+                "text": ["They're looking round", "And recovering their strength."]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Don Alfonso",
+                "text": ["Ah, this doctor's", "Worth all the gold in Peru!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Where am I? What place is this?", "Who is he? Who are they?"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Am I before Jove's throne?", "Are you Pallas or Cytherea?"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": [
+                  "No, you are my fair goddess!",
+                  "I recognise you by that sweet face,"
+                ]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["And by that hand I now know so well;", "It is my only treasure."]
+              },
+              {
+                "singers": "Despina and Don Alfonso",
+                "text": ["It's the effect of the poison still;", "Don't be afraid."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": [
+                  "That may be so, but such liberties",
+                  "Do violence to our reputation."
+                ]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["I beg you,", "My adored one,"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Turn your lovely eyes on me."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["I can resist no longer!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Turn your lovely eyes on me"]
+              },
+              {
+                "singers": "Despina and Don Alfonso",
+                "text": ["Very soon now you'll see,", "By virtue of magnetism's power,"]
+              },
+              {
+                "singers": "Despina and Don Alfonso",
+                "text": ["The end of this paroxysm,", "And they'll be as they were before."]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["My lungs are bursting", "With the need to laugh."]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Give me a kiss, my treasure,", "One single kiss, or else I die."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Heavens, a kiss?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Agree,", "As an act of kindness!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["This is too much to ask", "Of a chaste and faithful woman!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["It's an outrage to my love,", "It's an outrage to my heart!"]
+              },
+              {
+                "singers": "Despina, Ferrando, Guglielmo and Don Alfonso",
+                "text": ["A more amusing picture", "Can't be found in all the world;"]
+              },
+              {
+                "singers": "Despina, Ferrando, Guglielmo and Don Alfonso",
+                "text": ["That which makes me laugh the most", "Is their rage and fury."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Despairing or poisoned,", "Go to the devil,"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Truly you'll repent too late", "If you anger me more!"]
+              },
+              {
+                "singers": "Despina and Don Alfonso",
+                "text": ["I don't know if their rage", "And fury are feigned or real,"]
+              },
+              {
+                "singers": "Despina and Don Alfonso",
+                "text": ["But wouldn't wish this fire", "To end in the fire of love."]
+              },
+              {
+                "singers": "Despina and Don Alfonso",
+                "text": ["I know full well this fire", "Will change to that of love.."]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["I don't know if their rage", "And fury are feigned or real,"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["But wouldn't wish this fire", "To end in the fire of love."]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["I know full well this fire", "Will change to that of love.."]
+              },
+              {
+                "singers": "Act 2",
+                "text": []
+              },
+              {
+                "singers": "Despina",
+                "text": ["Upon my word, you're", "The strangest pair of creatures!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["You jade!", "What are you after?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["For me, nothing."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["For whom, then?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["For you."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["For us?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["For you:", "Are you women or not?"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["What do you mean?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["I mean,", "You should act like women, then."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["And how is that?"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "For example, your gallants",
+                  "Have gone off to the wars: till they return,"
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Act like the army: go recruiting!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Indeed, you'd have us", "Acting very strangely."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Do you think we want to be", "The talk of all the gossips?"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Do you think we want to cause", "Such anguish to our loved ones?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["And who says", "You'd be doing them any harm?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Friends, we are in port!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Don't you consider", "It would be harm enough"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["If word got round", "That we were entertaining them?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["As for that, there's", "A perfectly safe method;"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["I'll spread it abroad", "That they're after me."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Who'd believe that?"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "Oh thank you! Hasn't a maid",
+                  "The right to have a couple of followers?"
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": ["You can trust in me."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["And then?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["And then?", "Bless us, get on with it."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["I said they'd fall!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["What should we do?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Whatever you want.", "Are you flesh and blood,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Or what?"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["At fifteen a woman", "Should know the ways of the world,"]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "Where the devil keeps his tail,",
+                  "What's right and what is wrong."
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": ["She should know the wiles", "That ensnare lovers,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["How to feign laughter or tears", "And to make up good excuses."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["At one and the same moment", "She must listen to a hundred"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["But speak with her eyes", "To a thousand,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Hold out hope to all,", "Be they handsome or plain,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Know how to hide things", "Without getting flustered,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Know how to tell lies", "Without ever blushing."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["And, like a queen", "On her lofty throne,"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Get her own way", "With \u201cI can\u201d and \u201cI will\u201d"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["It seems they're taking", "To this doctrine;"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Hooray for Despina,", "She knows how to do it."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Sister, what do you say?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["I'm dumbfounded", "At the fiendish ideas of that girl."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Believe me, she's crazy.", "Do you think we could possibly"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Follow her counsel?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Of course, if you stood everything", "Upside down."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["On the contrary, I'm standing things", "The right way up:"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": [
+                  "Don't you think it wrong",
+                  "For two young women who are betrothed"
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["To do such things?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["She's not saying", "We should do any harm."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["It' bad enough", "Getting ourselves talked about!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["But if it's said", "They've come to see Despina!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Your conscience", "Is too elastic!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["What will our menfolk say?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": [
+                  "Nothing; either they'll not know about it",
+                  "And it's over and done with,"
+                ]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Or they'll hear something,", "And then we'll say"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["They came to see her."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["But our hearts?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Will stay as they are;", "To amuse ourselves a little"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["And not to die of boredom", "Is not to be false,"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["My dear sister."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["That's true."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["So?"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["So you go ahead:", "But I don't want to be involved"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["If there should be a scandal."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": [
+                  "How can there be a scandal",
+                  "When we're taking such precautions?"
+                ]
+              },
+              {
+                "singers": "Dorabella",
+                "text": [
+                  "However, listen, let's come to an agreement:",
+                  "Which of these two do you fancy for yourself?"
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["You choose, sister."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["I've already chosen."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["I'll take the dark one,", "Who seems to me more fun."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["And meantime I'll laugh", "And joke a bit with the fair one."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Playfully I'll answer", "His sweet words."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Sighing, I'll imitate", "The other's sighs."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["He'll say to me:", "My love, I'm dying!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["He'll say to me:", "My dearest treasure!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["And meanwhile", "What sport and pleasure"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["I shall have!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Come, make haste to the garden,", "Dear young ladies!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["What fun! What music! Such singing!", "What a brilliant sight!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["What magic! Come along, quickly!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Whatever's going on?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["You'll soon see."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["What a lovely day!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Perhaps a trifle hot."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["What pretty bushes!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Yes, yes, very pretty;", "They've more leaves than fruit."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["How charming", "These paths are!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Shall we take a stroll?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Your slightest wish", "Is my command."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["You are too kind!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["This is the big moment!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["What did you say to him?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Er... I told him", "To keep her entertained."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Let us go for a stroll too."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Just as you please.", "Oh dear!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["What's the matter?"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["I feel so bad,", "My dearest one,"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["That I think I'm going to die."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["This simply won't do.", "It'll be the after?effects"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Of the poison that you drank."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": []
+              },
+              {
+                "singers": "Ah, I drink in",
+                "text": ["A for stronger poison", "From the cruel, fiery"]
+              },
+              {
+                "singers": "Ah, I drink in",
+                "text": ["Volcanoes of love!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["It'll be a burning poison;", "Cool yourself a little."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Unkind one, you mock me", "While I'm dying."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["They've vanished;", "Where the devil have they got to?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Oh, don't do that."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["I'm dying, cruel one, and you mock me?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["I mock you?"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Then give me, light of my life,", "Some token of your pity."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Two, if you like.", "Tell me what you'd have, and we'll see."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Is she joking or in earnest?", "Deign to accept"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["This humble offering."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["A heart?"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": [
+                  "Yes, a heart; the symbol of that one",
+                  "Which burns, pines and longs for you."
+                ]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["What a precious gift!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Will you accept it?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["Cruel man,", "Do not seek to tempt a faithful heart."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": [
+                  "The mountain is weakening.",
+                  "I don't like this, but I've pledged"
+                ]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["My honour as a soldier.", "I adore you!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["I beg of you!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["I am all yours!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["O Heavens!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Give in, my dear one!"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["You'll drive me to my death!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["We'll die together then,", "My hope and love."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Will you accept it?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["I accept."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Poor Ferrando!", "Oh what joy!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["This heart I give you,", "My adored one;"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["But I want yours in return;", "Come, give it me."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["You've given it and I take it,", "But mine I cannot give;"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["In vain you ask it of me,", "It is no longer mine."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["If you no longer own it,", "Why does it beat here?"]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["If you gave me it,", "What is still beating there?"]
+              },
+              {
+                "singers": "Dorabella and Guglielmo",
+                "text": ["It is my own dear heart", "That is no longer mine;"]
+              },
+              {
+                "singers": "Dorabella and Guglielmo",
+                "text": ["It's come to lodge with you,", "And that's what's beating so."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Let me put it here."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["There it cannot stay."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["I understand, you little rogue."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["What are you doing?"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["You're not to look."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["I feel I have", "A volcano in my bosom!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Poor Ferrando!", "It doesn't seem possible."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Now turn your pretty eyes on me."]
+              },
+              {
+                "singers": "Dorabella",
+                "text": ["What do you want?"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["See,", "Doesn't that look better?"]
+              },
+              {
+                "singers": "Dorabella and Guglielmo",
+                "text": ["Oh happy exchange", "Of hearts and affections!"]
+              },
+              {
+                "singers": "Dorabella and Guglielmo",
+                "text": ["What new delights!", "What sweet pain!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["We've won, my boy!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Two of a kind?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["A straight flush!", "Fiordiligi is modesty incarnate."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": [
+                  "She was keeping herself pure as a dove",
+                  "For her dear Guglielmo:"
+                ]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Haughtily she repulsed me,", "Upbraided me, fled me,"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": [
+                  "Giving me evidence and proof",
+                  "That she's a woman without equal."
+                ]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Good for you, good for me,", "Good for my Penelope!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Let me embrace you", "For your happy tidings,"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["My faithful Mercury!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["And my Dorabella,", "How did she behave?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Oh, I haven't a doubt of her.", "I know so well"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Her sensitive soul."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Well, just between ourselves,", "If you had a doubt"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["It might not be such a bad thing."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["What?"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": [
+                  "Oh, don't take me seriously.",
+                  "I'd like to gild the pill for him."
+                ]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Speak out! Did she perhaps", "Fall for your flatteries?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Ah, if I could even suspect it!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["In this world", "It's always wise to be a bit suspicious."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Ye immortal gods! Speak out!", "Don't roast me on a slow fire;"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": [
+                  "But no, you're making sport of me;",
+                  "She loves me, adores me alone."
+                ]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Certainly! And so in proof", "Of her love and devotion"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["She gave me this little picture."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["My portrait!", "The traitress!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Where are you going?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": [
+                  "To tear her heart from her wicked bosom",
+                  "And avenge the betrayal of my love."
+                ]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Stop!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["No, let me go!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Are you raving?", "Would you ruin yourself"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["For a worthless woman?", "I wouldn't want him"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["To commit some folly!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Ye gods! All those promises,", "And tears, and sighs, and vows"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["How could the inhuman creature", "Forget them so soon?"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["I'm sure I don't know."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["What should I do now?", "To what course,"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": [
+                  "What plan apply myself?",
+                  "Take pity on me, give me your counsel."
+                ]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["My friend, I don't know", "How to advise you."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Cruel! Heartless", "In a day! In a few hours!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["It's certainly something to wonder at."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": [
+                  "Ladies, you treat so many thus",
+                  "That, if I must speak the truth,"
+                ]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["I begin to sympathise", "When your lovers complain."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["I adore the sex, you know,", "Everyone knows it;"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Each day I show it", "And always take your part."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["But such treatment of so many", "Discourages me, in truth."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["A thousand times I've drawn my sword", "To defend your honour."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": [
+                  "A thousand times I've championed you",
+                  "With my tongue and, still more, with my heart."
+                ]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["But such treatment of so many", "Is pernicious and a bore."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": [
+                  "You're attractive, you are charming,",
+                  "Heaven has given you treasures galore"
+                ]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["And graces envelop you", "From head to foot."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["But thus you treat so many,", "That it's difficult to believe,"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["And if your lovers complain", "They have good reason indeed."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["In what fierce strife,", "In what confusion"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": [
+                  "Of thoughts and affections I find myself!",
+                  "So unusual and novel is my situation"
+                ]
+              },
+              {
+                "singers": "Ferrando",
+                "text": [
+                  "That neither others nor I myself",
+                  "Suffice to give me counsel... oh, Alfonso,"
+                ]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["How you must be laughing", "At my stupidity!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": [
+                  "But I'll be revenged, I'll banish",
+                  "The traitress from my mind..."
+                ]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Banish her?", "O Heaven, too loudly my heart intercedes for her."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Betrayed and scorned", "By her faithless heart,"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["I still know", "That my soul adores her,"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["I still hear", "The voice of love for her."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": [
+                  "How everything conspires to tempt",
+                  "My heart! But no! Let me die rather than yield!"
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["My eyes must not", "Fall on him again! I'll threaten"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": [
+                  "All the servants with dismissal",
+                  "In the house are several uniforms"
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Of Guglielmo's and Ferrando's: courage now!", "Despina! Despina!"]
+              },
+              {
+                "singers": "Despina",
+                "text": ["What is it?"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Take this key, and without any questions", "Or any back answers,"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": [
+                  "Go to the wardrobe and bring me here",
+                  "Two swords, two helmets and two tunics"
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Of our lovers."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["What do you want with them?"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Go on, and no back answers."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Milady's on her high horse!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["There's nothing else to do:", "I hope Dorabella herself"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Will follow a good example:", "Away, away!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["No other way is left", "For us to preserve our honour."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Here I am."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Now go.", "Send a servant at once"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["To order six post?horses;", "Tell Dorabella I want to speak her."]
+              },
+              {
+                "singers": "Despina",
+                "text": ["Very good, ma'am.", "I think she's out of her mind."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": [
+                  "Ferrando's uniform will fit me;",
+                  "Dorabella can take Guglielmo's."
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["In these outfits", "We'll join our sweethearts,"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["We can fight beside them", "And die, if need be."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": [
+                  "Very soon now I'll be enfolded",
+                  "In the embraces of my true love;"
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Unrecognised in these garments", "I will come before him."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Oh, what joy will fill his heart", "When he sees me again!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["And meanwhile I, left wretched,", "Shall die of grief."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["What do I see? I am betrayed!", "Oh leave me!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Ah no, dear heart!", "With this sword in your hand"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Strike me to the heart,", "And if you lack the strength,"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["By Heaven, I'll guide your hand myself."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Alas, be silent! I am", "Tormented and unhappy enough!"]
+              },
+              {
+                "singers": "Fiordiligi and Ferrando",
+                "text": ["Ah, now my constancy", "Begins to falter"]
+              },
+              {
+                "singers": "Fiordiligi and Ferrando",
+                "text": ["Before his looks and his words!"]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["Get up, I beg!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["It cannot be."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["In pity's name, what do you ask of me?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Your heart or my death."]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": ["My strength is giving out!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Yield, my dearest!"]
+              },
+              {
+                "singers": "",
+                "text": ["Fiordiligi", "Heaven, direct me!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Turn a merciful eye on me.", "In me alone you'll find"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": [
+                  "Husband, lover and more, if you wish.",
+                  "Delay no longer, my adored one."
+                ]
+              },
+              {
+                "singers": "Fiordiligi",
+                "text": []
+              },
+              {
+                "singers": "Merciful heaven! Cruel man, you've won!",
+                "text": ["Do with me what you will."]
+              },
+              {
+                "singers": "Ferrando and Fiordiligi",
+                "text": [
+                  "Embrace me, my dearest,",
+                  "And may the consolation for our sorrows"
+                ]
+              },
+              {
+                "singers": "Ferrando and Fiordiligi",
+                "text": ["Be to spend our time in sweet affection,", "And sigh for joy!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Alas, poor me, what have I seen!", "What have I heard!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Keep quiet, for heaven's sake!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["I'll pluck out my beard,", "I'll tear my flesh,"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": [
+                  "And charge the stars with my horns!",
+                  "So that was Fiordiligi, my Penelope,"
+                ]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": [
+                  "The chaste Diana of the age! Strumpet,",
+                  "Assassin, cheat, swindler, bitch!"
+                ]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": []
+              },
+              {
+                "singers": "Let him get it off his chest.",
+                "text": []
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Well!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Where is she?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Who? Your Fiordiligi?"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["My Fior... Furies of hell!", "Strangle first her and then me!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["You see now;", "There are distinctions in everything;"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["There's a little extra something..."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Stop it! Stop", "Taunting me,"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["And instead", "Let's find a way"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Of punishing them soundly."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["I know what to do: marry them."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["I'd rather marry", "Charon's boat."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Vulcan's smithy."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["The gates of hell."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Then you'll stay bachelors for ever."]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Are there no women", "Fit for men like us?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["There's not so many.", "But what would they do,"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["If these act like this?", "At bottom, you still love"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["These plucked birds."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Alas, it's true!"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Too true!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": [
+                  "Well then, take them as they are.",
+                  "Meanwhile listen to my song:"
+                ]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Take heed, and you'll be happy."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": [
+                  "Everyone blames women, but I forgive them",
+                  "If they change their love"
+                ]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["A thousand times a day;", "Some call it a sin, others a habit,"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": [
+                  "But I say it's a necessity of their heart.",
+                  "The lover who finds that he's been deceived"
+                ]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Should blame not others", "But his own mistake;"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": [
+                  "Whether they're young or old, fair or plain \u2013",
+                  "Repeat with me: Women are all the same!"
+                ]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Everything now, my dearest,", "Accords with my desires."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Joy grows and spreads", "Throughout my veins."]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["You are so beautiful!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["You are so handsome!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["What lovely eyes!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["What an attractive mouth!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Clink glasses and drink!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Drink and clink glasses!"]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Ferrando",
+                "text": ["In your glass and mine", "May every care be drowned,"]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Ferrando",
+                "text": ["And let no memory of the past", "Remain in our hearts."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": [
+                  "Would that they were drinking poison,",
+                  "The dishonourable jades!"
+                ]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella, Despina, Ferrando and Guglielmo",
+                "text": ["What's that noise? What's that music?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Keep quiet: I'll go and see.", "Mercy on us!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["God in heaven!", "Disaster is upon us!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["I tremble! My blood runs cold!", "Your former lovers..."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["My former lover..."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Are returning, oh heaven,", "At this moment,"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["And are now disembarking", "On the shore!"]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella, Ferrando and Guglielmo",
+                "text": ["What do I hear?", "Ye cruel stars!"]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella, Ferrando and Guglielmo",
+                "text": ["What's to be done", "At this dire moment?"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Go at once,"]
+              },
+              {
+                "singers": "Ferrando, Guglielmo, Despina and Don Alfonso",
+                "text": ["Suppose they see us (them)?"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Quickly, fly;"]
+              },
+              {
+                "singers": "Ferrando, Guglielmo, Despina and Don Alfonso",
+                "text": [
+                  "Suppose we (they) meet them?",
+                  "Don Alfonso conduce Despina in una camera"
+                ]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Conceal yourselves,", "For pity's sake!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Heaven, help us!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Be reassured,"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Heaven, guide us!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Keep calm,"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Who will save us", "From this peril?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Trust in me,", "And all will be well."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["A thousand cruel thoughts", "Are tormenting my heart;"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["If they discover the deception", "Whatever will become of us?"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": [
+                  "Safe and sound, exulting with joy,",
+                  "We return to the loving embrace"
+                ]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": [
+                  "Of our faithful sweethearts",
+                  "To crown them for their constancy!"
+                ]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": [
+                  "Great heaven! Guglielmo! Ferrando!",
+                  "What joy! You here? How and when?"
+                ]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": [
+                  "Recalled by royal countermand,",
+                  "Our hearts full of contentment and joy,"
+                ]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": [
+                  "We've returned to our adorable sweethearts,",
+                  "We've returned to your friendship."
+                ]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["But why this pallor, this silence?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Why is my love so sad?"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Their tongues are tied", "With confusion and overwhelming joy."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": [
+                  "My tongue has forsaken me;",
+                  "If I don't die it will be a miracle."
+                ]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Allow me to have", "This trunk brought into that room."]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["Heavens, what do I see!", "A jacket here!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["It\u2019s not mine! What's this doing here?"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Merciful heaven! You've signed here,", "Don't try to deny it!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Treachery, treachery!", "Let us find the villains"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["And their blood shall flow", "In torrents, rivers, oceans!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Ah, my love, my sin is mortal", "And death alone I seek now;"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Too late I see my error;", "With your sword pierce this bosom"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["That deserves no pity!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Tell us all."]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["Let them speak for us,", "That pander and that procuress!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Too true is what she says,", "And the proof is shut in there!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["I freeze, I shiver with fright;", "Why did he give them away?"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Lovely lady,", "A noble of Albania"]
+              },
+              {
+                "singers": "Ferrando",
+                "text": ["Bows before you!"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["The miniature", "Exchanged for the little heart"]
+              },
+              {
+                "singers": "Guglielmo",
+                "text": ["I return herewith,", "Madame!"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["And to the magnetic doctor", "I give the honour"]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["Which he merited!"]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Despina",
+                "text": ["Heavens, what do I see?"]
+              },
+              {
+                "singers": "Ferrando, Guglielmo and Don Alfonso",
+                "text": ["They're stupefied!"]
+              },
+              {
+                "singers": "Fiordiligi, Dorabella and Despina",
+                "text": ["I cannot bear this torment!"]
+              },
+              {
+                "singers": "Ferrando, Guglielmo and Don Alfonso",
+                "text": ["They're half crazy!"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["That is the cruel man", "Who deceived us!"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["I deceived you, but my deception", "Undeceived your lovers,"]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": ["Who henceforth will be wiser", "And will do as I wish."]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": [
+                  "Give me your hands, now you're united.",
+                  "Embrace each other and say no more."
+                ]
+              },
+              {
+                "singers": "Don Alfonso",
+                "text": [
+                  "All four of you can laugh now",
+                  "As I have laughed and shall do again."
+                ]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["My love, if this is true,", "With fidelity and with love"]
+              },
+              {
+                "singers": "Fiordiligi and Dorabella",
+                "text": ["I will make good what I have done", "And adore you evermore."]
+              },
+              {
+                "singers": "Ferrando and Guglielmo",
+                "text": ["I believe you, my fair one,", "But I won't put it to the test."]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "I don't know if I'm awake or dreaming,",
+                  "I'm confused, I feel ashamed;"
+                ]
+              },
+              {
+                "singers": "Despina",
+                "text": [
+                  "I'm slipping badly if they can do to me",
+                  "What I have done to many others."
+                ]
+              },
+              {
+                "singers": "All",
+                "text": ["Happy is the man who looks", "At everything on the right side"]
+              },
+              {
+                "singers": "All",
+                "text": ["And through trials and tribulations", "Makes reason his guide."]
+              },
+              {
+                "singers": "All",
+                "text": [
+                  "What always makes another weep",
+                  "Will be for him a cause of mirth"
+                ]
+              },
+              {
+                "singers": "All",
+                "text": ["And amid the tempests of this world", "He will find sweet peace."]
+              }
+            ]
+
             const ws = new WebSocket("ws://127.0.0.1:3000/line");
-            const messages = document.createElement('ul');
 
             ws.onmessage = (event) => {
-                console.log(event);
-                const messages = document.getElementsByTagName('ul')[0];
-                const message = document.createElement('li');
-                // const str = String.fromCharCode.apply(null, );
-                const str = event.data;
-                const content = document.createTextNode(str);
-                message.appendChild(content);
-                messages.appendChild(message);
+                const item = data[event.data];
+                const singers = document.getElementById('singers');
+                const text = document.getElementById('text');
+                singers.innerHTML = item["singers"];
+                text.innerHTML = item["text"].join("<br />");
             };
-
-            ws.onclose = (event) => {
-                console.log("Is this enough");
-            }
-
-            document.body.appendChild(messages);
         </script>
     </body>
 </html>
