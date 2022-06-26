@@ -38,6 +38,7 @@ def main():
             out.append(temp)
             temp = {"singers": "", "text": []}
 
+        out = [o | {"number": i} for i, o in enumerate(out)]
         text_json = json.dumps(out, indent=2)
 
         with open("text.json", "w") as f:
