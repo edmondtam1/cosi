@@ -6,45 +6,33 @@
             .wrapper {
                 padding: 10vh 0;
                 display: flex;
-                flex-direction: row;
                 justify-content: center;
+                flex-direction: column;
             }
 
             .inner {
-                height: 10vh;
-                width: 45%;
-                padding: 20vh 0;
+                margin: 10vh 0;
+                vertical-align: middle;
+                width: 100%;
             }  
 
             #singers {
                 color: darkslategray;
-                font-size: x-large;
+                font-size: 28px;
+                font-style: italic;
                 font-weight: bold;
-                margin: 24px auto;
+                margin: 36px auto 0;
                 text-align: center;
-                position: relative;
+                /* position: relative;
                 top: 50%;
-                transform: translateY(-50%);
+                transform: translateY(-50%); */
             }
 
             #text {
                 color: black;
-                font-size: xx-large;
-                margin: 24px auto;
+                font-size: 36px;
+                margin: 0 auto;
                 text-align: center;
-            }
-
-            @media (max-aspect-ratio: 1/1) {
-                .wrapper {
-                  flex-direction: column;
-                  padding: 10vh 0;
-                }
-
-                .inner {
-                    /* height: 100vh; */
-                    width: 100%;
-                    padding: 10vh 0;
-                }
             }
         </style>
     </head>
