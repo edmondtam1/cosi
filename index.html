@@ -11,7 +11,7 @@
             }
 
             .inner {
-                margin: 10vh 0;
+                margin: 5vh 0;
                 vertical-align: middle;
                 width: 100%;
             }  
@@ -34,9 +34,27 @@
                 margin: 0 auto;
                 text-align: center;
             }
+
+            #size {
+                background: url("./font_size.png");
+                background-size: contain;
+                border: 1px lightgray dotted;
+                box-shadow: 1px 2px 3px #999;
+                height: 30px;
+                width: 30px;
+
+                position: fixed;
+                bottom: 5vh;
+                right: 5vw;
+            }
+
+            #size:active {
+                background-color: lightgray;
+            }
         </style>
     </head>
     <body>
+        <button id="size"></button>
         <div class="wrapper">
             <div class="inner">
                 <p class="text" id="singers">
@@ -6206,6 +6224,25 @@
                 singers.innerHTML = item["singers"];
                 text.innerHTML = item["text"].join("<br />");
             };
+
+            const button = document.getElementById("size");
+            const texts = Array.from(document.getElementsByClassName("text"));
+            const MAX_UPS = 5;
+            const INCREMENT = 4;
+            let count = 0;
+            button.onclick = () => {
+              count++;
+              for (let i = 0; i < texts.length; i++) {
+                  const currentSize = parseInt(window.getComputedStyle(texts[i]).fontSize.slice(0, -2));
+                  if (count >= MAX_UPS) {
+                      texts[i].style.fontSize = currentSize - (MAX_UPS - 1) * INCREMENT + "px";
+                  } else {
+                      texts[i].style.fontSize = currentSize + INCREMENT + "px";
+                  }
+                  console.log(currentSize);
+              }
+              if (count >= MAX_UPS) count = 0;
+            }
         </script>
     </body>
 </html>
