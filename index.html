@@ -59,15 +59,10 @@
         </style>
     </head>
     <body>
-        <!-- <button data-status="off">Turn Wake Lock ON</button> -->
-
         <section id="status">
           <p></p>
         </section>
         
-        <!-- <p>Wake lock will automatically release if if the tab becomes inactive.</p> -->
-        <!-- <p>To re-activate the wake lock automatically when the tab becomes active again, check this box: <input type="checkbox" id="reaquire" /></p> -->
-
         <button id="size"></button>
         <div class="wrapper">
             <div class="inner">
@@ -5757,11 +5752,6 @@
             // WakeLock
             // status paragraph
             const statusElem = document.querySelector('#status p');
-            // toggle button
-            // const wakeButton = document.querySelector('[data-status]');
-            // checkbox
-            // const reaquireCheck = document.querySelector('#reaquire');
-
             // change button and status if wakelock becomes aquired or is released
             const changeUI = (status = 'acquired') => {
               const acquired = status === 'acquired' ? true : false;
@@ -5775,7 +5765,10 @@
               isSupported = true;
               statusElem.textContent = '';
             } else {
-              statusElem.textContent = 'Your browser may fall asleep (not because the opera is boring). Please extend your screen timeout settings.';
+              statusElem.textContent = 'Your phone may fall asleep, not because the opera is boring. Please extend your screen timeout settings. Click me to hide this message!';
+              statusElem.addEventListener("click", () => {
+                statusElem.style.display = "none";
+              })
             }
 
             if (isSupported) {
