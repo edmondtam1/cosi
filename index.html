@@ -5748,12 +5748,13 @@
             };
 
             const noSleep = new NoSleep();
+            noSleep.enable();
             window.addEventListener("click", () => {
               noSleep.enable();
-            }, false);
+            });
             window.addEventListener("load", () => {
               noSleep.enable();
-            }, false);
+            });
 
             // // status paragraph
             // const statusElem = document.querySelector('#status p');
