@@ -56,22 +56,34 @@
             #size:active {
                 background-color: lightgray;
             }
+
+            #status {
+                color: #856404;
+                display: block;
+                background-color: #fff3cd;
+                border-color: #ffeeba;
+                position: relative;
+                padding: 0.75rem 1.25rem;
+                margin: 1rem auto;
+                border: 1px solid transparent;
+                border-radius: 0.25rem;
+            }
         </style>
     </head>
     <body>
         <section id="status">
-          <p></p>
+          Please turn your phone on silent mode.
         </section>
         
         <button id="size"></button>
         <div class="wrapper">
             <div class="inner">
                 <p class="text" id="singers">
-                  Please turn your phone on silent mode
+                  Singers will be displayed here...
                 </p>
             </div>
             <div class="inner">
-                <p class="text" id="text">Surtitles will be displayed here - adjust the size with the button on the bottom right</p>
+                <p class="text" id="text">...and surtitles will be displayed here - adjust the size with the button on the bottom right</p>
             </div>
         </div>
         
@@ -5743,15 +5755,13 @@
             };
 
             // NoSleep
-
             const noSleep = new NoSleep();
             window.addEventListener("load", () => {
               noSleep.enable();
             });
 
             // WakeLock
-            // status paragraph
-            const statusElem = document.querySelector('#status p');
+            const statusElem = document.querySelector('#status');
             // change button and status if wakelock becomes aquired or is released
             const changeUI = (status = 'acquired') => {
               const acquired = status === 'acquired' ? true : false;
@@ -5763,13 +5773,15 @@
 
             if ('wakeLock' in navigator) {
               isSupported = true;
-              statusElem.textContent = '';
             } else {
-              statusElem.textContent = 'Your phone may fall asleep, not because the opera is boring. Please extend your screen timeout settings. Click me to hide this message!';
-              statusElem.addEventListener("click", () => {
+              statusElem.textContent += ' Your phone may fall asleep, not because the opera is boring but due to some silly technical shenanigans. Please extend your screen timeout settings.';
+            }
+
+            statusElem.textContent += ' Click me to hide this message!';
+
+            statusElem.addEventListener("click", () => {
                 statusElem.style.display = "none";
               })
-            }
 
             if (isSupported) {
               // create a reference for the wake lock
