@@ -1,118 +1,183 @@
 [
   {
-    "singers": "Act 1",
-    "text": [],
+    "singers": "Please turn your phone on silent mode",
+    "text": [
+      "Surtitles will be displayed here - adjust the size with the button on the bottom right"
+    ],
     "number": 0
   },
   {
-    "singers": "Ferrando",
-    "text": ["My Dorabella couldn't", "Do such a thing:"],
+    "singers": "Act 1",
+    "text": [],
     "number": 1
   },
   {
     "singers": "Ferrando",
-    "text": ["Heaven made her", "As faithful as she's fair."],
+    "text": [
+      "My Dorabella couldn't",
+      "Do such a thing:"
+    ],
     "number": 2
   },
   {
-    "singers": "Guglielmo",
-    "text": ["My Fiordiligi simply", "Couldn't betray me:"],
+    "singers": "Ferrando",
+    "text": [
+      "Heaven made her",
+      "As faithful as she's fair."
+    ],
     "number": 3
   },
   {
     "singers": "Guglielmo",
-    "text": ["I believe her constancy", "Equals her beauty."],
+    "text": [
+      "My Fiordiligi simply",
+      "Couldn't betray me:"
+    ],
     "number": 4
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["My hair is already grey,", "I speak with authority;"],
+    "singers": "Guglielmo",
+    "text": [
+      "I believe her constancy",
+      "Equals her beauty."
+    ],
     "number": 5
   },
   {
     "singers": "Don Alfonso",
-    "text": ["But let's have done", "With argument."],
+    "text": [
+      "My hair is already grey,",
+      "I speak with authority;"
+    ],
     "number": 6
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["No, you've told us", "They could be faithless;"],
+    "singers": "Don Alfonso",
+    "text": [
+      "But let's have done",
+      "With argument."
+    ],
     "number": 7
   },
   {
     "singers": "Ferrando and Guglielmo",
-    "text": ["If you're honest", "You will prove it."],
+    "text": [
+      "No, you've told us",
+      "They could be faithless;"
+    ],
     "number": 8
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Let's not trouble with proof."],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "If you're honest",
+      "You will prove it."
+    ],
     "number": 9
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["No, no, we demand it:", "Or out with your sword"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Let's not trouble with proof."
+    ],
     "number": 10
   },
   {
     "singers": "Ferrando and Guglielmo",
-    "text": ["And we'll break up this friendship,"],
+    "text": [
+      "No, no, we demand it:",
+      "Or out with your sword"
+    ],
     "number": 11
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["O what folly"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "And we'll break up this friendship,"
+    ],
     "number": 12
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["He strikes at my honour"],
+    "singers": "Don Alfonso",
+    "text": [
+      "O what folly"
+    ],
     "number": 13
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["O what folly"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "He strikes at my honour"
+    ],
     "number": 14
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["He strikes at my honour", "Who allows his lips"],
+    "singers": "Don Alfonso",
+    "text": [
+      "O what folly"
+    ],
     "number": 15
   },
   {
     "singers": "Ferrando and Guglielmo",
-    "text": ["To utter a word", "Which does her wrong."],
+    "text": [
+      "He strikes at my honour",
+      "Who allows his lips"
+    ],
     "number": 16
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["O what folly", "To try to discover"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "To utter a word",
+      "Which does her wrong."
+    ],
     "number": 17
   },
   {
     "singers": "Don Alfonso",
-    "text": ["The wrong which will make us wretched", "When we've found it!"],
+    "text": [
+      "O what folly",
+      "To try to discover"
+    ],
     "number": 18
+  },
+  {
+    "singers": "Don Alfonso",
+    "text": [
+      "The wrong which will make us wretched",
+      "When we've found it!"
+    ],
+    "number": 19
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 19
-  },
-  {
-    "singers": "Ferrando",
-    "text": ["A truce to your jests,", "Or I swear, by heaven..."],
     "number": 20
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["And I swear by this world,", "My friends, I'm not jesting;"],
+    "singers": "Ferrando",
+    "text": [
+      "A truce to your jests,",
+      "Or I swear, by heaven..."
+    ],
     "number": 21
   },
   {
     "singers": "Don Alfonso",
-    "text": ["I'd only like to know", "What kind of creatures"],
+    "text": [
+      "And I swear by this world,",
+      "My friends, I'm not jesting;"
+    ],
     "number": 22
+  },
+  {
+    "singers": "Don Alfonso",
+    "text": [
+      "I'd only like to know",
+      "What kind of creatures"
+    ],
+    "number": 23
   },
   {
     "singers": "Don Alfonso",
@@ -120,7 +185,7 @@
       "Are these beauties of yours,",
       "if they're flesh and blood and bone like us,"
     ],
-    "number": 23
+    "number": 24
   },
   {
     "singers": "Don Alfonso",
@@ -128,47 +193,68 @@
       "If they eat like us, and wear skirts,",
       "If, in fact, they're goddesses or women..."
     ],
-    "number": 24
-  },
-  {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["They're women,", "but the like of them..."],
     "number": 25
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["And in woman you expect", "To find fidelity?"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "They're women,",
+      "but the like of them..."
+    ],
     "number": 26
   },
   {
     "singers": "Don Alfonso",
-    "text": ["How I love such simplicity!"],
+    "text": [
+      "And in woman you expect",
+      "To find fidelity?"
+    ],
     "number": 27
   },
   {
     "singers": "Don Alfonso",
-    "text": ["Woman's constancy", "Is like the Arabian Phoenix;"],
+    "text": [
+      "How I love such simplicity!"
+    ],
     "number": 28
   },
   {
     "singers": "Don Alfonso",
-    "text": ["Everyone swears it exists,", "But no one knows where."],
+    "text": [
+      "Woman's constancy",
+      "Is like the Arabian Phoenix;"
+    ],
     "number": 29
   },
   {
-    "singers": "Ferrando",
-    "text": ["The phoenix is my Dorabella!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Everyone swears it exists,",
+      "But no one knows where."
+    ],
     "number": 30
   },
   {
-    "singers": "Guglielmo",
-    "text": ["The phoenix is my Fiordiligi!"],
+    "singers": "Ferrando",
+    "text": [
+      "The phoenix is my Dorabella!"
+    ],
     "number": 31
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["Dorabella is the phoenix!", "Fiordiligi is the phoenix!"],
+    "singers": "Guglielmo",
+    "text": [
+      "The phoenix is my Fiordiligi!"
+    ],
     "number": 32
+  },
+  {
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "Dorabella is the phoenix!",
+      "Fiordiligi is the phoenix!"
+    ],
+    "number": 33
   },
   {
     "singers": "Don Alfonso",
@@ -176,32 +262,45 @@
       "It's neither one nor the other.",
       "It never existed, and never will."
     ],
-    "number": 33
-  },
-  {
-    "singers": "Don Alfonso",
-    "text": ["Woman's constancy", "Is like the Arabian Phoenix;"],
     "number": 34
   },
   {
     "singers": "Don Alfonso",
-    "text": ["Everyone swears it exists,", "But no one knows where."],
+    "text": [
+      "Woman's constancy",
+      "Is like the Arabian Phoenix;"
+    ],
     "number": 35
   },
   {
-    "singers": "Ferrando",
-    "text": ["Poets' nonsense!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Everyone swears it exists,",
+      "But no one knows where."
+    ],
     "number": 36
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Old men's drivel!"],
+    "singers": "Ferrando",
+    "text": [
+      "Poets' nonsense!"
+    ],
     "number": 37
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Well then, listen,", "But without flying into a rage:"],
+    "singers": "Guglielmo",
+    "text": [
+      "Old men's drivel!"
+    ],
     "number": 38
+  },
+  {
+    "singers": "Don Alfonso",
+    "text": [
+      "Well then, listen,",
+      "But without flying into a rage:"
+    ],
+    "number": 39
   },
   {
     "singers": "Don Alfonso",
@@ -209,162 +308,231 @@
       "what if I prove conclusively to you today",
       "That they're just like the others?"
     ],
-    "number": 39
-  },
-  {
-    "singers": "Guglielmo",
-    "text": ["It couldn't be!"],
     "number": 40
   },
   {
-    "singers": "Ferrando",
-    "text": ["Impossible!"],
+    "singers": "Guglielmo",
+    "text": [
+      "It couldn't be!"
+    ],
     "number": 41
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Shall we bet on it?"],
+    "singers": "Ferrando",
+    "text": [
+      "Impossible!"
+    ],
     "number": 42
   },
   {
-    "singers": "Ferrando",
-    "text": ["We're on!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Shall we bet on it?"
+    ],
     "number": 43
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["A hundred sequins."],
+    "singers": "Ferrando",
+    "text": [
+      "We're on!"
+    ],
     "number": 44
   },
   {
-    "singers": "Guglielmo",
-    "text": ["A thousand, if you like."],
+    "singers": "Don Alfonso",
+    "text": [
+      "A hundred sequins."
+    ],
     "number": 45
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["My hand on it!"],
+    "singers": "Guglielmo",
+    "text": [
+      "A thousand, if you like."
+    ],
     "number": 46
   },
   {
-    "singers": "Ferrando",
-    "text": ["Both hands!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "My hand on it!"
+    ],
     "number": 47
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Swear not to give a sign, a whisper,", "A hint of all this"],
+    "singers": "Ferrando",
+    "text": [
+      "Both hands!"
+    ],
     "number": 48
   },
   {
     "singers": "Don Alfonso",
-    "text": ["To your Penelopes."],
+    "text": [
+      "Swear not to give a sign, a whisper,",
+      "A hint of all this"
+    ],
     "number": 49
   },
   {
-    "singers": "Ferrando",
-    "text": ["We swear."],
+    "singers": "Don Alfonso",
+    "text": [
+      "To your Penelopes."
+    ],
     "number": 50
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["On your honour as soldiers?"],
+    "singers": "Ferrando",
+    "text": [
+      "We swear."
+    ],
     "number": 51
   },
   {
-    "singers": "Guglielmo",
-    "text": ["On our honour as soldiers."],
+    "singers": "Don Alfonso",
+    "text": [
+      "On your honour as soldiers?"
+    ],
     "number": 52
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["And you'll do", "Everything I tell you to?"],
+    "singers": "Guglielmo",
+    "text": [
+      "On our honour as soldiers."
+    ],
     "number": 53
   },
   {
-    "singers": "Ferrando",
-    "text": ["Everything!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "And you'll do",
+      "Everything I tell you to?"
+    ],
     "number": 54
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Even more!"],
+    "singers": "Ferrando",
+    "text": [
+      "Everything!"
+    ],
     "number": 55
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Well done!"],
+    "singers": "Guglielmo",
+    "text": [
+      "Even more!"
+    ],
     "number": 56
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["And well done,", "Dear Don Alfonso!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Well done!"
+    ],
     "number": 57
   },
   {
-    "singers": "Ferrando",
-    "text": ["We'll make merry at your expense."],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "And well done,",
+      "Dear Don Alfonso!"
+    ],
     "number": 58
   },
   {
-    "singers": "Guglielmo",
-    "text": ["What shall we do with the hundred sequins?"],
+    "singers": "Ferrando",
+    "text": [
+      "We'll make merry at your expense."
+    ],
     "number": 59
+  },
+  {
+    "singers": "Guglielmo",
+    "text": [
+      "What shall we do with the hundred sequins?"
+    ],
+    "number": 60
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 60
-  },
-  {
-    "singers": "Fiordiligi",
-    "text": ["Ah tell me sister,", "Look!"],
     "number": 61
   },
   {
     "singers": "Fiordiligi",
-    "text": ["If one could ever find", "A nobler face, a sweeter mouth."],
+    "text": [
+      "Ah tell me sister,",
+      "Look!"
+    ],
     "number": 62
   },
   {
-    "singers": "Dorabella",
-    "text": ["Just look,", "See what fire is in his eye,"],
+    "singers": "Fiordiligi",
+    "text": [
+      "If one could ever find",
+      "A nobler face, a sweeter mouth."
+    ],
     "number": 63
   },
   {
     "singers": "Dorabella",
-    "text": ["If flames and darts", "Do not seem to flash forth!"],
+    "text": [
+      "Just look,",
+      "See what fire is in his eye,"
+    ],
     "number": 64
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["This is the face", "Of a soldier and a lover."],
+    "singers": "Dorabella",
+    "text": [
+      "If flames and darts",
+      "Do not seem to flash forth!"
+    ],
     "number": 65
   },
   {
-    "singers": "Dorabella",
-    "text": ["This is a face", "Both charming and alarming."],
+    "singers": "Fiordiligi",
+    "text": [
+      "This is the face",
+      "Of a soldier and a lover."
+    ],
     "number": 66
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["How happy I am!"],
+    "singers": "Dorabella",
+    "text": [
+      "This is a face",
+      "Both charming and alarming."
+    ],
     "number": 67
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["If ever my heart", "Changes its affection,"],
+    "text": [
+      "How happy I am!"
+    ],
     "number": 68
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["May love make me", "Live in pain."],
+    "text": [
+      "If ever my heart",
+      "Changes its affection,"
+    ],
     "number": 69
+  },
+  {
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "May love make me",
+      "Live in pain."
+    ],
+    "number": 70
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 70
+    "number": 71
   },
   {
     "singers": "Fiordiligi",
@@ -372,32 +540,44 @@
       "This morning I feel in the mood",
       "For some mischief: I've a fire,"
     ],
-    "number": 71
-  },
-  {
-    "singers": "Fiordiligi",
-    "text": ["A tingling in my veins."],
     "number": 72
   },
   {
     "singers": "Fiordiligi",
-    "text": ["There they are!"],
+    "text": [
+      "A tingling in my veins."
+    ],
     "number": 73
   },
   {
-    "singers": "Dorabella",
-    "text": ["No, it's not them:", "It's their friend Don Alfonso."],
+    "singers": "Fiordiligi",
+    "text": [
+      "There they are!"
+    ],
     "number": 74
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Welcome,", "Don Alfonso!"],
+    "singers": "Dorabella",
+    "text": [
+      "No, it's not them:",
+      "It's their friend Don Alfonso."
+    ],
     "number": 75
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Your servant!"],
+    "singers": "Fiordiligi",
+    "text": [
+      "Welcome,",
+      "Don Alfonso!"
+    ],
     "number": 76
+  },
+  {
+    "singers": "Don Alfonso",
+    "text": [
+      "Your servant!"
+    ],
+    "number": 77
   },
   {
     "singers": "Dorabella",
@@ -405,117 +585,170 @@
       "What is it? Why are you alone?",
       "You shed a tear? Speak, for pity's sake:"
     ],
-    "number": 77
-  },
-  {
-    "singers": "Dorabella",
-    "text": ["What has happened? My lover..."],
     "number": 78
   },
   {
     "singers": "Dorabella",
-    "text": ["My dearest..."],
+    "text": [
+      "What has happened? My lover..."
+    ],
     "number": 79
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["O cruel fate!"],
+    "singers": "Dorabella",
+    "text": [
+      "My dearest..."
+    ],
     "number": 80
   },
   {
     "singers": "Don Alfonso",
-    "text": ["I would speak, but my courage fails,", "My lips stammer."],
+    "text": [
+      "O cruel fate!"
+    ],
     "number": 81
   },
   {
     "singers": "Don Alfonso",
-    "text": ["I cannot say the words,", "Which stay locked inside me."],
+    "text": [
+      "I would speak, but my courage fails,",
+      "My lips stammer."
+    ],
     "number": 82
   },
   {
     "singers": "Don Alfonso",
-    "text": ["What will you do? What shall I?", "O dire misfortune!"],
+    "text": [
+      "I cannot say the words,",
+      "Which stay locked inside me."
+    ],
     "number": 83
   },
   {
     "singers": "Don Alfonso",
-    "text": ["It could not be worse.", "I grieve for you and for them!"],
+    "text": [
+      "What will you do? What shall I?",
+      "O dire misfortune!"
+    ],
     "number": 84
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Mercy! For pity's sake,", "Don Alfonso, do not torment us so."],
+    "singers": "Don Alfonso",
+    "text": [
+      "It could not be worse.",
+      "I grieve for you and for them!"
+    ],
     "number": 85
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["You will need to summon", "All your courage, my dears."],
+    "singers": "Fiordiligi",
+    "text": [
+      "Mercy! For pity's sake,",
+      "Don Alfonso, do not torment us so."
+    ],
     "number": 86
   },
   {
-    "singers": "Dorabella",
-    "text": ["O heaven! What harm has befallen them?", "What disaster?"],
+    "singers": "Don Alfonso",
+    "text": [
+      "You will need to summon",
+      "All your courage, my dears."
+    ],
     "number": 87
   },
   {
     "singers": "Dorabella",
-    "text": ["Is my beloved killed?"],
+    "text": [
+      "O heaven! What harm has befallen them?",
+      "What disaster?"
+    ],
     "number": 88
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Is mine dead?"],
+    "singers": "Dorabella",
+    "text": [
+      "Is my beloved killed?"
+    ],
     "number": 89
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["No, not dead, but nearly as bad."],
+    "singers": "Fiordiligi",
+    "text": [
+      "Is mine dead?"
+    ],
     "number": 90
   },
   {
-    "singers": "Dorabella",
-    "text": ["Wounded?"],
+    "singers": "Don Alfonso",
+    "text": [
+      "No, not dead, but nearly as bad."
+    ],
     "number": 91
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["No."],
+    "singers": "Dorabella",
+    "text": [
+      "Wounded?"
+    ],
     "number": 92
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Sick?"],
+    "singers": "Don Alfonso",
+    "text": [
+      "No."
+    ],
     "number": 93
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Not that either."],
+    "singers": "Fiordiligi",
+    "text": [
+      "Sick?"
+    ],
     "number": 94
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Well, what then?"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Not that either."
+    ],
     "number": 95
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["The royal command has called them", "To the battlefield."],
+    "singers": "Fiordiligi",
+    "text": [
+      "Well, what then?"
+    ],
     "number": 96
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Alas, what do I hear?"],
+    "singers": "Don Alfonso",
+    "text": [
+      "The royal command has called them",
+      "To the battlefield."
+    ],
     "number": 97
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["And they are going?"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Alas, what do I hear?"
+    ],
     "number": 98
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["At once.", "Come in, my friends!"],
+    "singers": "Fiordiligi",
+    "text": [
+      "And they are going?"
+    ],
     "number": 99
+  },
+  {
+    "singers": "Don Alfonso",
+    "text": [
+      "At once.",
+      "Come in, my friends!"
+    ],
+    "number": 100
   },
   {
     "singers": "Guglielmo",
@@ -523,12 +756,15 @@
       "O Heaven, I feel my steps falter",
       "In their progress towards you."
     ],
-    "number": 100
+    "number": 101
   },
   {
     "singers": "Ferrando",
-    "text": ["My trembling lips", "Cannot utter the words."],
-    "number": 101
+    "text": [
+      "My trembling lips",
+      "Cannot utter the words."
+    ],
+    "number": 102
   },
   {
     "singers": "Don Alfonso",
@@ -536,7 +772,7 @@
       "In moments of the greatest stress",
       "A hero calls up all his strength."
     ],
-    "number": 102
+    "number": 103
   },
   {
     "singers": "Fiordiligi and Dorabella",
@@ -544,62 +780,89 @@
       "Now that we have heard the news,",
       "One detail remains for you to do;"
     ],
-    "number": 103
-  },
-  {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Be brave, and plunge your blade", "Into this heart."],
     "number": 104
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["My love, blame fate", "If I must abandon you."],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Be brave, and plunge your blade",
+      "Into this heart."
+    ],
     "number": 105
   },
   {
-    "singers": "Dorabella",
-    "text": ["No, no, do not go!"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "My love, blame fate",
+      "If I must abandon you."
+    ],
     "number": 106
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Cruel one, do not leave me!"],
+    "singers": "Dorabella",
+    "text": [
+      "No, no, do not go!"
+    ],
     "number": 107
   },
   {
-    "singers": "Dorabella",
-    "text": ["I would sooner tear my heart out!"],
+    "singers": "Fiordiligi",
+    "text": [
+      "Cruel one, do not leave me!"
+    ],
     "number": 108
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["I would sooner die at your feet!"],
+    "singers": "Dorabella",
+    "text": [
+      "I would sooner tear my heart out!"
+    ],
     "number": 109
   },
   {
-    "singers": "Ferrando",
-    "text": ["What did I say?"],
+    "singers": "Fiordiligi",
+    "text": [
+      "I would sooner die at your feet!"
+    ],
     "number": 110
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Do you see now?"],
+    "singers": "Ferrando",
+    "text": [
+      "What did I say?"
+    ],
     "number": 111
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Patience, friend;", "We've not reached the end yet!"],
+    "singers": "Guglielmo",
+    "text": [
+      "Do you see now?"
+    ],
     "number": 112
   },
   {
-    "singers": "All",
-    "text": ["Thus destiny confounds", "Our mortal hopes."],
+    "singers": "Don Alfonso",
+    "text": [
+      "Patience, friend;",
+      "We've not reached the end yet!"
+    ],
     "number": 113
   },
   {
     "singers": "All",
-    "text": ["Ah who, amid such sorrow,", "Can there ever be delight in life?"],
+    "text": [
+      "Thus destiny confounds",
+      "Our mortal hopes."
+    ],
     "number": 114
+  },
+  {
+    "singers": "All",
+    "text": [
+      "Ah who, amid such sorrow,",
+      "Can there ever be delight in life?"
+    ],
+    "number": 115
   },
   {
     "singers": "Ferrando",
@@ -607,77 +870,107 @@
       "O heavens! That is the fatal drum",
       "That comes to tear me away!"
     ],
-    "number": 115
-  },
-  {
-    "singers": "Don Alfonso",
-    "text": ["Friends, here is the boat."],
     "number": 116
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["I'm fainting!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Friends, here is the boat."
+    ],
     "number": 117
   },
   {
-    "singers": "Dorabella",
-    "text": ["I'm dying!"],
+    "singers": "Fiordiligi",
+    "text": [
+      "I'm fainting!"
+    ],
     "number": 118
+  },
+  {
+    "singers": "Dorabella",
+    "text": [
+      "I'm dying!"
+    ],
+    "number": 119
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 119
-  },
-  {
-    "singers": "Dorabella",
-    "text": ["Where are they?"],
     "number": 120
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["They've gone."],
+    "singers": "Dorabella",
+    "text": [
+      "Where are they?"
+    ],
     "number": 121
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Heaven grant it", "A safe voyage!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "They've gone."
+    ],
     "number": 122
   },
   {
-    "singers": "Dorabella",
-    "text": ["May Heaven protect them too", "On the field of battle!"],
+    "singers": "Fiordiligi",
+    "text": [
+      "Heaven grant it",
+      "A safe voyage!"
+    ],
     "number": 123
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Preserve your lovers", "And my friends."],
+    "singers": "Dorabella",
+    "text": [
+      "May Heaven protect them too",
+      "On the field of battle!"
+    ],
     "number": 124
   },
   {
-    "singers": "Fiordiligi, Dorabella and Don Alfonso",
-    "text": ["Gentle be the breeze,", "Calm be the waves,"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Preserve your lovers",
+      "And my friends."
+    ],
     "number": 125
   },
   {
     "singers": "Fiordiligi, Dorabella and Don Alfonso",
-    "text": ["And every element", "Smile in favour"],
+    "text": [
+      "Gentle be the breeze,",
+      "Calm be the waves,"
+    ],
     "number": 126
   },
   {
     "singers": "Fiordiligi, Dorabella and Don Alfonso",
-    "text": ["On their wish."],
+    "text": [
+      "And every element",
+      "Smile in favour"
+    ],
     "number": 127
+  },
+  {
+    "singers": "Fiordiligi, Dorabella and Don Alfonso",
+    "text": [
+      "On their wish."
+    ],
+    "number": 128
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 128
+    "number": 129
   },
   {
     "singers": "Despina",
-    "text": ["What a wretched life", "A lady's maid leads!"],
-    "number": 129
+    "text": [
+      "What a wretched life",
+      "A lady's maid leads!"
+    ],
+    "number": 130
   },
   {
     "singers": "Despina",
@@ -685,7 +978,7 @@
       "From morning till night working,",
       "Sweating and toiling, and after all"
     ],
-    "number": 130
+    "number": 131
   },
   {
     "singers": "Despina",
@@ -693,47 +986,65 @@
       "One's done there's nothing for oneself!",
       "Goodness, it's my ladies!"
     ],
-    "number": 131
-  },
-  {
-    "singers": "Despina",
-    "text": ["Here's your breakfast, ladies."],
     "number": 132
   },
   {
     "singers": "Despina",
-    "text": ["Jiminy! What are you doing?"],
+    "text": [
+      "Here's your breakfast, ladies."
+    ],
     "number": 133
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Ah!"],
+    "singers": "Despina",
+    "text": [
+      "Jiminy! What are you doing?"
+    ],
     "number": 134
   },
   {
-    "singers": "Dorabella",
-    "text": ["Ah!"],
+    "singers": "Fiordiligi",
+    "text": [
+      "Ah!"
+    ],
     "number": 135
   },
   {
-    "singers": "Despina",
-    "text": ["What's happened?"],
+    "singers": "Dorabella",
+    "text": [
+      "Ah!"
+    ],
     "number": 136
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Where is a dagger?", "Where is the poison?"],
+    "singers": "Despina",
+    "text": [
+      "What's happened?"
+    ],
     "number": 137
   },
   {
-    "singers": "Despina",
-    "text": ["Ladies, I beg you!"],
+    "singers": "Fiordiligi",
+    "text": [
+      "Where is a dagger?",
+      "Where is the poison?"
+    ],
     "number": 138
   },
   {
-    "singers": "Dorabella",
-    "text": ["Ah leave me! Flee the dread effect", "Of a distracted love!"],
+    "singers": "Despina",
+    "text": [
+      "Ladies, I beg you!"
+    ],
     "number": 139
+  },
+  {
+    "singers": "Dorabella",
+    "text": [
+      "Ah leave me! Flee the dread effect",
+      "Of a distracted love!"
+    ],
+    "number": 140
   },
   {
     "singers": "Dorabella",
@@ -741,7 +1052,7 @@
       "Close those windows; I hate the light,",
       "I hate the air I breathe, I hate myself."
     ],
-    "number": 140
+    "number": 141
   },
   {
     "singers": "Dorabella",
@@ -749,102 +1060,149 @@
       "Who mocks at my grief? Who consoles me?",
       "Ah fly; leave me alone, for pity's sake!"
     ],
-    "number": 141
-  },
-  {
-    "singers": "Dorabella",
-    "text": ["Implacable pangs", "Which torment me,"],
     "number": 142
   },
   {
     "singers": "Dorabella",
-    "text": ["Do not subside", "Within my being"],
+    "text": [
+      "Implacable pangs",
+      "Which torment me,"
+    ],
     "number": 143
   },
   {
     "singers": "Dorabella",
-    "text": ["Until my anguish", "Brings me death."],
+    "text": [
+      "Do not subside",
+      "Within my being"
+    ],
     "number": 144
   },
   {
     "singers": "Dorabella",
-    "text": ["If I remain alive", "I will furnish the Furies"],
+    "text": [
+      "Until my anguish",
+      "Brings me death."
+    ],
     "number": 145
   },
   {
     "singers": "Dorabella",
-    "text": ["With a wretched example", "Of tragic love"],
+    "text": [
+      "If I remain alive",
+      "I will furnish the Furies"
+    ],
     "number": 146
   },
   {
     "singers": "Dorabella",
-    "text": ["With the dreadful sound", "Of my sighs."],
+    "text": [
+      "With a wretched example",
+      "Of tragic love"
+    ],
     "number": 147
+  },
+  {
+    "singers": "Dorabella",
+    "text": [
+      "With the dreadful sound",
+      "Of my sighs."
+    ],
+    "number": 148
   },
   {
     "singers": "Blank",
     "text": [],
-    "number": 148
-  },
-  {
-    "singers": "Despina",
-    "text": ["My lady Dorabella,", "My lady Fiordiligi,"],
     "number": 149
   },
   {
     "singers": "Despina",
-    "text": ["Tell me: what has happened?"],
+    "text": [
+      "My lady Dorabella,",
+      "My lady Fiordiligi,"
+    ],
     "number": 150
   },
   {
-    "singers": "Dorabella",
-    "text": ["O dreadful disaster!"],
+    "singers": "Despina",
+    "text": [
+      "Tell me: what has happened?"
+    ],
     "number": 151
   },
   {
-    "singers": "Despina",
-    "text": ["Get on with it!"],
+    "singers": "Dorabella",
+    "text": [
+      "O dreadful disaster!"
+    ],
     "number": 152
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Our lovers", "Have left Naples."],
+    "singers": "Despina",
+    "text": [
+      "Get on with it!"
+    ],
     "number": 153
   },
   {
-    "singers": "Despina",
-    "text": ["Is that all?", "They'll be back."],
+    "singers": "Fiordiligi",
+    "text": [
+      "Our lovers",
+      "Have left Naples."
+    ],
     "number": 154
   },
   {
-    "singers": "Dorabella",
-    "text": ["Who knows!"],
+    "singers": "Despina",
+    "text": [
+      "Is that all?",
+      "They'll be back."
+    ],
     "number": 155
   },
   {
-    "singers": "Despina",
-    "text": ["What do you mean, who knows?", "Where have they gone?"],
+    "singers": "Dorabella",
+    "text": [
+      "Who knows!"
+    ],
     "number": 156
   },
   {
-    "singers": "Dorabella",
-    "text": ["To the field of battle!"],
+    "singers": "Despina",
+    "text": [
+      "What do you mean, who knows?",
+      "Where have they gone?"
+    ],
     "number": 157
   },
   {
-    "singers": "Despina",
-    "text": ["So much the better for them!"],
+    "singers": "Dorabella",
+    "text": [
+      "To the field of battle!"
+    ],
     "number": 158
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Fool, what are you saying?"],
+    "singers": "Despina",
+    "text": [
+      "So much the better for them!"
+    ],
     "number": 159
   },
   {
-    "singers": "Despina",
-    "text": ["There's lots more", "Where he came from."],
+    "singers": "Fiordiligi",
+    "text": [
+      "Fool, what are you saying?"
+    ],
     "number": 160
+  },
+  {
+    "singers": "Despina",
+    "text": [
+      "There's lots more",
+      "Where he came from."
+    ],
+    "number": 161
   },
   {
     "singers": "Dorabella",
@@ -852,22 +1210,29 @@
       "And do you believe anyone could love",
       "Another man who once had had"
     ],
-    "number": 161
-  },
-  {
-    "singers": "Dorabella",
-    "text": ["A Guglielmo, a Ferrando for lover?"],
     "number": 162
   },
   {
-    "singers": "Despina",
-    "text": ["Certainly! And what's more,", "Making love furiously, as your"],
+    "singers": "Dorabella",
+    "text": [
+      "A Guglielmo, a Ferrando for lover?"
+    ],
     "number": 163
   },
   {
     "singers": "Despina",
-    "text": ["Dear gentlemen will be doing on active service!"],
+    "text": [
+      "Certainly! And what's more,",
+      "Making love furiously, as your"
+    ],
     "number": 164
+  },
+  {
+    "singers": "Despina",
+    "text": [
+      "Dear gentlemen will be doing on active service!"
+    ],
+    "number": 165
   },
   {
     "singers": "Dorabella",
@@ -875,7 +1240,7 @@
       "Don't insult those pure souls like this,",
       "Those models of fidelity and perfect love."
     ],
-    "number": 165
+    "number": 166
   },
   {
     "singers": "Despina",
@@ -883,77 +1248,118 @@
       "Go on with you! The times are past",
       "For spinning such tales even to babies!"
     ],
-    "number": 166
-  },
-  {
-    "singers": "Despina",
-    "text": ["You look for fidelity", "In men, in soldiers?"],
     "number": 167
   },
   {
     "singers": "Despina",
-    "text": ["Don't tell me that, for pity's sake!"],
+    "text": [
+      "You look for fidelity",
+      "In men, in soldiers?"
+    ],
     "number": 168
   },
   {
     "singers": "Despina",
-    "text": ["All of them", "Are made of the same stuff;"],
+    "text": [
+      "Don't tell me that, for pity's sake!"
+    ],
     "number": 169
   },
   {
     "singers": "Despina",
-    "text": ["The quivering leaves,", "The inconstant breezes"],
+    "text": [
+      "All of them",
+      "Are made of the same stuff;"
+    ],
     "number": 170
   },
   {
     "singers": "Despina",
-    "text": ["Have more stability", "Than men."],
+    "text": [
+      "The quivering leaves,",
+      "The inconstant breezes"
+    ],
     "number": 171
   },
   {
     "singers": "Despina",
-    "text": ["Crocodile tears,", "Lying looks,"],
+    "text": [
+      "Have more stability",
+      "Than men."
+    ],
     "number": 172
   },
   {
     "singers": "Despina",
-    "text": ["Deceiving words,", "False endearments"],
+    "text": [
+      "Crocodile tears,",
+      "Lying looks,"
+    ],
     "number": 173
   },
   {
     "singers": "Despina",
-    "text": ["Are the basis", "Of their tricks."],
+    "text": [
+      "Deceiving words,",
+      "False endearments"
+    ],
     "number": 174
   },
   {
     "singers": "Despina",
-    "text": ["In us they only prize", "Their own pleasure;"],
+    "text": [
+      "Are the basis",
+      "Of their tricks."
+    ],
     "number": 175
   },
   {
     "singers": "Despina",
-    "text": ["Then they despise us,", "Deny us affection,"],
+    "text": [
+      "In us they only prize",
+      "Their own pleasure;"
+    ],
     "number": 176
   },
   {
     "singers": "Despina",
-    "text": ["And from such tyrants", "There's no mercy to be had."],
+    "text": [
+      "Then they despise us,",
+      "Deny us affection,"
+    ],
     "number": 177
   },
   {
     "singers": "Despina",
-    "text": ["We woman should pay out", "This hurtful,"],
+    "text": [
+      "And from such tyrants",
+      "There's no mercy to be had."
+    ],
     "number": 178
   },
   {
     "singers": "Despina",
-    "text": ["Impudent breed", "In their own coin;"],
+    "text": [
+      "We woman should pay out",
+      "This hurtful,"
+    ],
     "number": 179
   },
   {
     "singers": "Despina",
-    "text": ["Let's love them", "To suit our convenience and our vanity!"],
+    "text": [
+      "Impudent breed",
+      "In their own coin;"
+    ],
     "number": 180
+  },
+  {
+    "singers": "Despina",
+    "text": [
+      "Let's love them",
+      "To suit our convenience and our vanity!"
+    ],
+    "number": 181
   },
   {
     "singers": "Despina",
@@ -961,22 +1367,28 @@
       "La ra la, la ra la, la ra la, la.",
       "To suit our convenience and our vanity!"
     ],
-    "number": 181
+    "number": 182
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 182
-  },
-  {
-    "singers": "Don Alfonso",
-    "text": ["I present you, my friends,", "To pretty Miss Despina;"],
     "number": 183
   },
   {
     "singers": "Don Alfonso",
-    "text": ["The consolation of your heart", "Lies in her hands alone."],
+    "text": [
+      "I present you, my friends,",
+      "To pretty Miss Despina;"
+    ],
     "number": 184
+  },
+  {
+    "singers": "Don Alfonso",
+    "text": [
+      "The consolation of your heart",
+      "Lies in her hands alone."
+    ],
+    "number": 185
   },
   {
     "singers": "Ferrando and Guglielmo",
@@ -984,127 +1396,189 @@
       "By those hands, which with joy I kiss,",
       "By that smile so full of charm,"
     ],
-    "number": 185
-  },
-  {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["Make my treasure turn on me", "Her clear and lovely eyes."],
     "number": 186
   },
   {
-    "singers": "Despina",
-    "text": ["What sights! What clothes!", "What faces! What moustaches!"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "Make my treasure turn on me",
+      "Her clear and lovely eyes."
+    ],
     "number": 187
   },
   {
     "singers": "Despina",
-    "text": ["I wonder what they are...", "Wallachians or Turks."],
+    "text": [
+      "What sights! What clothes!",
+      "What faces! What moustaches!"
+    ],
     "number": 188
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["What do you think of their appearance?"],
+    "singers": "Despina",
+    "text": [
+      "I wonder what they are...",
+      "Wallachians or Turks."
+    ],
     "number": 189
   },
   {
-    "singers": "Despina",
-    "text": ["To be quite frank,", "They're exceptional in their ugliness,"],
+    "singers": "Don Alfonso",
+    "text": [
+      "What do you think of their appearance?"
+    ],
     "number": 190
   },
   {
     "singers": "Despina",
-    "text": ["Enough to make one renounce love."],
+    "text": [
+      "To be quite frank,",
+      "They're exceptional in their ugliness,"
+    ],
     "number": 191
   },
   {
-    "singers": "Ferrando, Guglielmo and Don Alfonso",
-    "text": ["Now the plan is quite decided;", "If she doesn't recognise us,"],
+    "singers": "Despina",
+    "text": [
+      "Enough to make one renounce love."
+    ],
     "number": 192
   },
   {
     "singers": "Ferrando, Guglielmo and Don Alfonso",
-    "text": ["There's no more need to fear."],
+    "text": [
+      "Now the plan is quite decided;",
+      "If she doesn't recognise us,"
+    ],
     "number": 193
   },
   {
-    "singers": "Fiordiligi e Dorabella",
-    "text": ["Oh Despina! Despina!"],
+    "singers": "Ferrando, Guglielmo and Don Alfonso",
+    "text": [
+      "There's no more need to fear."
+    ],
     "number": 194
   },
   {
-    "singers": "Despina",
-    "text": ["The ladies!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Oh Despina! Despina!"
+    ],
     "number": 195
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Now's the moment!", "Use your wits: I'll hide in here."],
+    "singers": "Despina",
+    "text": [
+      "The ladies!"
+    ],
     "number": 196
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Impudent baggage!", "What are you doing with those people?"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Now's the moment!",
+      "Use your wits: I'll hide in here."
+    ],
     "number": 197
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["Turn them out at once,", "Or you'll be as sorry for it as they."],
+    "text": [
+      "Impudent baggage!",
+      "What are you doing with those people?"
+    ],
     "number": 198
   },
   {
-    "singers": "Despina, Ferrando and Guglielmo",
-    "text": ["Ah, ladies, pardon!", "See at your lovely feet"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Turn them out at once,",
+      "Or you'll be as sorry for it as they."
+    ],
     "number": 199
   },
   {
     "singers": "Despina, Ferrando and Guglielmo",
-    "text": ["Two wretches languishing,", "Tortured with love by your beauty."],
+    "text": [
+      "Ah, ladies, pardon!",
+      "See at your lovely feet"
+    ],
     "number": 200
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Great heavens! What do I hear?"],
+    "singers": "Despina, Ferrando and Guglielmo",
+    "text": [
+      "Two wretches languishing,",
+      "Tortured with love by your beauty."
+    ],
     "number": 201
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["Who was the shameless instigator", "Of this vile betrayal?"],
+    "text": [
+      "Great heavens! What do I hear?"
+    ],
     "number": 202
   },
   {
-    "singers": "Despina, Ferrando and Guglielmo",
-    "text": ["Pray calm your indignation!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Who was the shameless instigator",
+      "Of this vile betrayal?"
+    ],
     "number": 203
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["I can contain myself no more!", "My heart within my breast"],
+    "singers": "Despina, Ferrando and Guglielmo",
+    "text": [
+      "Pray calm your indignation!"
+    ],
     "number": 204
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["Is filled with outrage", "And with fear!"],
+    "text": [
+      "I can contain myself no more!",
+      "My heart within my breast"
+    ],
     "number": 205
   },
   {
-    "singers": "Despina and Don Alfonso",
-    "text": ["I'm a bit suspicious", "Of this rage and fury!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Is filled with outrage",
+      "And with fear!"
+    ],
     "number": 206
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Forgive me, beloved;", "This heart of mine is innocent."],
+    "singers": "Despina and Don Alfonso",
+    "text": [
+      "I'm a bit suspicious",
+      "Of this rage and fury!"
+    ],
     "number": 207
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["What balm to this heart", "Is all this rage and fury!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Forgive me, beloved;",
+      "This heart of mine is innocent."
+    ],
     "number": 208
+  },
+  {
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "What balm to this heart",
+      "Is all this rage and fury!"
+    ],
+    "number": 209
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 209
+    "number": 210
   },
   {
     "singers": "Fiordiligi",
@@ -1112,12 +1586,15 @@
       "Begone, bold creatures! Leave this house!",
       "And with the unwelcome breath of base words"
     ],
-    "number": 210
+    "number": 211
   },
   {
     "singers": "Fiordiligi",
-    "text": ["Do not profane our hearts,", "Our ears and our affections!"],
-    "number": 211
+    "text": [
+      "Do not profane our hearts,",
+      "Our ears and our affections!"
+    ],
+    "number": 212
   },
   {
     "singers": "Fiordiligi",
@@ -1125,7 +1602,7 @@
       "In vain do you, or others, seek to seduce",
       "Our souls; the unsullied faith which"
     ],
-    "number": 212
+    "number": 213
   },
   {
     "singers": "Fiordiligi",
@@ -1133,22 +1610,30 @@
       "We plighted to our dear loves",
       "We shall know bow to preserve for them"
     ],
-    "number": 213
-  },
-  {
-    "singers": "Fiordiligi",
-    "text": ["Until death, despite the world and fate."],
     "number": 214
   },
   {
     "singers": "Fiordiligi",
-    "text": ["Like a rock standing impervious", "To winds and tempest,"],
+    "text": [
+      "Until death, despite the world and fate."
+    ],
     "number": 215
   },
   {
     "singers": "Fiordiligi",
-    "text": ["So stands my heart ever strong", "In faith and love."],
+    "text": [
+      "Like a rock standing impervious",
+      "To winds and tempest,"
+    ],
     "number": 216
+  },
+  {
+    "singers": "Fiordiligi",
+    "text": [
+      "So stands my heart ever strong",
+      "In faith and love."
+    ],
+    "number": 217
   },
   {
     "singers": "Fiordiligi",
@@ -1156,32 +1641,44 @@
       "Between us we have kindled",
       "A flame which warms, and consoles us,"
     ],
-    "number": 217
+    "number": 218
   },
   {
     "singers": "Fiordiligi",
-    "text": ["And death alone could", "Change my heart's devotion."],
-    "number": 218
+    "text": [
+      "And death alone could",
+      "Change my heart's devotion."
+    ],
+    "number": 219
   },
   {
     "singers": "Blank",
     "text": [],
-    "number": 219
-  },
-  {
-    "singers": "Fiordiligi",
-    "text": ["Respect this example", "Of constancy, you abject creatures,"],
     "number": 220
   },
   {
     "singers": "Fiordiligi",
-    "text": ["And do not let a base hope", "Make you so rash again!"],
+    "text": [
+      "Respect this example",
+      "Of constancy, you abject creatures,"
+    ],
     "number": 221
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["And may I ask to know", "The reason for this laughter?"],
+    "singers": "Fiordiligi",
+    "text": [
+      "And do not let a base hope",
+      "Make you so rash again!"
+    ],
     "number": 222
+  },
+  {
+    "singers": "Don Alfonso",
+    "text": [
+      "And may I ask to know",
+      "The reason for this laughter?"
+    ],
+    "number": 223
   },
   {
     "singers": "Guglielmo",
@@ -1189,87 +1686,128 @@
       "Oh what a face! Don't you think,",
       "my dear sir, that we have good cause?"
     ],
-    "number": 223
-  },
-  {
-    "singers": "Don Alfonso",
-    "text": ["Before evening", "We'll talk of this."],
     "number": 224
   },
   {
-    "singers": "Ferrando",
-    "text": ["Whenever you like."],
+    "singers": "Don Alfonso",
+    "text": [
+      "Before evening",
+      "We'll talk of this."
+    ],
     "number": 225
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Meanwhile, silence and obedience.", "Until tomorrow morning."],
+    "singers": "Ferrando",
+    "text": [
+      "Whenever you like."
+    ],
     "number": 226
   },
   {
-    "singers": "Guglielmo",
-    "text": ["We are soldiers", "And accept discipline."],
+    "singers": "Don Alfonso",
+    "text": [
+      "Meanwhile, silence and obedience.",
+      "Until tomorrow morning."
+    ],
     "number": 227
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Very well: both of you go", "And wait for me in the garden:"],
+    "singers": "Guglielmo",
+    "text": [
+      "We are soldiers",
+      "And accept discipline."
+    ],
     "number": 228
   },
   {
     "singers": "Don Alfonso",
-    "text": ["There I'll give you your orders."],
+    "text": [
+      "Very well: both of you go",
+      "And wait for me in the garden:"
+    ],
     "number": 229
   },
   {
-    "singers": "Guglielmo",
-    "text": ["But don't we eat today?"],
+    "singers": "Don Alfonso",
+    "text": [
+      "There I'll give you your orders."
+    ],
     "number": 230
   },
   {
-    "singers": "Ferrando",
-    "text": ["What's it matter?", "When the battle's over"],
+    "singers": "Guglielmo",
+    "text": [
+      "But don't we eat today?"
+    ],
     "number": 231
   },
   {
     "singers": "Ferrando",
-    "text": ["Our supper will taste the better."],
+    "text": [
+      "What's it matter?",
+      "When the battle's over"
+    ],
     "number": 232
   },
   {
     "singers": "Ferrando",
-    "text": ["A breath of love", "From our treasures"],
+    "text": [
+      "Our supper will taste the better."
+    ],
     "number": 233
   },
   {
     "singers": "Ferrando",
-    "text": ["Will afford our hearts", "Sweet sustenance."],
+    "text": [
+      "A breath of love",
+      "From our treasures"
+    ],
     "number": 234
   },
   {
     "singers": "Ferrando",
-    "text": ["A breath of love", "From our treasures"],
+    "text": [
+      "Will afford our hearts",
+      "Sweet sustenance."
+    ],
     "number": 235
   },
   {
     "singers": "Ferrando",
-    "text": ["Will afford our hearts", "Sweet sustenance."],
+    "text": [
+      "A breath of love",
+      "From our treasures"
+    ],
     "number": 236
   },
   {
     "singers": "Ferrando",
-    "text": ["A heart nourished", "On the hope of love"],
+    "text": [
+      "Will afford our hearts",
+      "Sweet sustenance."
+    ],
     "number": 237
   },
   {
     "singers": "Ferrando",
-    "text": ["Has no need", "Of greater inducement."],
+    "text": [
+      "A heart nourished",
+      "On the hope of love"
+    ],
     "number": 238
+  },
+  {
+    "singers": "Ferrando",
+    "text": [
+      "Has no need",
+      "Of greater inducement."
+    ],
+    "number": 239
   },
   {
     "singers": "Blank",
     "text": [],
-    "number": 239
+    "number": 240
   },
   {
     "singers": "Don Alfonso",
@@ -1277,12 +1815,15 @@
       "It's quite absurd! There are",
       "So few constant women in this world,"
     ],
-    "number": 240
+    "number": 241
   },
   {
     "singers": "Don Alfonso",
-    "text": ["And here are two of them!", "It can't be."],
-    "number": 241
+    "text": [
+      "And here are two of them!",
+      "It can't be."
+    ],
+    "number": 242
   },
   {
     "singers": "Don Alfonso",
@@ -1290,12 +1831,15 @@
       "Come here, and tell me",
       "Where your mistresses are and what they're doing."
     ],
-    "number": 242
+    "number": 243
   },
   {
     "singers": "Despina",
-    "text": ["The poor fools", "Are standing in the garden"],
-    "number": 243
+    "text": [
+      "The poor fools",
+      "Are standing in the garden"
+    ],
+    "number": 244
   },
   {
     "singers": "Despina",
@@ -1303,27 +1847,39 @@
       "Bewailing the loss of their lovers",
       "To the breezes and the mosquitos."
     ],
-    "number": 244
-  },
-  {
-    "singers": "Don Alfonso",
-    "text": ["And how do you think", "This will end?"],
     "number": 245
   },
   {
     "singers": "Don Alfonso",
-    "text": ["Can we hope", "They'll come to their senses?"],
+    "text": [
+      "And how do you think",
+      "This will end?"
+    ],
     "number": 246
   },
   {
-    "singers": "Despina",
-    "text": ["Leave me the bother", "Of running the show."],
+    "singers": "Don Alfonso",
+    "text": [
+      "Can we hope",
+      "They'll come to their senses?"
+    ],
     "number": 247
   },
   {
     "singers": "Despina",
-    "text": ["When Despina runs something", "It can't fail: I've already led"],
+    "text": [
+      "Leave me the bother",
+      "Of running the show."
+    ],
     "number": 248
+  },
+  {
+    "singers": "Despina",
+    "text": [
+      "When Despina runs something",
+      "It can't fail: I've already led"
+    ],
+    "number": 249
   },
   {
     "singers": "Despina",
@@ -1331,42 +1887,60 @@
       "A thousand men by the nose:",
       "I should know how to manage two women."
     ],
-    "number": 249
-  },
-  {
-    "singers": "Despina",
-    "text": ["Are your two whiskered monsieurs rich?"],
     "number": 250
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Rolling in it."],
+    "singers": "Despina",
+    "text": [
+      "Are your two whiskered monsieurs rich?"
+    ],
     "number": 251
   },
   {
-    "singers": "Despina",
-    "text": ["Where are they?"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Rolling in it."
+    ],
     "number": 252
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["In the street,", "Waiting for me."],
+    "singers": "Despina",
+    "text": [
+      "Where are they?"
+    ],
     "number": 253
   },
   {
-    "singers": "Despina",
-    "text": ["Then off you go", "And bring them to me here"],
+    "singers": "Don Alfonso",
+    "text": [
+      "In the street,",
+      "Waiting for me."
+    ],
     "number": 254
   },
   {
     "singers": "Despina",
-    "text": ["By the little door;", "I'll wait for you in my room."],
+    "text": [
+      "Then off you go",
+      "And bring them to me here"
+    ],
     "number": 255
   },
   {
     "singers": "Despina",
-    "text": ["If you'll do all I tell you,", "Before tomorrow your friends"],
+    "text": [
+      "By the little door;",
+      "I'll wait for you in my room."
+    ],
     "number": 256
+  },
+  {
+    "singers": "Despina",
+    "text": [
+      "If you'll do all I tell you,",
+      "Before tomorrow your friends"
+    ],
+    "number": 257
   },
   {
     "singers": "Despina",
@@ -1374,172 +1948,259 @@
       "Will win the day: they'll have their way,",
       "And I'll have the glory."
     ],
-    "number": 257
+    "number": 258
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 258
-  },
-  {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Ah, how my lot has changed", "All in a moment!"],
     "number": 259
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["Ah, what a sea of torment", "Is life henceforth for me!"],
+    "text": [
+      "Ah, how my lot has changed",
+      "All in a moment!"
+    ],
     "number": 260
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["So long as the cruel stars", "Left my dear one with me,"],
+    "text": [
+      "Ah, what a sea of torment",
+      "Is life henceforth for me!"
+    ],
     "number": 261
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["I knew not what grief was,", "I knew not what it was to pine."],
+    "text": [
+      "So long as the cruel stars",
+      "Left my dear one with me,"
+    ],
     "number": 262
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["Ah, how my lot has changed", "All in a moment!"],
+    "text": [
+      "I knew not what grief was,",
+      "I knew not what it was to pine."
+    ],
     "number": 263
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["Ah, what a sea of torment", "Is life henceforth for me!"],
+    "text": [
+      "Ah, how my lot has changed",
+      "All in a moment!"
+    ],
     "number": 264
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["Let us die, yes, let us die", "And thus melt their hard hearts."],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Ah, what a sea of torment",
+      "Is life henceforth for me!"
+    ],
     "number": 265
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["There is yet a hope:", "I beg you, do not do it!"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "Let us die, yes, let us die",
+      "And thus melt their hard hearts."
+    ],
     "number": 266
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Goodness, what terrible cries!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "There is yet a hope:",
+      "I beg you, do not do it!"
+    ],
     "number": 267
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["Let me be!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Goodness, what terrible cries!"
+    ],
     "number": 268
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Wait!"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "Let me be!"
+    ],
     "number": 269
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["May arsenic set me free", "From such cruelty!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Wait!"
+    ],
     "number": 270
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Heavens, was that poison?"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "May arsenic set me free",
+      "From such cruelty!"
+    ],
     "number": 271
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Poison good and proper"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Heavens, was that poison?"
+    ],
     "number": 272
   },
   {
     "singers": "Don Alfonso",
-    "text": ["That in a few moments", "Will deprive them of their lives!"],
+    "text": [
+      "Poison good and proper"
+    ],
     "number": 273
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["The tragic sight", "Turns my heart to ice."],
+    "singers": "Don Alfonso",
+    "text": [
+      "That in a few moments",
+      "Will deprive them of their lives!"
+    ],
     "number": 274
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["Draw near, cruel ones;", "See the dire effect"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "The tragic sight",
+      "Turns my heart to ice."
+    ],
     "number": 275
   },
   {
     "singers": "Ferrando and Guglielmo",
-    "text": ["Of despairing love", "And at least pity us."],
+    "text": [
+      "Draw near, cruel ones;",
+      "See the dire effect"
+    ],
     "number": 276
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["The tragic sight", "Turns my heart to ice."],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "Of despairing love",
+      "And at least pity us."
+    ],
     "number": 277
   },
   {
-    "singers": "All",
-    "text": ["May the sun's rays", "Be darkened for me!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "The tragic sight",
+      "Turns my heart to ice."
+    ],
     "number": 278
   },
   {
     "singers": "All",
-    "text": ["Trembling: the very fibres", "Of my being failing,"],
+    "text": [
+      "May the sun's rays",
+      "Be darkened for me!"
+    ],
     "number": 279
   },
   {
     "singers": "All",
-    "text": ["And my tongue and lips", "Cannot form a word."],
+    "text": [
+      "Trembling: the very fibres",
+      "Of my being failing,"
+    ],
     "number": 280
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Since these unfortunates", "Are near to death,"],
+    "singers": "All",
+    "text": [
+      "And my tongue and lips",
+      "Cannot form a word."
+    ],
     "number": 281
   },
   {
     "singers": "Don Alfonso",
-    "text": ["At least try to show them", "A little pity."],
+    "text": [
+      "Since these unfortunates",
+      "Are near to death,"
+    ],
     "number": 282
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Help, someone, come quickly", "O Heaven, can no one hear!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "At least try to show them",
+      "A little pity."
+    ],
     "number": 283
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["Despina!"],
+    "text": [
+      "Help, someone, come quickly",
+      "O Heaven, can no one hear!"
+    ],
     "number": 284
   },
   {
-    "singers": "Despina",
-    "text": ["Did someone call?"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Despina!"
+    ],
     "number": 285
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Despina!"],
+    "singers": "Despina",
+    "text": [
+      "Did someone call?"
+    ],
     "number": 286
   },
   {
-    "singers": "Despina",
-    "text": ["What do I see?"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Despina!"
+    ],
     "number": 287
   },
   {
     "singers": "Despina",
-    "text": ["I fear the poor things are dead,", "Or very near to dying!"],
+    "text": [
+      "What do I see?"
+    ],
     "number": 288
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Alas, only too true!", "Distraught, despairing,"],
+    "singers": "Despina",
+    "text": [
+      "I fear the poor things are dead,",
+      "Or very near to dying!"
+    ],
     "number": 289
   },
   {
     "singers": "Don Alfonso",
-    "text": ["They have taken poison!", "Oh strange love!"],
+    "text": [
+      "Alas, only too true!",
+      "Distraught, despairing,"
+    ],
     "number": 290
+  },
+  {
+    "singers": "Don Alfonso",
+    "text": [
+      "They have taken poison!",
+      "Oh strange love!"
+    ],
+    "number": 291
   },
   {
     "singers": "Despina",
@@ -1547,102 +2208,146 @@
       "It would be shameful of you",
       "To forsake these unhappy wretches."
     ],
-    "number": 291
-  },
-  {
-    "singers": "Despina",
-    "text": ["You must aid them."],
     "number": 292
   },
   {
-    "singers": "Fiordiligi, Dorabella and Don Alfonso",
-    "text": ["Whatever can we do?"],
+    "singers": "Despina",
+    "text": [
+      "You must aid them."
+    ],
     "number": 293
   },
   {
-    "singers": "Despina",
-    "text": ["They still show signs of life;", "Give them a little comfort"],
+    "singers": "Fiordiligi, Dorabella and Don Alfonso",
+    "text": [
+      "Whatever can we do?"
+    ],
     "number": 294
   },
   {
     "singers": "Despina",
-    "text": ["From your kindly hands.", "(To Alfonso) You hurry away with me"],
+    "text": [
+      "They still show signs of life;",
+      "Give them a little comfort"
+    ],
     "number": 295
   },
   {
     "singers": "Despina",
-    "text": ["And we'll seek", "A doctor and an antidote."],
+    "text": [
+      "From your kindly hands.",
+      "(To Alfonso) You hurry away with me"
+    ],
     "number": 296
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["God, no more dreadful situation", "Could ever be imagined!"],
+    "singers": "Despina",
+    "text": [
+      "And we'll seek",
+      "A doctor and an antidote."
+    ],
     "number": 297
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["No more farcical comedy", "Could ever be imagined!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "God, no more dreadful situation",
+      "Could ever be imagined!"
+    ],
     "number": 298
   },
   {
     "singers": "Ferrando and Guglielmo",
-    "text": ["Ah!"],
+    "text": [
+      "No more farcical comedy",
+      "Could ever be imagined!"
+    ],
     "number": 299
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["The poor dears are sighing!"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "Ah!"
+    ],
     "number": 300
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["What shall we do?"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "The poor dears are sighing!"
+    ],
     "number": 301
   },
   {
-    "singers": "Dorabella",
-    "text": ["You suggest something."],
+    "singers": "Fiordiligi",
+    "text": [
+      "What shall we do?"
+    ],
     "number": 302
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["At a moment so painful", "Who could forsake them?"],
+    "singers": "Dorabella",
+    "text": [
+      "You suggest something."
+    ],
     "number": 303
   },
   {
-    "singers": "Dorabella",
-    "text": ["Their faces are quite interesting!"],
+    "singers": "Fiordiligi",
+    "text": [
+      "At a moment so painful",
+      "Who could forsake them?"
+    ],
     "number": 304
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["We could go a little further."],
+    "singers": "Dorabella",
+    "text": [
+      "Their faces are quite interesting!"
+    ],
     "number": 305
   },
   {
-    "singers": "Dorabella",
-    "text": ["His head is very cold."],
+    "singers": "Fiordiligi",
+    "text": [
+      "We could go a little further."
+    ],
     "number": 306
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["This one's cold as ice."],
+    "singers": "Dorabella",
+    "text": [
+      "His head is very cold."
+    ],
     "number": 307
   },
   {
-    "singers": "Dorabella",
-    "text": ["And his pulse?"],
+    "singers": "Fiordiligi",
+    "text": [
+      "This one's cold as ice."
+    ],
     "number": 308
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["I can't feel it."],
+    "singers": "Dorabella",
+    "text": [
+      "And his pulse?"
+    ],
     "number": 309
   },
   {
-    "singers": "Dorabella",
-    "text": ["This one's beating very slowly."],
+    "singers": "Fiordiligi",
+    "text": [
+      "I can't feel it."
+    ],
     "number": 310
+  },
+  {
+    "singers": "Dorabella",
+    "text": [
+      "This one's beating very slowly."
+    ],
+    "number": 311
   },
   {
     "singers": "Fiordiligi and Dorabella",
@@ -1650,197 +2355,307 @@
       "Oh, if help is long in coming,",
       "There'll be no more hope of life!"
     ],
-    "number": 311
-  },
-  {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["Both have become", "Calmer and more gentle;"],
     "number": 312
   },
   {
     "singers": "Ferrando and Guglielmo",
-    "text": ["We shall see if their pity", "Will turn into love."],
+    "text": [
+      "Both have become",
+      "Calmer and more gentle;"
+    ],
     "number": 313
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Poor dears! Their death", "Would fill me with grief."],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "We shall see if their pity",
+      "Will turn into love."
+    ],
     "number": 314
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Here's the doctor,", "Gentle ladies!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Poor dears! Their death",
+      "Would fill me with grief."
+    ],
     "number": 315
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["Despina dressed up!", "How heavily she's disguised!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Here's the doctor,",
+      "Gentle ladies!"
+    ],
     "number": 316
   },
   {
-    "singers": "Despina",
-    "text": ["Salvete, amabiles", "Buonae puellae!"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "Despina dressed up!",
+      "How heavily she's disguised!"
+    ],
     "number": 317
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["He speaks a language", "We do not understand."],
+    "singers": "Despina",
+    "text": [
+      "Salvete, amabiles",
+      "Buonae puellae!"
+    ],
     "number": 318
   },
   {
-    "singers": "Despina",
-    "text": ["Let's speak, then,", "As you command me."],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "He speaks a language",
+      "We do not understand."
+    ],
     "number": 319
   },
   {
     "singers": "Despina",
-    "text": ["I know Greek and Arabic,", "Turkish and the Vandal tongue;"],
+    "text": [
+      "Let's speak, then,",
+      "As you command me."
+    ],
     "number": 320
   },
   {
     "singers": "Despina",
-    "text": ["And I can speak", "Swabian and Tartar too."],
+    "text": [
+      "I know Greek and Arabic,",
+      "Turkish and the Vandal tongue;"
+    ],
     "number": 321
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Keep all these languages", "For yourself, sir;"],
+    "singers": "Despina",
+    "text": [
+      "And I can speak",
+      "Swabian and Tartar too."
+    ],
     "number": 322
   },
   {
     "singers": "Don Alfonso",
-    "text": ["For the moment,", "Look at these poor fellows;"],
+    "text": [
+      "Keep all these languages",
+      "For yourself, sir;"
+    ],
     "number": 323
   },
   {
     "singers": "Don Alfonso",
-    "text": ["They've taken poison;", "What can be done?"],
+    "text": [
+      "For the moment,",
+      "Look at these poor fellows;"
+    ],
     "number": 324
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Yes, doctor,", "What can be done?"],
+    "singers": "Don Alfonso",
+    "text": [
+      "They've taken poison;",
+      "What can be done?"
+    ],
     "number": 325
   },
   {
-    "singers": "Despina",
-    "text": ["First I must know", "The nature of this potion"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Yes, doctor,",
+      "What can be done?"
+    ],
     "number": 326
   },
   {
     "singers": "Despina",
-    "text": ["And the reason it was taken;", "Whether it was swallowed"],
+    "text": [
+      "First I must know",
+      "The nature of this potion"
+    ],
     "number": 327
   },
   {
     "singers": "Despina",
-    "text": ["Hot or cold,", "A little or a lot,"],
+    "text": [
+      "And the reason it was taken;",
+      "Whether it was swallowed"
+    ],
     "number": 328
   },
   {
     "singers": "Despina",
-    "text": ["In one draught", "Or in several."],
+    "text": [
+      "Hot or cold,",
+      "A little or a lot,"
+    ],
     "number": 329
   },
   {
-    "singers": "Fiordiligi, Dorabella and Don Alfonso",
-    "text": ["They took arsenic,", "Good doctor,"],
+    "singers": "Despina",
+    "text": [
+      "In one draught",
+      "Or in several."
+    ],
     "number": 330
   },
   {
     "singers": "Fiordiligi, Dorabella and Don Alfonso",
-    "text": ["And drank it here.", "The cause was love"],
+    "text": [
+      "They took arsenic,",
+      "Good doctor,"
+    ],
     "number": 331
   },
   {
     "singers": "Fiordiligi, Dorabella and Don Alfonso",
-    "text": ["And they swallowed it", "In a single gulp."],
+    "text": [
+      "And drank it here.",
+      "The cause was love"
+    ],
     "number": 332
   },
   {
-    "singers": "Despina",
-    "text": ["Don't worry,", "Don't be afraid;"],
+    "singers": "Fiordiligi, Dorabella and Don Alfonso",
+    "text": [
+      "And they swallowed it",
+      "In a single gulp."
+    ],
     "number": 333
   },
   {
     "singers": "Despina",
-    "text": ["Here is an earnest", "Of my skill."],
+    "text": [
+      "Don't worry,",
+      "Don't be afraid;"
+    ],
     "number": 334
   },
   {
-    "singers": "Fiordiligi, Dorabella and Don Alfonso",
-    "text": ["He's taken a piece", "Of iron in his hand."],
+    "singers": "Despina",
+    "text": [
+      "Here is an earnest",
+      "Of my skill."
+    ],
     "number": 335
   },
   {
-    "singers": "Despina",
-    "text": ["This is a piece of magnet,", "The stone which the great"],
+    "singers": "Fiordiligi, Dorabella and Don Alfonso",
+    "text": [
+      "He's taken a piece",
+      "Of iron in his hand."
+    ],
     "number": 336
   },
   {
     "singers": "Despina",
-    "text": ["Doctor Mesmer discovered", "In Germany"],
+    "text": [
+      "This is a piece of magnet,",
+      "The stone which the great"
+    ],
     "number": 337
   },
   {
     "singers": "Despina",
-    "text": ["And then became", "So famous in France."],
+    "text": [
+      "Doctor Mesmer discovered",
+      "In Germany"
+    ],
     "number": 338
+  },
+  {
+    "singers": "Despina",
+    "text": [
+      "And then became",
+      "So famous in France."
+    ],
+    "number": 339
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 339
-  },
-  {
-    "singers": "Fiordiligi, Dorabella and Don Alfonso",
-    "text": ["Look, they're moving,", "Twisting, shaking!"],
     "number": 340
   },
   {
     "singers": "Fiordiligi, Dorabella and Don Alfonso",
-    "text": ["They'll hit their heads", "On the ground in a moment."],
+    "text": [
+      "Look, they're moving,",
+      "Twisting, shaking!"
+    ],
     "number": 341
   },
   {
-    "singers": "Despina",
-    "text": ["Ah, hold their foreheads", "Steady, will you?"],
+    "singers": "Fiordiligi, Dorabella and Don Alfonso",
+    "text": [
+      "They'll hit their heads",
+      "On the ground in a moment."
+    ],
     "number": 342
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["We're standing ready!"],
+    "singers": "Despina",
+    "text": [
+      "Ah, hold their foreheads",
+      "Steady, will you?"
+    ],
     "number": 343
   },
   {
-    "singers": "Despina",
-    "text": ["Hold tight!", "Courage!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "We're standing ready!"
+    ],
     "number": 344
   },
   {
     "singers": "Despina",
-    "text": ["Now they", "Are safe from death."],
+    "text": [
+      "Hold tight!",
+      "Courage!"
+    ],
     "number": 345
   },
   {
-    "singers": "Fiordiligi, Dorabella and Don Alfonso",
-    "text": ["They're looking round", "And recovering their strength."],
+    "singers": "Despina",
+    "text": [
+      "Now they",
+      "Are safe from death."
+    ],
     "number": 346
   },
   {
     "singers": "Fiordiligi, Dorabella and Don Alfonso",
-    "text": ["Ah, this doctor's", "Worth all the gold in Peru!"],
+    "text": [
+      "They're looking round",
+      "And recovering their strength."
+    ],
     "number": 347
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["Where am I? What place is this?", "Who is he? Who are they?"],
+    "singers": "Fiordiligi, Dorabella and Don Alfonso",
+    "text": [
+      "Ah, this doctor's",
+      "Worth all the gold in Peru!"
+    ],
     "number": 348
   },
   {
     "singers": "Ferrando and Guglielmo",
-    "text": ["Am I before Jove's throne?", "Are you Pallas or Cytherea?"],
+    "text": [
+      "Where am I? What place is this?",
+      "Who is he? Who are they?"
+    ],
     "number": 349
+  },
+  {
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "Am I before Jove's throne?",
+      "Are you Pallas or Cytherea?"
+    ],
+    "number": 350
   },
   {
     "singers": "Ferrando and Guglielmo",
@@ -1848,17 +2663,23 @@
       "No, you are my fair goddess!",
       "I recognise you by that sweet face,"
     ],
-    "number": 350
-  },
-  {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["And by that hand I now know so well;", "It is my only treasure."],
     "number": 351
   },
   {
-    "singers": "Despina and Don Alfonso",
-    "text": ["It's the effect of the poison still;", "Don't be afraid."],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "And by that hand I now know so well;",
+      "It is my only treasure."
+    ],
     "number": 352
+  },
+  {
+    "singers": "Despina and Don Alfonso",
+    "text": [
+      "It's the effect of the poison still;",
+      "Don't be afraid."
+    ],
+    "number": 353
   },
   {
     "singers": "Fiordiligi and Dorabella",
@@ -1866,157 +2687,230 @@
       "That may be so, but such liberties",
       "Do violence to our reputation."
     ],
-    "number": 353
-  },
-  {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["I beg you, my adored one,", "Turn your lovely eyes on me."],
     "number": 354
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["I can resist no longer!"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "I beg you, my adored one,",
+      "Turn your lovely eyes on me."
+    ],
     "number": 355
+  },
+  {
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "I can resist no longer!"
+    ],
+    "number": 356
   },
   {
     "singers": "Blank",
     "text": [],
-    "number": 356
-  },
-  {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["Give me a kiss, my treasure,", "One single kiss, or else I die."],
     "number": 357
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Heavens, a kiss?"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "Give me a kiss, my treasure,",
+      "One single kiss, or else I die."
+    ],
     "number": 358
   },
   {
-    "singers": "Despina",
-    "text": ["Agree,", "As an act of kindness!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Heavens, a kiss?"
+    ],
     "number": 359
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["This is too much to ask", "Of a chaste and faithful woman!"],
+    "singers": "Despina",
+    "text": [
+      "Agree,",
+      "As an act of kindness!"
+    ],
     "number": 360
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["It's an outrage to my love,", "It's an outrage to my heart!"],
+    "text": [
+      "This is too much to ask",
+      "Of a chaste and faithful woman!"
+    ],
     "number": 361
   },
   {
-    "singers": "Despina, Ferrando, Guglielmo and Don Alfonso",
-    "text": ["A more amusing picture", "Can't be found in all the world;"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "It's an outrage to my love,",
+      "It's an outrage to my heart!"
+    ],
     "number": 362
   },
   {
     "singers": "Despina, Ferrando, Guglielmo and Don Alfonso",
-    "text": ["That which makes me laugh the most", "Is their rage and fury."],
+    "text": [
+      "A more amusing picture",
+      "Can't be found in all the world;"
+    ],
     "number": 363
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Despairing or poisoned,", "Go to the devil,"],
+    "singers": "Despina, Ferrando, Guglielmo and Don Alfonso",
+    "text": [
+      "That which makes me laugh the most",
+      "Is their rage and fury."
+    ],
     "number": 364
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["Truly you'll repent too late", "If you anger me more!"],
+    "text": [
+      "Despairing or poisoned,",
+      "Go to the devil,"
+    ],
     "number": 365
   },
   {
-    "singers": "Despina and Don Alfonso",
-    "text": ["I don't know if their rage", "And fury are feigned or real,"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Truly you'll repent too late",
+      "If you anger me more!"
+    ],
     "number": 366
   },
   {
     "singers": "Despina and Don Alfonso",
-    "text": ["But wouldn't wish this fire", "To end in the fire of love."],
+    "text": [
+      "I don't know if their rage",
+      "And fury are feigned or real,"
+    ],
     "number": 367
   },
   {
     "singers": "Despina and Don Alfonso",
-    "text": ["I know full well this fire", "Will change to that of love."],
+    "text": [
+      "But wouldn't wish this fire",
+      "To end in the fire of love."
+    ],
     "number": 368
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["I don't know if their rage", "And fury are feigned or real,"],
+    "singers": "Despina and Don Alfonso",
+    "text": [
+      "I know full well this fire",
+      "Will change to that of love."
+    ],
     "number": 369
   },
   {
     "singers": "Ferrando and Guglielmo",
-    "text": ["But wouldn't wish this fire", "To end in the fire of love."],
+    "text": [
+      "I don't know if their rage",
+      "And fury are feigned or real,"
+    ],
     "number": 370
   },
   {
     "singers": "Ferrando and Guglielmo",
-    "text": ["I know full well this fire", "Will change to that of love."],
+    "text": [
+      "But wouldn't wish this fire",
+      "To end in the fire of love."
+    ],
     "number": 371
+  },
+  {
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "I know full well this fire",
+      "Will change to that of love."
+    ],
+    "number": 372
   },
   {
     "singers": "Blank",
     "text": [],
-    "number": 372
+    "number": 373
   },
   {
     "singers": "Act 2",
     "text": [],
-    "number": 373
-  },
-  {
-    "singers": "Despina",
-    "text": ["Upon my word, you're", "The strangest pair of creatures!"],
     "number": 374
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["You jade!", "What are you after?"],
+    "singers": "Despina",
+    "text": [
+      "Upon my word, you're",
+      "The strangest pair of creatures!"
+    ],
     "number": 375
   },
   {
-    "singers": "Despina",
-    "text": ["For me, nothing."],
+    "singers": "Fiordiligi",
+    "text": [
+      "You jade!",
+      "What are you after?"
+    ],
     "number": 376
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["For whom, then?"],
+    "singers": "Despina",
+    "text": [
+      "For me, nothing."
+    ],
     "number": 377
   },
   {
-    "singers": "Despina",
-    "text": ["For you."],
+    "singers": "Fiordiligi",
+    "text": [
+      "For whom, then?"
+    ],
     "number": 378
   },
   {
-    "singers": "Dorabella",
-    "text": ["For us?"],
+    "singers": "Despina",
+    "text": [
+      "For you."
+    ],
     "number": 379
   },
   {
-    "singers": "Despina",
-    "text": ["For you:", "Are you women or not?"],
+    "singers": "Dorabella",
+    "text": [
+      "For us?"
+    ],
     "number": 380
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["What do you mean?"],
+    "singers": "Despina",
+    "text": [
+      "For you:",
+      "Are you women or not?"
+    ],
     "number": 381
   },
   {
-    "singers": "Despina",
-    "text": ["I mean,", "You should act like women, then."],
+    "singers": "Fiordiligi",
+    "text": [
+      "What do you mean?"
+    ],
     "number": 382
   },
   {
-    "singers": "Dorabella",
-    "text": ["And how is that?"],
+    "singers": "Despina",
+    "text": [
+      "I mean,",
+      "You should act like women, then."
+    ],
     "number": 383
+  },
+  {
+    "singers": "Dorabella",
+    "text": [
+      "And how is that?"
+    ],
+    "number": 384
   },
   {
     "singers": "Despina",
@@ -2024,22 +2918,30 @@
       "For example, your gallants",
       "Have gone off to the wars: till they return,"
     ],
-    "number": 384
-  },
-  {
-    "singers": "Despina",
-    "text": ["Act like the army: go recruiting!"],
     "number": 385
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Indeed, you'd have us", "Acting very strangely."],
+    "singers": "Despina",
+    "text": [
+      "Act like the army: go recruiting!"
+    ],
     "number": 386
   },
   {
     "singers": "Fiordiligi",
-    "text": ["Do you think we want to be", "The talk of all the gossips?"],
+    "text": [
+      "Indeed, you'd have us",
+      "Acting very strangely."
+    ],
     "number": 387
+  },
+  {
+    "singers": "Fiordiligi",
+    "text": [
+      "Do you think we want to be",
+      "The talk of all the gossips?"
+    ],
+    "number": 388
   },
   {
     "singers": "Fiordiligi",
@@ -2047,37 +2949,54 @@
       "Do you think we want to cause",
       "Such anguish to our loved ones?"
     ],
-    "number": 388
-  },
-  {
-    "singers": "Despina",
-    "text": ["And who says", "You'd be doing them any harm?"],
     "number": 389
   },
   {
-    "singers": "Dorabella",
-    "text": ["Don't you consider", "It would be harm enough"],
+    "singers": "Despina",
+    "text": [
+      "And who says",
+      "You'd be doing them any harm?"
+    ],
     "number": 390
   },
   {
     "singers": "Dorabella",
-    "text": ["If word got round", "That we were entertaining them?"],
+    "text": [
+      "Don't you consider",
+      "It would be harm enough"
+    ],
     "number": 391
   },
   {
-    "singers": "Despina",
-    "text": ["As for that, there's", "A perfectly safe method;"],
+    "singers": "Dorabella",
+    "text": [
+      "If word got round",
+      "That we were entertaining them?"
+    ],
     "number": 392
   },
   {
     "singers": "Despina",
-    "text": ["I'll spread it abroad", "That they're after me."],
+    "text": [
+      "As for that, there's",
+      "A perfectly safe method;"
+    ],
     "number": 393
   },
   {
-    "singers": "Dorabella",
-    "text": ["Who'd believe that?"],
+    "singers": "Despina",
+    "text": [
+      "I'll spread it abroad",
+      "That they're after me."
+    ],
     "number": 394
+  },
+  {
+    "singers": "Dorabella",
+    "text": [
+      "Who'd believe that?"
+    ],
+    "number": 395
   },
   {
     "singers": "Despina",
@@ -2085,47 +3004,66 @@
       "Oh thank you! Hasn't a maid",
       "The right to have a couple of followers?"
     ],
-    "number": 395
-  },
-  {
-    "singers": "Despina",
-    "text": ["You can trust in me."],
     "number": 396
   },
   {
-    "singers": "Dorabella",
-    "text": ["And then?"],
+    "singers": "Despina",
+    "text": [
+      "You can trust in me."
+    ],
     "number": 397
   },
   {
-    "singers": "Despina",
-    "text": ["And then?", "Bless us, get on with it."],
+    "singers": "Dorabella",
+    "text": [
+      "And then?"
+    ],
     "number": 398
   },
   {
     "singers": "Despina",
-    "text": ["I said they'd fall!"],
+    "text": [
+      "And then?",
+      "Bless us, get on with it."
+    ],
     "number": 399
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["What should we do?"],
+    "singers": "Despina",
+    "text": [
+      "I said they'd fall!"
+    ],
     "number": 400
   },
   {
-    "singers": "Despina",
-    "text": ["Whatever you want.", "Are you flesh and blood,"],
+    "singers": "Fiordiligi",
+    "text": [
+      "What should we do?"
+    ],
     "number": 401
   },
   {
     "singers": "Despina",
-    "text": ["Or what?"],
+    "text": [
+      "Whatever you want.",
+      "Are you flesh and blood,"
+    ],
     "number": 402
   },
   {
     "singers": "Despina",
-    "text": ["At fifteen a woman", "Should know the ways of the world,"],
+    "text": [
+      "Or what?"
+    ],
     "number": 403
+  },
+  {
+    "singers": "Despina",
+    "text": [
+      "At fifteen a woman",
+      "Should know the ways of the world,"
+    ],
+    "number": 404
   },
   {
     "singers": "Despina",
@@ -2133,47 +3071,71 @@
       "Where the devil keeps his tail,",
       "What's right and what is wrong."
     ],
-    "number": 404
-  },
-  {
-    "singers": "Despina",
-    "text": ["She should know the wiles", "That ensnare lovers,"],
     "number": 405
   },
   {
     "singers": "Despina",
-    "text": ["How to feign laughter or tears", "And to make up good excuses."],
+    "text": [
+      "She should know the wiles",
+      "That ensnare lovers,"
+    ],
     "number": 406
   },
   {
     "singers": "Despina",
-    "text": ["At one and the same moment", "She must listen to a hundred"],
+    "text": [
+      "How to feign laughter or tears",
+      "And to make up good excuses."
+    ],
     "number": 407
   },
   {
     "singers": "Despina",
-    "text": ["But speak with her eyes", "To a thousand,"],
+    "text": [
+      "At one and the same moment",
+      "She must listen to a hundred"
+    ],
     "number": 408
   },
   {
     "singers": "Despina",
-    "text": ["Hold out hope to all,", "Be they handsome or plain,"],
+    "text": [
+      "But speak with her eyes",
+      "To a thousand,"
+    ],
     "number": 409
   },
   {
     "singers": "Despina",
-    "text": ["Know how to hide things", "Without getting flustered,"],
+    "text": [
+      "Hold out hope to all,",
+      "Be they handsome or plain,"
+    ],
     "number": 410
   },
   {
     "singers": "Despina",
-    "text": ["Know how to tell lies", "Without ever blushing."],
+    "text": [
+      "Know how to hide things",
+      "Without getting flustered,"
+    ],
     "number": 411
   },
   {
     "singers": "Despina",
-    "text": ["And, like a queen", "On her lofty throne,"],
+    "text": [
+      "Know how to tell lies",
+      "Without ever blushing."
+    ],
     "number": 412
+  },
+  {
+    "singers": "Despina",
+    "text": [
+      "And, like a queen",
+      "On her lofty throne,"
+    ],
+    "number": 413
   },
   {
     "singers": "Despina",
@@ -2181,37 +3143,51 @@
       "Get her own way",
       "With \u201cI can\u201d and \u201cI will\u201d"
     ],
-    "number": 413
-  },
-  {
-    "singers": "Despina",
-    "text": ["And, like a queen", "Get her own way"],
     "number": 414
   },
   {
     "singers": "Despina",
-    "text": ["It seems they're taking", "To this doctrine;"],
+    "text": [
+      "And, like a queen",
+      "Get her own way"
+    ],
     "number": 415
   },
   {
     "singers": "Despina",
-    "text": ["Hooray for Despina,", "She knows how to do it."],
+    "text": [
+      "It seems they're taking",
+      "To this doctrine;"
+    ],
     "number": 416
+  },
+  {
+    "singers": "Despina",
+    "text": [
+      "Hooray for Despina,",
+      "She knows how to do it."
+    ],
+    "number": 417
   },
   {
     "singers": "Blank",
     "text": [],
-    "number": 417
-  },
-  {
-    "singers": "Fiordiligi",
-    "text": ["Sister, what do you say?"],
     "number": 418
   },
   {
-    "singers": "Dorabella",
-    "text": ["I'm dumbfounded", "At the fiendish ideas of that girl."],
+    "singers": "Fiordiligi",
+    "text": [
+      "Sister, what do you say?"
+    ],
     "number": 419
+  },
+  {
+    "singers": "Dorabella",
+    "text": [
+      "I'm dumbfounded",
+      "At the fiendish ideas of that girl."
+    ],
+    "number": 420
   },
   {
     "singers": "Fiordiligi",
@@ -2219,17 +3195,23 @@
       "Believe me, she's crazy. Do you think",
       "We could possibly follow her counsel?"
     ],
-    "number": 420
-  },
-  {
-    "singers": "Dorabella",
-    "text": ["Of course, if you stood everything", "Upside down."],
     "number": 421
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["On the contrary, I'm standing things", "The right way up:"],
+    "singers": "Dorabella",
+    "text": [
+      "Of course, if you stood everything",
+      "Upside down."
+    ],
     "number": 422
+  },
+  {
+    "singers": "Fiordiligi",
+    "text": [
+      "On the contrary, I'm standing things",
+      "The right way up:"
+    ],
+    "number": 423
   },
   {
     "singers": "Fiordiligi",
@@ -2237,32 +3219,46 @@
       "Don't you think it wrong",
       "For two young women who are betrothed"
     ],
-    "number": 423
-  },
-  {
-    "singers": "Fiordiligi",
-    "text": ["To do such things?"],
     "number": 424
   },
   {
-    "singers": "Dorabella",
-    "text": ["She's not saying", "We should do any harm."],
+    "singers": "Fiordiligi",
+    "text": [
+      "To do such things?"
+    ],
     "number": 425
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["It' bad enough", "Getting ourselves talked about!"],
+    "singers": "Dorabella",
+    "text": [
+      "She's not saying",
+      "We should do any harm."
+    ],
     "number": 426
   },
   {
-    "singers": "Dorabella",
-    "text": ["But if it's said", "They've come to see Despina!"],
+    "singers": "Fiordiligi",
+    "text": [
+      "It' bad enough",
+      "Getting ourselves talked about!"
+    ],
     "number": 427
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Your conscience is too elastic!", "What will our menfolk say?"],
+    "singers": "Dorabella",
+    "text": [
+      "But if it's said",
+      "They've come to see Despina!"
+    ],
     "number": 428
+  },
+  {
+    "singers": "Fiordiligi",
+    "text": [
+      "Your conscience is too elastic!",
+      "What will our menfolk say?"
+    ],
+    "number": 429
   },
   {
     "singers": "Dorabella",
@@ -2270,47 +3266,66 @@
       "Nothing; either they'll not know about it",
       "And it's over and done with,"
     ],
-    "number": 429
-  },
-  {
-    "singers": "Dorabella",
-    "text": ["Or they'll hear something,", "And then we'll say"],
     "number": 430
   },
   {
     "singers": "Dorabella",
-    "text": ["They came to see her."],
+    "text": [
+      "Or they'll hear something,",
+      "And then we'll say"
+    ],
     "number": 431
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["But our hearts?"],
+    "singers": "Dorabella",
+    "text": [
+      "They came to see her."
+    ],
     "number": 432
   },
   {
-    "singers": "Dorabella",
-    "text": ["Will stay as they are;", "To amuse ourselves a little"],
+    "singers": "Fiordiligi",
+    "text": [
+      "But our hearts?"
+    ],
     "number": 433
   },
   {
     "singers": "Dorabella",
-    "text": ["And not to die of boredom", "My dear sister."],
+    "text": [
+      "Will stay as they are;",
+      "To amuse ourselves a little"
+    ],
     "number": 434
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["That's true."],
+    "singers": "Dorabella",
+    "text": [
+      "And not to die of boredom",
+      "My dear sister."
+    ],
     "number": 435
   },
   {
-    "singers": "Dorabella",
-    "text": ["So?"],
+    "singers": "Fiordiligi",
+    "text": [
+      "That's true."
+    ],
     "number": 436
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["So you go ahead:"],
+    "singers": "Dorabella",
+    "text": [
+      "So?"
+    ],
     "number": 437
+  },
+  {
+    "singers": "Fiordiligi",
+    "text": [
+      "So you go ahead:"
+    ],
+    "number": 438
   },
   {
     "singers": "Fiordiligi",
@@ -2318,7 +3333,7 @@
       "But I don't want to be involved",
       "If there should be a scandal."
     ],
-    "number": 438
+    "number": 439
   },
   {
     "singers": "Dorabella",
@@ -2326,7 +3341,7 @@
       "How can there be a scandal",
       "When we're taking such precautions?"
     ],
-    "number": 439
+    "number": 440
   },
   {
     "singers": "Dorabella",
@@ -2334,217 +3349,320 @@
       "However, listen, let's come to an agreement:",
       "Which of these two do you fancy for yourself?"
     ],
-    "number": 440
-  },
-  {
-    "singers": "Fiordiligi",
-    "text": ["You choose, sister."],
     "number": 441
   },
   {
-    "singers": "Dorabella",
-    "text": ["I've already chosen."],
+    "singers": "Fiordiligi",
+    "text": [
+      "You choose, sister."
+    ],
     "number": 442
   },
   {
     "singers": "Dorabella",
-    "text": ["I'll take the dark one,", "Who seems to me more fun."],
+    "text": [
+      "I've already chosen."
+    ],
     "number": 443
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["And meantime I'll laugh", "And joke a bit with the fair one."],
+    "singers": "Dorabella",
+    "text": [
+      "I'll take the dark one,",
+      "Who seems to me more fun."
+    ],
     "number": 444
   },
   {
-    "singers": "Dorabella",
-    "text": ["Playfully I'll answer", "His sweet words."],
+    "singers": "Fiordiligi",
+    "text": [
+      "And meantime I'll laugh",
+      "And joke a bit with the fair one."
+    ],
     "number": 445
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Sighing, I'll imitate", "The other's sighs."],
+    "singers": "Dorabella",
+    "text": [
+      "Playfully I'll answer",
+      "His sweet words."
+    ],
     "number": 446
   },
   {
-    "singers": "Dorabella",
-    "text": ["He'll say to me:", "My love, I'm dying!"],
+    "singers": "Fiordiligi",
+    "text": [
+      "Sighing, I'll imitate",
+      "The other's sighs."
+    ],
     "number": 447
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["He'll say to me:", "My dearest treasure!"],
+    "singers": "Dorabella",
+    "text": [
+      "He'll say to me:",
+      "My love, I'm dying!"
+    ],
     "number": 448
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["And meanwhile"],
+    "singers": "Fiordiligi",
+    "text": [
+      "He'll say to me:",
+      "My dearest treasure!"
+    ],
     "number": 449
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["What sport and pleasure", "I shall have!"],
+    "text": [
+      "And meanwhile"
+    ],
     "number": 450
+  },
+  {
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "What sport and pleasure",
+      "I shall have!"
+    ],
+    "number": 451
   },
   {
     "singers": "Blank",
     "text": [],
-    "number": 451
-  },
-  {
-    "singers": "Fiordiligi",
-    "text": ["What a lovely day!"],
     "number": 452
   },
   {
-    "singers": "Ferrando",
-    "text": ["Perhaps a trifle hot."],
+    "singers": "Fiordiligi",
+    "text": [
+      "What a lovely day!"
+    ],
     "number": 453
   },
   {
-    "singers": "Dorabella",
-    "text": ["What pretty bushes!"],
+    "singers": "Ferrando",
+    "text": [
+      "Perhaps a trifle hot."
+    ],
     "number": 454
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Yes, yes, very pretty;", "They've more leaves than fruit."],
+    "singers": "Dorabella",
+    "text": [
+      "What pretty bushes!"
+    ],
     "number": 455
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["How charming these paths are!", "Shall we take a stroll?"],
+    "singers": "Guglielmo",
+    "text": [
+      "Yes, yes, very pretty;",
+      "They've more leaves than fruit."
+    ],
     "number": 456
   },
   {
-    "singers": "Ferrando",
-    "text": ["Your slightest wish", "Is my command."],
+    "singers": "Fiordiligi",
+    "text": [
+      "How charming these paths are!",
+      "Shall we take a stroll?"
+    ],
     "number": 457
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["You are too kind!"],
+    "singers": "Ferrando",
+    "text": [
+      "Your slightest wish",
+      "Is my command."
+    ],
     "number": 458
   },
   {
-    "singers": "Ferrando",
-    "text": ["This is the big moment!"],
+    "singers": "Fiordiligi",
+    "text": [
+      "You are too kind!"
+    ],
     "number": 459
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["What did you say to him?"],
+    "singers": "Ferrando",
+    "text": [
+      "This is the big moment!"
+    ],
     "number": 460
   },
   {
-    "singers": "Ferrando",
-    "text": ["Er... I told him", "To keep her entertained."],
+    "singers": "Fiordiligi",
+    "text": [
+      "What did you say to him?"
+    ],
     "number": 461
   },
   {
-    "singers": "Dorabella",
-    "text": ["Let us go for a stroll too."],
+    "singers": "Ferrando",
+    "text": [
+      "Er... I told him",
+      "To keep her entertained."
+    ],
     "number": 462
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Just as you please."],
+    "singers": "Dorabella",
+    "text": [
+      "Let us go for a stroll too."
+    ],
     "number": 463
   },
   {
     "singers": "Guglielmo",
-    "text": ["Oh dear!"],
+    "text": [
+      "Just as you please."
+    ],
     "number": 464
   },
   {
-    "singers": "Dorabella",
-    "text": ["What's the matter?"],
+    "singers": "Guglielmo",
+    "text": [
+      "Oh dear!"
+    ],
     "number": 465
   },
   {
-    "singers": "Guglielmo",
-    "text": ["I feel so bad,", "My dearest one,"],
+    "singers": "Dorabella",
+    "text": [
+      "What's the matter?"
+    ],
     "number": 466
   },
   {
     "singers": "Guglielmo",
-    "text": ["That I think I'm going to die."],
+    "text": [
+      "I feel so bad,",
+      "My dearest one,"
+    ],
     "number": 467
   },
   {
-    "singers": "Dorabella",
-    "text": ["This simply won't do."],
+    "singers": "Guglielmo",
+    "text": [
+      "That I think I'm going to die."
+    ],
     "number": 468
   },
   {
     "singers": "Dorabella",
-    "text": ["It'll be the after effects", "Of the poison that you drank."],
+    "text": [
+      "This simply won't do."
+    ],
     "number": 469
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Ah, I drink in", "A far stronger poison"],
+    "singers": "Dorabella",
+    "text": [
+      "It'll be the after effects",
+      "Of the poison that you drank."
+    ],
     "number": 470
   },
   {
     "singers": "Guglielmo",
-    "text": ["From the cruel, fiery", "Volcanoes of love!"],
+    "text": [
+      "Ah, I drink in",
+      "A far stronger poison"
+    ],
     "number": 471
   },
   {
-    "singers": "Dorabella",
-    "text": ["It'll be a burning poison;", "Cool yourself a little."],
+    "singers": "Guglielmo",
+    "text": [
+      "From the cruel, fiery",
+      "Volcanoes of love!"
+    ],
     "number": 472
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Unkind one, you mock me", "While I'm dying."],
+    "singers": "Dorabella",
+    "text": [
+      "It'll be a burning poison;",
+      "Cool yourself a little."
+    ],
     "number": 473
   },
   {
     "singers": "Guglielmo",
-    "text": ["They've vanished;", "Where the devil have they got to?"],
+    "text": [
+      "Unkind one, you mock me",
+      "While I'm dying."
+    ],
     "number": 474
   },
   {
-    "singers": "Dorabella",
-    "text": ["Oh, don't do that."],
+    "singers": "Guglielmo",
+    "text": [
+      "They've vanished;",
+      "Where the devil have they got to?"
+    ],
     "number": 475
   },
   {
-    "singers": "Guglielmo",
-    "text": ["I'm dying, cruel one, and you mock me?"],
+    "singers": "Dorabella",
+    "text": [
+      "Oh, don't do that."
+    ],
     "number": 476
   },
   {
-    "singers": "Dorabella",
-    "text": ["I mock you?"],
+    "singers": "Guglielmo",
+    "text": [
+      "I'm dying, cruel one, and you mock me?"
+    ],
     "number": 477
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Then give me, light of my life,", "Some token of your pity."],
+    "singers": "Dorabella",
+    "text": [
+      "I mock you?"
+    ],
     "number": 478
   },
   {
-    "singers": "Dorabella",
-    "text": ["Two, if you like.", "Tell me what you'd have, and we'll see."],
+    "singers": "Guglielmo",
+    "text": [
+      "Then give me, light of my life,",
+      "Some token of your pity."
+    ],
     "number": 479
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Is she joking or in earnest?"],
+    "singers": "Dorabella",
+    "text": [
+      "Two, if you like.",
+      "Tell me what you'd have, and we'll see."
+    ],
     "number": 480
   },
   {
     "singers": "Guglielmo",
-    "text": ["Deign to accept", "This humble offering."],
+    "text": [
+      "Is she joking or in earnest?"
+    ],
     "number": 481
   },
   {
-    "singers": "Dorabella",
-    "text": ["A heart?"],
+    "singers": "Guglielmo",
+    "text": [
+      "Deign to accept",
+      "This humble offering."
+    ],
     "number": 482
+  },
+  {
+    "singers": "Dorabella",
+    "text": [
+      "A heart?"
+    ],
+    "number": 483
   },
   {
     "singers": "Guglielmo",
@@ -2552,22 +3670,29 @@
       "Yes, a heart; the symbol of that one",
       "Which burns, pines and longs for you."
     ],
-    "number": 483
-  },
-  {
-    "singers": "Dorabella",
-    "text": ["What a precious gift!"],
     "number": 484
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Will you accept it?"],
+    "singers": "Dorabella",
+    "text": [
+      "What a precious gift!"
+    ],
     "number": 485
   },
   {
-    "singers": "Dorabella",
-    "text": ["Cruel man,", "Do not seek to tempt a faithful heart."],
+    "singers": "Guglielmo",
+    "text": [
+      "Will you accept it?"
+    ],
     "number": 486
+  },
+  {
+    "singers": "Dorabella",
+    "text": [
+      "Cruel man,",
+      "Do not seek to tempt a faithful heart."
+    ],
+    "number": 487
   },
   {
     "singers": "Guglielmo",
@@ -2575,202 +3700,291 @@
       "The mountain is weakening. I don't like this,",
       "But I've pledged my honour as a soldier."
     ],
-    "number": 487
-  },
-  {
-    "singers": "Guglielmo",
-    "text": ["I adore you!"],
     "number": 488
   },
   {
-    "singers": "Dorabella",
-    "text": ["I beg of you!"],
+    "singers": "Guglielmo",
+    "text": [
+      "I adore you!"
+    ],
     "number": 489
   },
   {
-    "singers": "Guglielmo",
-    "text": ["I am all yours!"],
+    "singers": "Dorabella",
+    "text": [
+      "I beg of you!"
+    ],
     "number": 490
   },
   {
-    "singers": "Dorabella",
-    "text": ["O Heavens!"],
+    "singers": "Guglielmo",
+    "text": [
+      "I am all yours!"
+    ],
     "number": 491
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Give in, my dear one!"],
+    "singers": "Dorabella",
+    "text": [
+      "O Heavens!"
+    ],
     "number": 492
   },
   {
-    "singers": "Dorabella",
-    "text": ["You'll drive me to my death!"],
+    "singers": "Guglielmo",
+    "text": [
+      "Give in, my dear one!"
+    ],
     "number": 493
   },
   {
-    "singers": "Guglielmo",
-    "text": ["We'll die together then,", "My hope and love."],
+    "singers": "Dorabella",
+    "text": [
+      "You'll drive me to my death!"
+    ],
     "number": 494
   },
   {
     "singers": "Guglielmo",
-    "text": ["Will you accept it?"],
+    "text": [
+      "We'll die together then,",
+      "My hope and love."
+    ],
     "number": 495
   },
   {
-    "singers": "Dorabella",
-    "text": ["I accept."],
+    "singers": "Guglielmo",
+    "text": [
+      "Will you accept it?"
+    ],
     "number": 496
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Poor Ferrando!", "Oh what joy!"],
+    "singers": "Dorabella",
+    "text": [
+      "I accept."
+    ],
     "number": 497
   },
   {
     "singers": "Guglielmo",
-    "text": ["This heart I give you,", "My adored one;"],
+    "text": [
+      "Poor Ferrando!",
+      "Oh what joy!"
+    ],
     "number": 498
   },
   {
     "singers": "Guglielmo",
-    "text": ["But I want yours in return;", "Come, give it me."],
+    "text": [
+      "This heart I give you,",
+      "My adored one;"
+    ],
     "number": 499
   },
   {
-    "singers": "Dorabella",
-    "text": ["You've given it and I take it,", "But mine I cannot give;"],
+    "singers": "Guglielmo",
+    "text": [
+      "But I want yours in return;",
+      "Come, give it me."
+    ],
     "number": 500
   },
   {
     "singers": "Dorabella",
-    "text": ["In vain you ask it of me,", "It is no longer mine."],
+    "text": [
+      "You've given it and I take it,",
+      "But mine I cannot give;"
+    ],
     "number": 501
   },
   {
-    "singers": "Guglielmo",
-    "text": ["If you no longer own it,", "Why does it beat here?"],
+    "singers": "Dorabella",
+    "text": [
+      "In vain you ask it of me,",
+      "It is no longer mine."
+    ],
     "number": 502
   },
   {
-    "singers": "Dorabella",
-    "text": ["If you gave me it,", "What is still beating there?"],
+    "singers": "Guglielmo",
+    "text": [
+      "If you no longer own it,",
+      "Why does it beat here?"
+    ],
     "number": 503
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Why does it beat here?"],
+    "singers": "Dorabella",
+    "text": [
+      "If you gave me it,",
+      "What is still beating there?"
+    ],
     "number": 504
   },
   {
-    "singers": "Dorabella",
-    "text": ["What is still beating there?"],
+    "singers": "Guglielmo",
+    "text": [
+      "Why does it beat here?"
+    ],
     "number": 505
   },
   {
-    "singers": "Dorabella and Guglielmo",
-    "text": ["Why is it beating?"],
+    "singers": "Dorabella",
+    "text": [
+      "What is still beating there?"
+    ],
     "number": 506
   },
   {
     "singers": "Dorabella and Guglielmo",
-    "text": ["It is my own dear heart", "That is no longer mine;"],
+    "text": [
+      "Why is it beating?"
+    ],
     "number": 507
   },
   {
     "singers": "Dorabella and Guglielmo",
-    "text": ["It's come to lodge with you!"],
+    "text": [
+      "It is my own dear heart",
+      "That is no longer mine;"
+    ],
     "number": 508
   },
   {
     "singers": "Dorabella and Guglielmo",
-    "text": ["And that's what's beating so."],
+    "text": [
+      "It's come to lodge with you!"
+    ],
     "number": 509
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Let me put it here."],
+    "singers": "Dorabella and Guglielmo",
+    "text": [
+      "And that's what's beating so."
+    ],
     "number": 510
   },
   {
-    "singers": "Dorabella",
-    "text": ["There it cannot stay."],
+    "singers": "Guglielmo",
+    "text": [
+      "Let me put it here."
+    ],
     "number": 511
   },
   {
-    "singers": "Guglielmo",
-    "text": ["I understand, you little rogue."],
+    "singers": "Dorabella",
+    "text": [
+      "There it cannot stay."
+    ],
     "number": 512
   },
   {
-    "singers": "Dorabella",
-    "text": ["What are you doing?"],
+    "singers": "Guglielmo",
+    "text": [
+      "I understand, you little rogue."
+    ],
     "number": 513
   },
   {
-    "singers": "Guglielmo",
-    "text": ["You're not to look."],
+    "singers": "Dorabella",
+    "text": [
+      "What are you doing?"
+    ],
     "number": 514
   },
   {
-    "singers": "Dorabella",
-    "text": ["I feel I have", "A volcano in my bosom!"],
+    "singers": "Guglielmo",
+    "text": [
+      "You're not to look."
+    ],
     "number": 515
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Poor Ferrando!", "It doesn't seem possible."],
+    "singers": "Dorabella",
+    "text": [
+      "I feel I have",
+      "A volcano in my bosom!"
+    ],
     "number": 516
   },
   {
     "singers": "Guglielmo",
-    "text": ["Now turn your pretty eyes on me."],
+    "text": [
+      "Poor Ferrando!",
+      "It doesn't seem possible."
+    ],
     "number": 517
   },
   {
-    "singers": "Dorabella",
-    "text": ["What do you want?"],
+    "singers": "Guglielmo",
+    "text": [
+      "Now turn your pretty eyes on me."
+    ],
     "number": 518
   },
   {
-    "singers": "Guglielmo",
-    "text": ["See,", "Doesn't that look better?"],
+    "singers": "Dorabella",
+    "text": [
+      "What do you want?"
+    ],
     "number": 519
   },
   {
-    "singers": "Dorabella and Guglielmo",
-    "text": ["Oh happy exchange", "Of hearts and affections!"],
+    "singers": "Guglielmo",
+    "text": [
+      "See,",
+      "Doesn't that look better?"
+    ],
     "number": 520
   },
   {
     "singers": "Dorabella and Guglielmo",
-    "text": ["What new delights!", "What sweet pain!"],
+    "text": [
+      "Oh happy exchange",
+      "Of hearts and affections!"
+    ],
     "number": 521
+  },
+  {
+    "singers": "Dorabella and Guglielmo",
+    "text": [
+      "What new delights!",
+      "What sweet pain!"
+    ],
+    "number": 522
   },
   {
     "singers": "Blank",
     "text": [],
-    "number": 522
+    "number": 523
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 523
-  },
-  {
-    "singers": "Ferrando",
-    "text": ["We've won, my boy!"],
     "number": 524
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Two of a kind?"],
+    "singers": "Ferrando",
+    "text": [
+      "We've won, my boy!"
+    ],
     "number": 525
   },
   {
-    "singers": "Ferrando",
-    "text": ["A straight flush!", "Fiordiligi is modesty incarnate."],
+    "singers": "Guglielmo",
+    "text": [
+      "Two of a kind?"
+    ],
     "number": 526
+  },
+  {
+    "singers": "Ferrando",
+    "text": [
+      "A straight flush!",
+      "Fiordiligi is modesty incarnate."
+    ],
+    "number": 527
   },
   {
     "singers": "Ferrando",
@@ -2778,12 +3992,15 @@
       "She was keeping herself pure as a dove",
       "For her dear Guglielmo:"
     ],
-    "number": 527
+    "number": 528
   },
   {
     "singers": "Ferrando",
-    "text": ["Haughtily she repulsed me,", "Upbraided me, fled me,"],
-    "number": 528
+    "text": [
+      "Haughtily she repulsed me,",
+      "Upbraided me, fled me,"
+    ],
+    "number": 529
   },
   {
     "singers": "Ferrando",
@@ -2791,27 +4008,38 @@
       "Giving me evidence and proof",
       "That she's a woman without equal."
     ],
-    "number": 529
-  },
-  {
-    "singers": "Guglielmo",
-    "text": ["Good for you, good for me,", "Good for my Penelope!"],
     "number": 530
   },
   {
     "singers": "Guglielmo",
-    "text": ["Let me embrace you", "For your happy tidings,"],
+    "text": [
+      "Good for you, good for me,",
+      "Good for my Penelope!"
+    ],
     "number": 531
   },
   {
     "singers": "Guglielmo",
-    "text": ["My faithful Mercury!"],
+    "text": [
+      "Let me embrace you",
+      "For your happy tidings,"
+    ],
     "number": 532
   },
   {
-    "singers": "Ferrando",
-    "text": ["And my Dorabella,", "How did she behave?"],
+    "singers": "Guglielmo",
+    "text": [
+      "My faithful Mercury!"
+    ],
     "number": 533
+  },
+  {
+    "singers": "Ferrando",
+    "text": [
+      "And my Dorabella,",
+      "How did she behave?"
+    ],
+    "number": 534
   },
   {
     "singers": "Ferrando",
@@ -2819,7 +4047,7 @@
       "Oh, I haven't a doubt of her.",
       "I know so well her sensitive soul."
     ],
-    "number": 534
+    "number": 535
   },
   {
     "singers": "Guglielmo",
@@ -2827,12 +4055,14 @@
       "Well, just between ourselves,",
       "Maybe doubt is not such a bad thing."
     ],
-    "number": 535
+    "number": 536
   },
   {
     "singers": "Ferrando",
-    "text": ["What?"],
-    "number": 536
+    "text": [
+      "What?"
+    ],
+    "number": 537
   },
   {
     "singers": "Guglielmo",
@@ -2840,27 +4070,38 @@
       "Oh, don't take me seriously.",
       "I'd like to gild the pill for him."
     ],
-    "number": 537
-  },
-  {
-    "singers": "Ferrando",
-    "text": ["Speak out! Did she perhaps", "Fall for your flatteries?"],
     "number": 538
   },
   {
     "singers": "Ferrando",
-    "text": ["Ah, if I could even suspect it!"],
+    "text": [
+      "Speak out! Did she perhaps",
+      "Fall for your flatteries?"
+    ],
     "number": 539
   },
   {
-    "singers": "Guglielmo",
-    "text": ["In this world", "It's always wise to be a bit suspicious."],
+    "singers": "Ferrando",
+    "text": [
+      "Ah, if I could even suspect it!"
+    ],
     "number": 540
   },
   {
-    "singers": "Ferrando",
-    "text": ["Ye immortal gods! Speak out!", "Don't roast me on a slow fire;"],
+    "singers": "Guglielmo",
+    "text": [
+      "In this world",
+      "It's always wise to be a bit suspicious."
+    ],
     "number": 541
+  },
+  {
+    "singers": "Ferrando",
+    "text": [
+      "Ye immortal gods! Speak out!",
+      "Don't roast me on a slow fire;"
+    ],
+    "number": 542
   },
   {
     "singers": "Ferrando",
@@ -2868,27 +4109,37 @@
       "But no, you're making sport of me;",
       "She loves me, adores me alone."
     ],
-    "number": 542
-  },
-  {
-    "singers": "Guglielmo",
-    "text": ["Certainly! And so in proof", "Of her love and devotion"],
     "number": 543
   },
   {
     "singers": "Guglielmo",
-    "text": ["She gave me this little picture."],
+    "text": [
+      "Certainly! And so in proof",
+      "Of her love and devotion"
+    ],
     "number": 544
   },
   {
-    "singers": "Ferrando",
-    "text": ["My portrait!", "The traitress!"],
+    "singers": "Guglielmo",
+    "text": [
+      "She gave me this little picture."
+    ],
     "number": 545
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Where are you going?"],
+    "singers": "Ferrando",
+    "text": [
+      "My portrait!",
+      "The traitress!"
+    ],
     "number": 546
+  },
+  {
+    "singers": "Guglielmo",
+    "text": [
+      "Where are you going?"
+    ],
+    "number": 547
   },
   {
     "singers": "Ferrando",
@@ -2896,17 +4147,21 @@
       "To tear her heart from her wicked bosom",
       "And avenge the betrayal of my love."
     ],
-    "number": 547
-  },
-  {
-    "singers": "Guglielmo",
-    "text": ["Stop!"],
     "number": 548
   },
   {
-    "singers": "Ferrando",
-    "text": ["No, let me go!"],
+    "singers": "Guglielmo",
+    "text": [
+      "Stop!"
+    ],
     "number": 549
+  },
+  {
+    "singers": "Ferrando",
+    "text": [
+      "No, let me go!"
+    ],
+    "number": 550
   },
   {
     "singers": "Guglielmo",
@@ -2914,57 +4169,82 @@
       "Are you crazy? Would you ruin yourself",
       "For a worthless woman?"
     ],
-    "number": 550
-  },
-  {
-    "singers": "Guglielmo",
-    "text": ["I wouldn't want him", "To commit some folly!"],
     "number": 551
   },
   {
-    "singers": "Ferrando",
-    "text": ["Ye gods! All those promises,", "And tears, and sighs, and vows"],
+    "singers": "Guglielmo",
+    "text": [
+      "I wouldn't want him",
+      "To commit some folly!"
+    ],
     "number": 552
   },
   {
     "singers": "Ferrando",
-    "text": ["How could the inhuman creature", "Forget them so soon?"],
+    "text": [
+      "Ye gods! All those promises,",
+      "And tears, and sighs, and vows"
+    ],
     "number": 553
   },
   {
-    "singers": "Guglielmo",
-    "text": ["I'm sure I don't know."],
+    "singers": "Ferrando",
+    "text": [
+      "How could the inhuman creature",
+      "Forget them so soon?"
+    ],
     "number": 554
   },
   {
-    "singers": "Ferrando",
-    "text": ["What should I do now?", "What plan apply myself?"],
+    "singers": "Guglielmo",
+    "text": [
+      "I'm sure I don't know."
+    ],
     "number": 555
   },
   {
     "singers": "Ferrando",
-    "text": ["Take pity on me!", "Give me your counsel!"],
+    "text": [
+      "What should I do now?",
+      "What plan apply myself?"
+    ],
     "number": 556
   },
   {
-    "singers": "Guglielmo",
-    "text": ["My friend, I don't know", "How to advise you."],
+    "singers": "Ferrando",
+    "text": [
+      "Take pity on me!",
+      "Give me your counsel!"
+    ],
     "number": 557
   },
   {
-    "singers": "Ferrando",
-    "text": ["Cruel! Heartless", "In a day! In a few hours!"],
+    "singers": "Guglielmo",
+    "text": [
+      "My friend, I don't know",
+      "How to advise you."
+    ],
     "number": 558
   },
   {
-    "singers": "Guglielmo",
-    "text": ["It's certainly something to wonder at."],
+    "singers": "Ferrando",
+    "text": [
+      "Cruel! Heartless",
+      "In a day! In a few hours!"
+    ],
     "number": 559
+  },
+  {
+    "singers": "Guglielmo",
+    "text": [
+      "It's certainly something to wonder at."
+    ],
+    "number": 560
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 560
+    "number": 561
   },
   {
     "singers": "Guglielmo",
@@ -2972,32 +4252,47 @@
       "Ladies, you treat so many thus",
       "That, if I must speak the truth,"
     ],
-    "number": 561
-  },
-  {
-    "singers": "Guglielmo",
-    "text": ["I begin to sympathise", "When your lovers complain."],
     "number": 562
   },
   {
     "singers": "Guglielmo",
-    "text": ["I adore the sex, you know,", "Everyone knows it;"],
+    "text": [
+      "I begin to sympathise",
+      "When your lovers complain."
+    ],
     "number": 563
   },
   {
     "singers": "Guglielmo",
-    "text": ["Each day I show it", "And always take your part."],
+    "text": [
+      "I adore the sex, you know,",
+      "Everyone knows it;"
+    ],
     "number": 564
   },
   {
     "singers": "Guglielmo",
-    "text": ["But such treatment of so many", "Discourages me, in truth."],
+    "text": [
+      "Each day I show it",
+      "And always take your part."
+    ],
     "number": 565
   },
   {
     "singers": "Guglielmo",
-    "text": ["A thousand times I've drawn my sword", "To defend your honour."],
+    "text": [
+      "But such treatment of so many",
+      "Discourages me, in truth."
+    ],
     "number": 566
+  },
+  {
+    "singers": "Guglielmo",
+    "text": [
+      "A thousand times I've drawn my sword",
+      "To defend your honour."
+    ],
+    "number": 567
   },
   {
     "singers": "Guglielmo",
@@ -3005,12 +4300,15 @@
       "A thousand times I've championed you",
       "With my tongue and with my heart."
     ],
-    "number": 567
+    "number": 568
   },
   {
     "singers": "Guglielmo",
-    "text": ["But such treatment of so many", "Is pernicious and a bore."],
-    "number": 568
+    "text": [
+      "But such treatment of so many",
+      "Is pernicious and a bore."
+    ],
+    "number": 569
   },
   {
     "singers": "Guglielmo",
@@ -3018,17 +4316,23 @@
       "You're attractive, you are charming,",
       "Heaven has given you treasures galore"
     ],
-    "number": 569
-  },
-  {
-    "singers": "Guglielmo",
-    "text": ["And graces envelop you", "From head to foot."],
     "number": 570
   },
   {
     "singers": "Guglielmo",
-    "text": ["But thus you treat so many,", "That it's difficult to believe,"],
+    "text": [
+      "And graces envelop you",
+      "From head to foot."
+    ],
     "number": 571
+  },
+  {
+    "singers": "Guglielmo",
+    "text": [
+      "But thus you treat so many,",
+      "That it's difficult to believe,"
+    ],
+    "number": 572
   },
   {
     "singers": "Guglielmo",
@@ -3036,42 +4340,56 @@
       "A thousand times I've drawn my sword",
       "Defended your treasures in heaven"
     ],
-    "number": 572
-  },
-  {
-    "singers": "Guglielmo",
-    "text": ["But thus you treat so many,", "That it's difficult to believe,"],
     "number": 573
   },
   {
     "singers": "Guglielmo",
-    "text": ["And if your lovers complain", "They have good reason indeed."],
+    "text": [
+      "But thus you treat so many,",
+      "That it's difficult to believe,"
+    ],
     "number": 574
   },
   {
     "singers": "Guglielmo",
-    "text": ["Why?"],
+    "text": [
+      "And if your lovers complain",
+      "They have good reason indeed."
+    ],
     "number": 575
   },
   {
     "singers": "Guglielmo",
-    "text": ["They have good reason indeed."],
+    "text": [
+      "Why?"
+    ],
     "number": 576
   },
   {
     "singers": "Guglielmo",
-    "text": ["Why?"],
+    "text": [
+      "They have good reason indeed."
+    ],
     "number": 577
   },
   {
     "singers": "Guglielmo",
-    "text": ["They have good reason indeed."],
+    "text": [
+      "Why?"
+    ],
     "number": 578
+  },
+  {
+    "singers": "Guglielmo",
+    "text": [
+      "They have good reason indeed."
+    ],
+    "number": 579
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 579
+    "number": 580
   },
   {
     "singers": "Ferrando",
@@ -3079,7 +4397,7 @@
       "In what fierce strife, in what confusion",
       "Of thoughts and affections I find myself!"
     ],
-    "number": 580
+    "number": 581
   },
   {
     "singers": "Ferrando",
@@ -3087,12 +4405,15 @@
       "So unusual and novel is my situation",
       "I do not know what to do..."
     ],
-    "number": 581
+    "number": 582
   },
   {
     "singers": "Ferrando",
-    "text": ["Oh, Alfonso, how you must be laughing", "At my stupidity!"],
-    "number": 582
+    "text": [
+      "Oh, Alfonso, how you must be laughing",
+      "At my stupidity!"
+    ],
+    "number": 583
   },
   {
     "singers": "Ferrando",
@@ -3100,67 +4421,96 @@
       "But I'll be revenged, I'll banish",
       "The traitress from my mind..."
     ],
-    "number": 583
-  },
-  {
-    "singers": "Ferrando",
-    "text": ["Banish her?"],
     "number": 584
   },
   {
     "singers": "Ferrando",
-    "text": ["O Heaven, too loudly my heart", "Intercedes for her."],
+    "text": [
+      "Banish her?"
+    ],
     "number": 585
   },
   {
     "singers": "Ferrando",
-    "text": ["Betrayed"],
+    "text": [
+      "O Heaven, too loudly my heart",
+      "Intercedes for her."
+    ],
     "number": 586
   },
   {
     "singers": "Ferrando",
-    "text": ["Scorned"],
+    "text": [
+      "Betrayed"
+    ],
     "number": 587
   },
   {
     "singers": "Ferrando",
-    "text": ["By her faithless heart!"],
+    "text": [
+      "Scorned"
+    ],
     "number": 588
   },
   {
     "singers": "Ferrando",
-    "text": ["I still know", "That my soul adores her,"],
+    "text": [
+      "By her faithless heart!"
+    ],
     "number": 589
   },
   {
     "singers": "Ferrando",
-    "text": ["I still hear", "The voice of love for her."],
+    "text": [
+      "I still know",
+      "That my soul adores her,"
+    ],
     "number": 590
   },
   {
     "singers": "Ferrando",
-    "text": ["Betrayed"],
+    "text": [
+      "I still hear",
+      "The voice of love for her."
+    ],
     "number": 591
   },
   {
     "singers": "Ferrando",
-    "text": ["Scorned"],
+    "text": [
+      "Betrayed"
+    ],
     "number": 592
   },
   {
     "singers": "Ferrando",
-    "text": ["By her faithless heart!"],
+    "text": [
+      "Scorned"
+    ],
     "number": 593
   },
   {
     "singers": "Ferrando",
-    "text": ["I still know", "That my soul adores her,"],
+    "text": [
+      "By her faithless heart!"
+    ],
     "number": 594
   },
   {
     "singers": "Ferrando",
-    "text": ["I still hear", "The voice of love for her."],
+    "text": [
+      "I still know",
+      "That my soul adores her,"
+    ],
     "number": 595
+  },
+  {
+    "singers": "Ferrando",
+    "text": [
+      "I still hear",
+      "The voice of love for her."
+    ],
+    "number": 596
   },
   {
     "singers": "Fiordiligi",
@@ -3168,7 +4518,7 @@
       "How everything conspires to tempt my heart!",
       "But no! Let me die rather than yield!"
     ],
-    "number": 596
+    "number": 597
   },
   {
     "singers": "Fiordiligi",
@@ -3176,7 +4526,7 @@
       "My eyes must not fall on him again!",
       "I'll threaten all the servants with dismissal."
     ],
-    "number": 597
+    "number": 598
   },
   {
     "singers": "Fiordiligi",
@@ -3184,17 +4534,21 @@
       "In the house are several uniforms",
       "Of Guglielmo's and Ferrando's: courage now!"
     ],
-    "number": 598
-  },
-  {
-    "singers": "Fiordiligi",
-    "text": ["Despina! Despina!"],
     "number": 599
   },
   {
-    "singers": "Despina",
-    "text": ["What is it?"],
+    "singers": "Fiordiligi",
+    "text": [
+      "Despina! Despina!"
+    ],
     "number": 600
+  },
+  {
+    "singers": "Despina",
+    "text": [
+      "What is it?"
+    ],
+    "number": 601
   },
   {
     "singers": "Fiordiligi",
@@ -3202,7 +4556,7 @@
       "Take this key, and without any questions",
       "Or any back answers, go to the wardrobe"
     ],
-    "number": 601
+    "number": 602
   },
   {
     "singers": "Fiordiligi",
@@ -3210,12 +4564,15 @@
       "Bring me two swords, two helmets and",
       "Two tunics of our lovers."
     ],
-    "number": 602
+    "number": 603
   },
   {
     "singers": "Despina",
-    "text": ["Very good, ma'am.", "I think she's out of her mind."],
-    "number": 603
+    "text": [
+      "Very good, ma'am.",
+      "I think she's out of her mind."
+    ],
+    "number": 604
   },
   {
     "singers": "Fiordiligi",
@@ -3223,17 +4580,23 @@
       "Ferrando's uniform will fit me;",
       "Dorabella can take Guglielmo's."
     ],
-    "number": 604
-  },
-  {
-    "singers": "Fiordiligi",
-    "text": ["In these outfits", "We'll join our sweethearts,"],
     "number": 605
   },
   {
     "singers": "Fiordiligi",
-    "text": ["We can fight beside them", "And die, if need be."],
+    "text": [
+      "In these outfits",
+      "We'll join our sweethearts,"
+    ],
     "number": 606
+  },
+  {
+    "singers": "Fiordiligi",
+    "text": [
+      "We can fight beside them",
+      "And die, if need be."
+    ],
+    "number": 607
   },
   {
     "singers": "Fiordiligi",
@@ -3241,47 +4604,70 @@
       "Very soon now I'll be enfolded",
       "In the embraces of my true love;"
     ],
-    "number": 607
-  },
-  {
-    "singers": "Fiordiligi",
-    "text": ["Unrecognised in these garments", "I will come before him."],
     "number": 608
   },
   {
     "singers": "Fiordiligi",
-    "text": ["Oh, what joy will fill his heart", "When he sees me again!"],
+    "text": [
+      "Unrecognised in these garments",
+      "I will come before him."
+    ],
     "number": 609
   },
   {
-    "singers": "Ferrando",
-    "text": ["And meanwhile I, left wretched,", "Shall die of grief."],
+    "singers": "Fiordiligi",
+    "text": [
+      "Oh, what joy will fill his heart",
+      "When he sees me again!"
+    ],
     "number": 610
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["What do I see? I am betrayed!", "Oh leave me!"],
+    "singers": "Ferrando",
+    "text": [
+      "And meanwhile I, left wretched,",
+      "Shall die of grief."
+    ],
     "number": 611
   },
   {
-    "singers": "Ferrando",
-    "text": ["Ah no, dear heart!", "With this sword in your hand"],
+    "singers": "Fiordiligi",
+    "text": [
+      "What do I see? I am betrayed!",
+      "Oh leave me!"
+    ],
     "number": 612
   },
   {
     "singers": "Ferrando",
-    "text": ["Strike me to the heart,", "And if you lack the strength,"],
+    "text": [
+      "Ah no, dear heart!",
+      "With this sword in your hand"
+    ],
     "number": 613
   },
   {
     "singers": "Ferrando",
-    "text": ["I'll guide your hand myself."],
+    "text": [
+      "Strike me to the heart,",
+      "And if you lack the strength,"
+    ],
     "number": 614
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Alas, be silent! I am", "Tormented and unhappy enough!"],
+    "singers": "Ferrando",
+    "text": [
+      "I'll guide your hand myself."
+    ],
     "number": 615
+  },
+  {
+    "singers": "Fiordiligi",
+    "text": [
+      "Alas, be silent! I am",
+      "Tormented and unhappy enough!"
+    ],
+    "number": 616
   },
   {
     "singers": "Fiordiligi and Ferrando",
@@ -3289,57 +4675,78 @@
       "Ah, now my constancy begins to falter",
       "Before his looks and his words!"
     ],
-    "number": 616
-  },
-  {
-    "singers": "Fiordiligi",
-    "text": ["Get up, I beg!"],
     "number": 617
   },
   {
-    "singers": "Ferrando",
-    "text": ["It cannot be."],
+    "singers": "Fiordiligi",
+    "text": [
+      "Get up, I beg!"
+    ],
     "number": 618
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["In pity's name, what do you ask of me?"],
+    "singers": "Ferrando",
+    "text": [
+      "It cannot be."
+    ],
     "number": 619
   },
   {
-    "singers": "Ferrando",
-    "text": ["Your heart or my death."],
+    "singers": "Fiordiligi",
+    "text": [
+      "In pity's name, what do you ask of me?"
+    ],
     "number": 620
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["My strength is giving out!"],
+    "singers": "Ferrando",
+    "text": [
+      "Your heart or my death."
+    ],
     "number": 621
   },
   {
-    "singers": "Ferrando",
-    "text": ["Yield, my dearest!"],
+    "singers": "Fiordiligi",
+    "text": [
+      "My strength is giving out!"
+    ],
     "number": 622
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Heaven, direct me!"],
+    "singers": "Ferrando",
+    "text": [
+      "Yield, my dearest!"
+    ],
     "number": 623
   },
   {
-    "singers": "Ferrando",
-    "text": ["Yield, my dearest!"],
+    "singers": "Fiordiligi",
+    "text": [
+      "Heaven, direct me!"
+    ],
     "number": 624
   },
   {
-    "singers": "Fiordiligi",
-    "text": ["Heaven, direct me!"],
+    "singers": "Ferrando",
+    "text": [
+      "Yield, my dearest!"
+    ],
     "number": 625
   },
   {
-    "singers": "Ferrando",
-    "text": ["Turn a merciful eye on me.", "In me alone you'll find"],
+    "singers": "Fiordiligi",
+    "text": [
+      "Heaven, direct me!"
+    ],
     "number": 626
+  },
+  {
+    "singers": "Ferrando",
+    "text": [
+      "Turn a merciful eye on me.",
+      "In me alone you'll find"
+    ],
+    "number": 627
   },
   {
     "singers": "Ferrando",
@@ -3347,7 +4754,7 @@
       "Husband, lover and more, if you wish.",
       "Delay no longer, my adored one."
     ],
-    "number": 627
+    "number": 628
   },
   {
     "singers": "Fiordiligi",
@@ -3355,12 +4762,12 @@
       "Merciful heaven! Cruel man, you've won!",
       "Do with me what you will."
     ],
-    "number": 628
+    "number": 629
   },
   {
     "singers": "Blank",
     "text": [],
-    "number": 629
+    "number": 630
   },
   {
     "singers": "Ferrando and Fiordiligi",
@@ -3368,32 +4775,43 @@
       "Embrace me, my dearest,",
       "And may the consolation for our sorrows"
     ],
-    "number": 630
+    "number": 631
   },
   {
     "singers": "Ferrando and Fiordiligi",
-    "text": ["Be to spend our time in sweet affection,", "And sigh for joy!"],
-    "number": 631
+    "text": [
+      "Be to spend our time in sweet affection,",
+      "And sigh for joy!"
+    ],
+    "number": 632
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 632
-  },
-  {
-    "singers": "Guglielmo",
-    "text": ["Alas, poor me, what have I seen!", "What have I heard!"],
     "number": 633
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Keep quiet, for heaven's sake!"],
+    "singers": "Guglielmo",
+    "text": [
+      "Alas, poor me, what have I seen!",
+      "What have I heard!"
+    ],
     "number": 634
   },
   {
-    "singers": "Guglielmo",
-    "text": ["I'll pluck out my beard,", "I'll tear my flesh,"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Keep quiet, for heaven's sake!"
+    ],
     "number": 635
+  },
+  {
+    "singers": "Guglielmo",
+    "text": [
+      "I'll pluck out my beard,",
+      "I'll tear my flesh,"
+    ],
+    "number": 636
   },
   {
     "singers": "Guglielmo",
@@ -3401,7 +4819,7 @@
       "And charge the stars with my horns!",
       "So that was Fiordiligi, my Penelope,"
     ],
-    "number": 636
+    "number": 637
   },
   {
     "singers": "Guglielmo",
@@ -3409,32 +4827,43 @@
       "The chaste Diana of the age! Strumpet,",
       "Assassin, cheat, swindler, bitch!"
     ],
-    "number": 637
-  },
-  {
-    "singers": "Don Alfonso",
-    "text": ["Let him get it off his chest."],
     "number": 638
   },
   {
-    "singers": "Ferrando",
-    "text": ["Well!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Let him get it off his chest."
+    ],
     "number": 639
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Where is she?"],
+    "singers": "Ferrando",
+    "text": [
+      "Well!"
+    ],
     "number": 640
   },
   {
-    "singers": "Ferrando",
-    "text": ["Who? Your Fiordiligi?"],
+    "singers": "Guglielmo",
+    "text": [
+      "Where is she?"
+    ],
     "number": 641
   },
   {
-    "singers": "Guglielmo",
-    "text": ["My Fior... Furies of hell!", "Strangle first her and then me!"],
+    "singers": "Ferrando",
+    "text": [
+      "Who? Your Fiordiligi?"
+    ],
     "number": 642
+  },
+  {
+    "singers": "Guglielmo",
+    "text": [
+      "My Fior... Furies of hell!",
+      "Strangle first her and then me!"
+    ],
+    "number": 643
   },
   {
     "singers": "Ferrando",
@@ -3442,82 +4871,119 @@
       "You see now; there are distinctions;",
       "There's a little extra something..."
     ],
-    "number": 643
-  },
-  {
-    "singers": "Guglielmo",
-    "text": ["Stop it! Stop", "Taunting me,"],
     "number": 644
   },
   {
     "singers": "Guglielmo",
-    "text": ["Let's find a way", "Of punishing them soundly."],
+    "text": [
+      "Stop it! Stop",
+      "Taunting me,"
+    ],
     "number": 645
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["I know what to do: marry them."],
+    "singers": "Guglielmo",
+    "text": [
+      "Let's find a way",
+      "Of punishing them soundly."
+    ],
     "number": 646
   },
   {
-    "singers": "Guglielmo",
-    "text": ["I'd rather marry", "Charon's boat."],
+    "singers": "Don Alfonso",
+    "text": [
+      "I know what to do: marry them."
+    ],
     "number": 647
   },
   {
-    "singers": "Ferrando",
-    "text": ["Vulcan's smithy."],
+    "singers": "Guglielmo",
+    "text": [
+      "I'd rather marry",
+      "Charon's boat."
+    ],
     "number": 648
   },
   {
-    "singers": "Guglielmo",
-    "text": ["The gates of hell."],
+    "singers": "Ferrando",
+    "text": [
+      "Vulcan's smithy."
+    ],
     "number": 649
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Then you'll stay bachelors for ever."],
+    "singers": "Guglielmo",
+    "text": [
+      "The gates of hell."
+    ],
     "number": 650
   },
   {
-    "singers": "Ferrando",
-    "text": ["Are there no women", "Fit for men like us?"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Then you'll stay bachelors for ever."
+    ],
     "number": 651
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["There's not so many.", "But what would they do,"],
+    "singers": "Ferrando",
+    "text": [
+      "Are there no women",
+      "Fit for men like us?"
+    ],
     "number": 652
   },
   {
     "singers": "Don Alfonso",
-    "text": ["If these act like this?", "At bottom, you still"],
+    "text": [
+      "There's not so many.",
+      "But what would they do,"
+    ],
     "number": 653
   },
   {
     "singers": "Don Alfonso",
-    "text": ["Love these plucked birds."],
+    "text": [
+      "If these act like this?",
+      "At bottom, you still"
+    ],
     "number": 654
   },
   {
-    "singers": "Guglielmo",
-    "text": ["Alas, it's true!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Love these plucked birds."
+    ],
     "number": 655
   },
   {
-    "singers": "Ferrando",
-    "text": ["Too true!"],
+    "singers": "Guglielmo",
+    "text": [
+      "Alas, it's true!"
+    ],
     "number": 656
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Well then, take them as they are."],
+    "singers": "Ferrando",
+    "text": [
+      "Too true!"
+    ],
     "number": 657
   },
   {
     "singers": "Don Alfonso",
-    "text": ["Meanwhile listen to my song:", "Take heed, and you'll be happy."],
+    "text": [
+      "Well then, take them as they are."
+    ],
     "number": 658
+  },
+  {
+    "singers": "Don Alfonso",
+    "text": [
+      "Meanwhile listen to my song:",
+      "Take heed, and you'll be happy."
+    ],
+    "number": 659
   },
   {
     "singers": "Don Alfonso",
@@ -3525,7 +4991,7 @@
       "Everyone blames women, but I forgive them",
       "If they change their love a thousand times a day;"
     ],
-    "number": 659
+    "number": 660
   },
   {
     "singers": "Don Alfonso",
@@ -3533,7 +4999,7 @@
       "Some call it a sin, others a habit,",
       "But I say it's a necessity of their heart."
     ],
-    "number": 660
+    "number": 661
   },
   {
     "singers": "Don Alfonso",
@@ -3541,77 +5007,106 @@
       "The lover who finds that he's been deceived",
       "Should blame not others but his own mistake;"
     ],
-    "number": 661
-  },
-  {
-    "singers": "Don Alfonso",
-    "text": ["Whether they're young or old, fair or plain \u2013"],
     "number": 662
   },
   {
     "singers": "Don Alfonso",
-    "text": ["Repeat with me:", "Women are all the same!"],
+    "text": [
+      "Whether they're young or old, fair or plain \u2013"
+    ],
     "number": 663
+  },
+  {
+    "singers": "Don Alfonso",
+    "text": [
+      "Repeat with me:",
+      "Women are all the same!"
+    ],
+    "number": 664
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 664
-  },
-  {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["Everything now, my dearest,", "Accords with my desires."],
     "number": 665
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Joy grows and spreads", "Throughout my veins."],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "Everything now, my dearest,",
+      "Accords with my desires."
+    ],
     "number": 666
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["You are so beautiful!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Joy grows and spreads",
+      "Throughout my veins."
+    ],
     "number": 667
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["You are so handsome!"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "You are so beautiful!"
+    ],
     "number": 668
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["What lovely eyes!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "You are so handsome!"
+    ],
     "number": 669
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["What an attractive mouth!"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "What lovely eyes!"
+    ],
     "number": 670
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["Clink glasses and drink!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "What an attractive mouth!"
+    ],
     "number": 671
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Drink and clink glasses!"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "Clink glasses and drink!"
+    ],
     "number": 672
   },
   {
-    "singers": "Fiordiligi, Dorabella and Ferrando",
-    "text": ["In your glass and mine", "May every care be drowned,"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Drink and clink glasses!"
+    ],
     "number": 673
   },
   {
     "singers": "Fiordiligi, Dorabella and Ferrando",
-    "text": ["And let no memory of the past", "Remain in our hearts."],
+    "text": [
+      "In your glass and mine",
+      "May every care be drowned,"
+    ],
     "number": 674
+  },
+  {
+    "singers": "Fiordiligi, Dorabella and Ferrando",
+    "text": [
+      "And let no memory of the past",
+      "Remain in our hearts."
+    ],
+    "number": 675
   },
   {
     "singers": "Blank",
     "text": [],
-    "number": 675
+    "number": 676
   },
   {
     "singers": "Guglielmo",
@@ -3619,127 +5114,184 @@
       "Would that they were drinking poison,",
       "The dishonourable jades!"
     ],
-    "number": 676
+    "number": 677
   },
   {
     "singers": "Instrumental",
     "text": [],
-    "number": 677
-  },
-  {
-    "singers": "Fiordiligi, Dorabella, Despina, Ferrando and Guglielmo",
-    "text": ["What's that noise? What's that music?"],
     "number": 678
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Keep quiet: I'll go and see."],
+    "singers": "Fiordiligi, Dorabella, Despina, Ferrando and Guglielmo",
+    "text": [
+      "What's that noise? What's that music?"
+    ],
     "number": 679
   },
   {
     "singers": "Don Alfonso",
-    "text": ["Mercy on us!", "God in heaven!"],
+    "text": [
+      "Keep quiet: I'll go and see."
+    ],
     "number": 680
   },
   {
     "singers": "Don Alfonso",
-    "text": ["Disaster is upon us!", "I tremble! My blood runs cold!"],
+    "text": [
+      "Mercy on us!",
+      "God in heaven!"
+    ],
     "number": 681
   },
   {
     "singers": "Don Alfonso",
-    "text": ["Your former lovers..."],
+    "text": [
+      "Disaster is upon us!",
+      "I tremble! My blood runs cold!"
+    ],
     "number": 682
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["My former lover..."],
+    "singers": "Don Alfonso",
+    "text": [
+      "Your former lovers..."
+    ],
     "number": 683
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Are returning, oh heaven,", "At this moment,"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "My former lover..."
+    ],
     "number": 684
   },
   {
     "singers": "Don Alfonso",
-    "text": ["And are now disembarking", "On the shore!"],
+    "text": [
+      "Are returning, oh heaven,",
+      "At this moment,"
+    ],
     "number": 685
   },
   {
-    "singers": "Fiordiligi, Dorabella, Ferrando and Guglielmo",
-    "text": ["What do I hear?", "Ye cruel stars!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "And are now disembarking",
+      "On the shore!"
+    ],
     "number": 686
   },
   {
     "singers": "Fiordiligi, Dorabella, Ferrando and Guglielmo",
-    "text": ["What's to be done", "At this dire moment?"],
+    "text": [
+      "What do I hear?",
+      "Ye cruel stars!"
+    ],
     "number": 687
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Go at once,"],
+    "singers": "Fiordiligi, Dorabella, Ferrando and Guglielmo",
+    "text": [
+      "What's to be done",
+      "At this dire moment?"
+    ],
     "number": 688
   },
   {
-    "singers": "Ferrando, Guglielmo, Despina and Don Alfonso",
-    "text": ["Suppose they see us (them)?"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Go at once,"
+    ],
     "number": 689
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Quickly, fly;"],
+    "singers": "Ferrando, Guglielmo, Despina and Don Alfonso",
+    "text": [
+      "Suppose they see us (them)?"
+    ],
     "number": 690
   },
   {
-    "singers": "Ferrando, Guglielmo, Despina and Don Alfonso",
-    "text": ["Suppose we (they) meet them?"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Quickly, fly;"
+    ],
     "number": 691
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Conceal yourselves,", "For pity's sake!"],
+    "singers": "Ferrando, Guglielmo, Despina and Don Alfonso",
+    "text": [
+      "Suppose we (they) meet them?"
+    ],
     "number": 692
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["Heaven, help us!"],
+    "text": [
+      "Conceal yourselves,",
+      "For pity's sake!"
+    ],
     "number": 693
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Be reassured,"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Heaven, help us!"
+    ],
     "number": 694
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Heaven, guide us!"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Be reassured,"
+    ],
     "number": 695
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Keep calm,"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Heaven, guide us!"
+    ],
     "number": 696
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Who will save us", "From this peril?"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Keep calm,"
+    ],
     "number": 697
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Trust in me,", "And all will be well."],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Who will save us",
+      "From this peril?"
+    ],
     "number": 698
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["A thousand cruel thoughts", "Are tormenting my heart;"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Trust in me,",
+      "And all will be well."
+    ],
     "number": 699
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["If they discover the deception", "Whatever will become of us?"],
+    "text": [
+      "A thousand cruel thoughts",
+      "Are tormenting my heart;"
+    ],
     "number": 700
+  },
+  {
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "If they discover the deception",
+      "Whatever will become of us?"
+    ],
+    "number": 701
   },
   {
     "singers": "Ferrando and Guglielmo",
@@ -3747,7 +5299,7 @@
       "Safe and sound, exulting with joy,",
       "We return to the loving embrace"
     ],
-    "number": 701
+    "number": 702
   },
   {
     "singers": "Ferrando and Guglielmo",
@@ -3755,7 +5307,7 @@
       "Of our faithful sweethearts",
       "To crown them for their constancy!"
     ],
-    "number": 702
+    "number": 703
   },
   {
     "singers": "Don Alfonso",
@@ -3763,7 +5315,7 @@
       "Great heaven! Guglielmo! Ferrando!",
       "What joy! You here? How and when?"
     ],
-    "number": 703
+    "number": 704
   },
   {
     "singers": "Ferrando and Guglielmo",
@@ -3771,7 +5323,7 @@
       "Recalled by royal countermand,",
       "Our hearts full of contentment and joy,"
     ],
-    "number": 704
+    "number": 705
   },
   {
     "singers": "Ferrando and Guglielmo",
@@ -3779,22 +5331,29 @@
       "We've returned to our adorable sweethearts,",
       "We've returned to your friendship."
     ],
-    "number": 705
-  },
-  {
-    "singers": "Guglielmo",
-    "text": ["But why this pallor, this silence?"],
     "number": 706
   },
   {
-    "singers": "Ferrando",
-    "text": ["Why is my love so sad?"],
+    "singers": "Guglielmo",
+    "text": [
+      "But why this pallor, this silence?"
+    ],
     "number": 707
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Their tongues are tied", "With confusion and overwhelming joy."],
+    "singers": "Ferrando",
+    "text": [
+      "Why is my love so sad?"
+    ],
     "number": 708
+  },
+  {
+    "singers": "Don Alfonso",
+    "text": [
+      "Their tongues are tied",
+      "With confusion and overwhelming joy."
+    ],
+    "number": 709
   },
   {
     "singers": "Fiordiligi and Dorabella",
@@ -3802,132 +5361,199 @@
       "My tongue has forsaken me;",
       "If I don't die it will be a miracle."
     ],
-    "number": 709
-  },
-  {
-    "singers": "Guglielmo",
-    "text": ["Allow me to have", "This trunk brought into that room."],
     "number": 710
   },
   {
     "singers": "Guglielmo",
-    "text": ["Heavens, what do I see!"],
+    "text": [
+      "Allow me to have",
+      "This trunk brought into that room."
+    ],
     "number": 711
   },
   {
     "singers": "Guglielmo",
-    "text": ["A jacket here!", "It\u2019s not mine! What's this doing here?"],
+    "text": [
+      "Heavens, what do I see!"
+    ],
     "number": 712
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["Merciful heaven! Who else is here,", "Don't try to deny it!"],
+    "singers": "Guglielmo",
+    "text": [
+      "A jacket here!",
+      "It\u2019s not mine! What's this doing here?"
+    ],
     "number": 713
   },
   {
     "singers": "Ferrando and Guglielmo",
-    "text": ["Treachery, treachery!", "Let us find the villains"],
+    "text": [
+      "Merciful heaven! Who else is here,",
+      "Don't try to deny it!"
+    ],
     "number": 714
   },
   {
     "singers": "Ferrando and Guglielmo",
-    "text": ["And their blood shall flow", "In torrents, rivers, oceans!"],
+    "text": [
+      "Treachery, treachery!",
+      "Let us find the villains"
+    ],
     "number": 715
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Ah, my love, my sin is mortal", "And death alone I seek now;"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "And their blood shall flow",
+      "In torrents, rivers, oceans!"
+    ],
     "number": 716
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["Too late I see my error;", "With your sword pierce this bosom"],
+    "text": [
+      "Ah, my love, my sin is mortal",
+      "And death alone I seek now;"
+    ],
     "number": 717
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["That deserves no pity!"],
+    "text": [
+      "Too late I see my error;",
+      "With your sword pierce this bosom"
+    ],
     "number": 718
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["Tell us all."],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "That deserves no pity!"
+    ],
     "number": 719
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["Let them speak for us,", "That pander and that procuress!"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "Tell us all."
+    ],
     "number": 720
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["Too true is what she says,", "And the proof is shut in there!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "Let them speak for us,",
+      "That pander and that procuress!"
+    ],
     "number": 721
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["I freeze, I shiver with fright;", "Why did he give them away?"],
+    "singers": "Don Alfonso",
+    "text": [
+      "Too true is what she says,",
+      "And the proof is shut in there!"
+    ],
     "number": 722
   },
   {
-    "singers": "Ferrando",
-    "text": ["Lovely lady, a noble of Albania", "Bows before you!"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "I freeze, I shiver with fright;",
+      "Why did he give them away?"
+    ],
     "number": 723
   },
   {
-    "singers": "Guglielmo",
-    "text": ["The miniature", "Exchanged for the little heart"],
+    "singers": "Ferrando",
+    "text": [
+      "Lovely lady, a noble of Albania",
+      "Bows before you!"
+    ],
     "number": 724
   },
   {
     "singers": "Guglielmo",
-    "text": ["I return herewith,", "Madame!"],
+    "text": [
+      "The miniature",
+      "Exchanged for the little heart"
+    ],
     "number": 725
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["And to the magnetic doctor", "I give the honour"],
+    "singers": "Guglielmo",
+    "text": [
+      "I return herewith,",
+      "Madame!"
+    ],
     "number": 726
   },
   {
     "singers": "Ferrando and Guglielmo",
-    "text": ["Which he merited!"],
+    "text": [
+      "And to the magnetic doctor",
+      "I give the honour"
+    ],
     "number": 727
   },
   {
-    "singers": "Fiordiligi, Dorabella and Despina",
-    "text": ["Heavens, what do I see?"],
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "Which he merited!"
+    ],
     "number": 728
   },
   {
-    "singers": "Ferrando, Guglielmo and Don Alfonso",
-    "text": ["They're stupefied!"],
+    "singers": "Fiordiligi, Dorabella and Despina",
+    "text": [
+      "Heavens, what do I see?"
+    ],
     "number": 729
   },
   {
-    "singers": "Fiordiligi, Dorabella and Despina",
-    "text": ["I cannot bear this torment!"],
+    "singers": "Ferrando, Guglielmo and Don Alfonso",
+    "text": [
+      "They're stupefied!"
+    ],
     "number": 730
   },
   {
-    "singers": "Ferrando, Guglielmo and Don Alfonso",
-    "text": ["They're half crazy!"],
+    "singers": "Fiordiligi, Dorabella and Despina",
+    "text": [
+      "I cannot bear this torment!"
+    ],
     "number": 731
   },
   {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["That is the cruel man", "Who deceived us!"],
+    "singers": "Ferrando, Guglielmo and Don Alfonso",
+    "text": [
+      "They're half crazy!"
+    ],
     "number": 732
   },
   {
-    "singers": "Don Alfonso",
-    "text": ["I deceived you, but my deception", "Undeceived your lovers,"],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "That is the cruel man",
+      "Who deceived us!"
+    ],
     "number": 733
   },
   {
     "singers": "Don Alfonso",
-    "text": ["Who henceforth will be wiser", "And will do as I wish."],
+    "text": [
+      "I deceived you, but my deception",
+      "Undeceived your lovers,"
+    ],
     "number": 734
+  },
+  {
+    "singers": "Don Alfonso",
+    "text": [
+      "Who henceforth will be wiser",
+      "And will do as I wish."
+    ],
+    "number": 735
   },
   {
     "singers": "Don Alfonso",
@@ -3935,7 +5561,7 @@
       "Give me your hands, now you're united.",
       "Embrace each other and say no more."
     ],
-    "number": 735
+    "number": 736
   },
   {
     "singers": "Don Alfonso",
@@ -3943,22 +5569,31 @@
       "All four of you can laugh now",
       "As I have laughed and shall do again."
     ],
-    "number": 736
-  },
-  {
-    "singers": "Fiordiligi and Dorabella",
-    "text": ["My love, if this is true,", "With fidelity and with love"],
     "number": 737
   },
   {
     "singers": "Fiordiligi and Dorabella",
-    "text": ["I will make good what I have done", "And adore you evermore."],
+    "text": [
+      "My love, if this is true,",
+      "With fidelity and with love"
+    ],
     "number": 738
   },
   {
-    "singers": "Ferrando and Guglielmo",
-    "text": ["I believe you, my fair one,", "But I won't put it to the test."],
+    "singers": "Fiordiligi and Dorabella",
+    "text": [
+      "I will make good what I have done",
+      "And adore you evermore."
+    ],
     "number": 739
+  },
+  {
+    "singers": "Ferrando and Guglielmo",
+    "text": [
+      "I believe you, my fair one,",
+      "But I won't put it to the test."
+    ],
+    "number": 740
   },
   {
     "singers": "Despina",
@@ -3966,7 +5601,7 @@
       "I don't know if I'm awake or dreaming,",
       "I'm confused, I feel ashamed;"
     ],
-    "number": 740
+    "number": 741
   },
   {
     "singers": "Despina",
@@ -3974,22 +5609,28 @@
       "I'm slipping badly if they can do to me",
       "What I have done to many others."
     ],
-    "number": 741
+    "number": 742
   },
   {
     "singers": "Blank",
     "text": [],
-    "number": 742
-  },
-  {
-    "singers": "All",
-    "text": ["Happy is the man who looks", "At everything on the right side"],
     "number": 743
   },
   {
     "singers": "All",
-    "text": ["And through trials and tribulations", "Makes reason his guide."],
+    "text": [
+      "Happy is the man who looks",
+      "At everything on the right side"
+    ],
     "number": 744
+  },
+  {
+    "singers": "All",
+    "text": [
+      "And through trials and tribulations",
+      "Makes reason his guide."
+    ],
+    "number": 745
   },
   {
     "singers": "All",
@@ -3997,7 +5638,7 @@
       "What always makes another weep",
       "Will be for him a cause of mirth"
     ],
-    "number": 745
+    "number": 746
   },
   {
     "singers": "All",
@@ -4005,11 +5646,6 @@
       "And amid the tempests of this world",
       "He will find sweet peace!"
     ],
-    "number": 746
-  },
-  {
-    "singers": "Blank",
-    "text": [],
     "number": 747
   }
 ]
