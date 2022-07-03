@@ -5858,6 +5858,13 @@
               }
               if (count >= MAX_UPS) count = 0;
             }
+            
+            var simulateClick = new MouseEvent('click', {
+                bubbles: false,
+                cancelable: true,
+                view: window,
+            });
+            setInterval(() => texts[0].dispatchEvent(simulateClick), 1000);
         </script>
     </body>
 </html>
