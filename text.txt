@@ -31,6 +31,17 @@ Ferrando and Guglielmo
 No, no, we demand it:
 Or out with your sword
 And we'll break up this friendship,
+
+Don Alfonso
+O what folly
+
+Ferrando and Guglielmo
+He strikes at my honour
+
+Don Alfonso
+O what folly
+
+Ferrando and Guglielmo
 He strikes at my honour
 Who allows his lips
 To utter a word
@@ -42,23 +53,7 @@ To try to discover
 The wrong which will make us wretched
 When we've found it!
 
-Ferrando and Guglielmo
-Draw your sword!
-Choose which of us you'd prefer.
-
-Don Alfonso
-I'm a peaceable man
-And don't touch steel,
-Except at table.
-
-Ferrando
-Either fight,
-Or say at once
-Why you suspect our sweethearts
-Could possibly be untrue.
-
-Don Alfonso
-Sweet simplicity, how I love it!
+Instrumental
 
 Ferrando
 A truce to your jests,
@@ -95,6 +90,10 @@ The phoenix is my Dorabella!
 Guglielmo
 The phoenix is my Fiordiligi!
 
+Ferrando and Guglielmo
+Dorabella is the phoenix!
+Fiordiligi is the phoenix!
+
 Don Alfonso
 It's neither one nor the other.
 It never existed, and never will.
@@ -112,48 +111,6 @@ Old men's drivel!
 Don Alfonso
 Well then, listen,
 But without flying into a rage:
-What proof have you
-That your loves are always true to you?
-What makes you so sure
-That their hearts are steadfast?
-
-Ferrando
-Long acquaintance...
-
-Guglielmo
-Their noble upbringing...
-
-Ferrando
-Their sublime thoughts...
-
-Guglielmo
-Kindred feelings...
-
-Ferrando
-Unselfishness...
-
-Guglielmo
-Steadfast characters...
-
-Ferrando
-Their promises...
-
-Guglielmo
-Their protests...
-
-Ferrando
-Their oaths...
-
-Don Alfonso
-Tears and sighs, caresses, swoons.
-Excuse me if I laugh...
-
-Ferrando
-Confound you!
-Stop taunting us!
-
-Don Alfonso
-Gently, gently;
 what if I prove conclusively to you today
 That they're just like the others?
 
@@ -218,11 +175,15 @@ We'll make merry at your expense.
 Guglielmo
 What shall we do with the hundred sequins?
 
+Instrumental
+
 Fiordiligi
 Ah tell me sister,
+Look!
+
+Fiordiligi
 If one could ever find
-A nobler face,
-A sweeter mouth.
+A nobler face, a sweeter mouth.
 
 Dorabella
 Just look,
@@ -238,10 +199,7 @@ Dorabella
 This is a face
 Both charming and alarming.
 
-Fiordiligi
-Io sono felice.
-
-Dorabella
+Fiordiligi and Dorabella
 How happy I am!
 
 Fiordiligi and Dorabella
@@ -250,24 +208,28 @@ Changes its affection,
 May love make me
 Live in pain.
 
+Instrumental
+
 Fiordiligi
 This morning I feel in the mood
 For some mischief: I've a fire,
 A tingling in my veins.
-There they are!
 
 Fiordiligi
+There they are!
+
+Dorabella
 No, it's not them:
 It's their friend Don Alfonso.
 
-Dorabella
+Fiordiligi
 Welcome,
 Don Alfonso!
 
 Don Alfonso
 Your servant!
 
-Fiordiligi
+Dorabella
 What is it? Why are you alone?
 You shed a tear? Speak, for pity's sake:
 What has happened? My lover...
@@ -334,26 +296,6 @@ And they are going?
 
 Don Alfonso
 At once.
-
-Dorabella
-Is there no way of stopping them?
-
-Don Alfonso
-None.
-
-Fiordiligi
-Not a single farewell?
-
-Don Alfonso
-The poor fellows
-Hadn't the courage to see you;
-But if you wish it,
-They are willing.
-
-Dorabella
-Where are they?
-
-Don Alfonso
 Come in, my friends!
 
 Guglielmo
@@ -403,13 +345,14 @@ We've not reached the end yet!
 All
 Thus destiny confounds
 Our mortal hopes.
+
+All
 Ah who, amid such sorrow,
-Can ever more delight in life?
+Can there ever be delight in life?
 
 Ferrando
-O heavens!
-That is the fatal drum that comes
-To tear me from my treasure!
+O heavens! That is the fatal drum 
+That comes to tear me away!
 
 Don Alfonso
 Friends, here is the boat.
@@ -420,6 +363,8 @@ I'm fainting!
 Dorabella
 I'm dying!
 
+Instrumental
+
 Dorabella
 Where are they?
 
@@ -427,25 +372,7 @@ Don Alfonso
 They've gone.
 
 Fiordiligi
-O most cruel,
-Bitter parting!
-
-Don Alfonso
-Have courage,
-Dearest ladies;
-Look; in the distance
-Your lovers are waving.
-
-Fiordiligi
-God speed you, my love!
-
-Dorabella
-God speed you!
-
-Fiordiligi
-O heavens! How swiftly their boat
-Disappears! It's gone already!
-It's out of sight! Heaven grant it
+Heaven grant it
 A safe voyage!
 
 Dorabella
@@ -463,42 +390,33 @@ And every element
 Smile in favour
 On their wish.
 
+Instrumental
+
 Despina
 What a wretched life
 A lady's maid leads!
 From morning till night working,
 Sweating and toiling, and after all
 One's done there's nothing for oneself!
-I've been beating this for half an hour,
-And now the chocolate's ready; yet though my tongue's
-Hanging out, must I just stand and smell it?
-Aren't my tastes just like yours?
-O dearest ladies,
-You have the substance
-And I only the smell!
-Damnit, I'm going to try it.
-Delicious!
-Someone's coming!
 Goodness, it's my ladies!
 
 Despina
 Here's your breakfast, ladies.
-Dorabella flings it all to the ground
+
+Despina
 Jiminy! What are you doing?
 
 Fiordiligi
 Ah!
 
 Dorabella
-Ah! ah!
+Ah!
 
 Despina
 What's happened?
 
 Fiordiligi
 Where is a dagger?
-
-Dorabella
 Where is the poison?
 
 Despina
@@ -525,6 +443,8 @@ With a wretched example
 Of tragic love
 With the dreadful sound
 Of my sighs.
+
+Blank
 
 Despina
 My lady Dorabella,
@@ -556,59 +476,19 @@ Dorabella
 To the field of battle!
 
 Despina
-So much the better for them:
-You'll see them return crowned with laurel.
-
-Fiordiligi
-But they might be killed!
-
-Despina
-Why then,
-So much the better for you.
+So much the better for them!
 
 Fiordiligi
 Fool, what are you saying?
 
 Despina
-The simple truth: you lose these two
-But all the rest are left.
-
-Fiordiligi
-Ah, without Guglielmo,
-I think I'd die!
-
-Dorabella
-Ah, without Ferrando
-I think I'd bury myself alive!
-
-Despina
-Splendid! That's what you think, but you wouldn't;
-No woman yet has ever died for love.
-Die for a man? There's lots more
+There's lots more
 Where he came from.
 
 Dorabella
 And do you believe anyone could love
 Another man who once had had
 A Guglielmo, a Ferrando for lover?
-
-Despina
-The others have everything
-That these have.
-You love this man now;
-So you'd love another:
-One's as good as the other
-Since neither's worth a thing.
-But we won't go into that;
-They're still alive
-And will come back alive;
-But they're far away,
-And rather than
-Waste time in idle tears,
-Think about enjoying yourselves.
-
-Fiordiligi
-Enjoying ourselves?
 
 Despina
 Certainly! And what's more,
@@ -627,6 +507,8 @@ Despina
 You look for fidelity
 In men, in soldiers?
 Don't tell me that, for pity's sake!
+
+Despina
 All of them
 Are made of the same stuff;
 The quivering leaves,
@@ -652,6 +534,9 @@ In their own coin;
 Let's love them
 To suit our convenience and our vanity!
 La ra la, la ra la, la ra la, la.
+To suit our convenience and our vanity!
+
+Instrumental
 
 Don Alfonso
 I present you, my friends,
@@ -708,6 +593,8 @@ Tortured with love by your beauty.
 
 Fiordiligi and Dorabella
 Great heavens! What do I hear?
+
+Fiordiligi and Dorabella
 Who was the shameless instigator
 Of this vile betrayal?
 
@@ -724,13 +611,15 @@ Despina and Don Alfonso
 I'm a bit suspicious
 Of this rage and fury!
 
+Fiordiligi and Dorabella
+Forgive me, beloved;
+This heart of mine is innocent.
+
 Ferrando and Guglielmo
 What balm to this heart
 Is all this rage and fury!
 
-Fiordiligi and Dorabella
-Forgive me, beloved;
-This heart of mine is innocent.
+Instrumental
 
 Fiordiligi
 Begone, bold creatures! Leave this house!
@@ -752,6 +641,10 @@ Between us we have kindled
 A flame which warms, and consoles us,
 And death alone could
 Change my heart's devotion.
+
+Blank
+
+Fiordiligi
 Respect this example
 Of constancy, you abject creatures,
 And do not let a base hope
@@ -762,29 +655,8 @@ And may I ask to know
 The reason for this laughter?
 
 Guglielmo
-Oh what a face!
-Don't you think, my dear sir,
-That we have good cause?
-
-Ferrando
-How much will you pay,
-And we'll drop our wager?
-
-Guglielmo
-Pay half.
-
-Ferrando
-We'll let you off with
-Twenty-four sequins.
-
-Don Alfonso
-Poor little innocents!
-Come here; I'll give you
-My little finger to suck on.
-
-Guglielmo
-And you still have
-The courage to go on?
+Oh what a face! Don't you think,
+my dear sir, that we have good cause?
 
 Don Alfonso
 Before evening
@@ -794,8 +666,7 @@ Ferrando
 Whenever you like.
 
 Don Alfonso
-Meanwhile
-Silence and obedience.
+Meanwhile, silence and obedience.
 Until tomorrow morning.
 
 Guglielmo
@@ -820,10 +691,16 @@ A breath of love
 From our treasures
 Will afford our hearts
 Sweet sustenance.
+A breath of love
+From our treasures
+Will afford our hearts
+Sweet sustenance.
 A heart nourished
 On the hope of love
 Has no need
 Of greater inducement.
+
+Blank
 
 Don Alfonso
 It's quite absurd! There are
@@ -844,52 +721,6 @@ And how do you think
 This will end?
 Can we hope
 They'll come to their senses?
-
-Despina
-Well, I would;
-Where they weep, I'd laugh.
-To choke with despair
-Because a lover goes away!
-Have you ever seen such folly!
-If one goes, take two others.
-
-Don Alfonso
-Well said! that's sense.
-I'd better compliment her.
-
-Despina
-It's a law of nature, and not
-Merely sense.
-What is love?
-Pleasure, convenience, taste,
-Enjoyment, amusement,
-Pastime, fun, it's no longer love
-If it becomes a burden and
-Instead of pleasure brings pain and torment.
-
-Don Alfonso
-But meanwhile our sillies…
-
-Despina
-They'll do
-What we say.
-It's good that they should know
-They're loved by them.
-
-Don Alfonso
-They know it.
-
-Despina
-Then they'll readmit them,
-They'll spin the usual tale,
-And devil take the hindmost!
-
-Don Alfonso
-But how can you bring them back
-Now they've gone, and make
-These tiger?cats of yours
-Listen to them again
-And let themselves be tempted?
 
 Despina
 Leave me the bother
@@ -920,6 +751,8 @@ Before tomorrow your friends
 Will win the day: they'll have their way,
 And I'll have the glory.
 
+Instrumental
+
 Fiordiligi and Dorabella
 Ah, how my lot has changed
 All in a moment!
@@ -929,6 +762,10 @@ So long as the cruel stars
 Left my dear one with me,
 I knew not what grief was,
 I knew not what it was to pine.
+Ah, how my lot has changed
+All in a moment!
+Ah, what a sea of torment
+Is life henceforth for me!
 
 Ferrando and Guglielmo
 Let us die, yes, let us die
@@ -955,7 +792,9 @@ Fiordiligi and Dorabella
 Heavens, was that poison?
 
 Don Alfonso
-Poison good and proper,
+Poison good and proper
+
+Don Alfonso
 That in a few moments
 Will deprive them of their lives!
 
@@ -969,12 +808,17 @@ See the dire effect
 Of despairing love
 And at least pity us.
 
-Ferrando and Guglielmo
+Fiordiligi and Dorabella
+The tragic sight
+Turns my heart to ice.
+
+All
 May the sun's rays
 Be darkened for me!
 
-Don Alfonso, Fiordiligi and Dorabella
-The very fibres of my being failing,
+All
+Trembling: the very fibres
+Of my being failing,
 And my tongue and lips
 Cannot form a word.
 
@@ -997,6 +841,8 @@ Despina!
 
 Despina
 What do I see?
+
+Despina
 I fear the poor things are dead,
 Or very near to dying!
 
@@ -1018,18 +864,19 @@ Despina
 They still show signs of life;
 Give them a little comfort
 From your kindly hands.
-You hurry away with me
+(To Alfonso) You hurry away with me
 And we'll seek
 A doctor and an antidote.
 
 Fiordiligi and Dorabella
-What a tribulation!
-No more dreadful situation
+God, no more dreadful situation
 Could ever be imagined!
 
 Ferrando and Guglielmo
 No more farcical comedy
 Could ever be imagined!
+
+Ferrando and Guglielmo
 Ah!
 
 Fiordiligi and Dorabella
@@ -1122,7 +969,7 @@ The nature of this potion
 And the reason it was taken;
 Whether it was swallowed
 Hot or cold,
-A little or much,
+A little or a lot,
 In one draught
 Or in several.
 
@@ -1140,18 +987,19 @@ Don't be afraid;
 Here is an earnest
 Of my skill.
 
-Fiordiligi and Dorabella
+Fiordiligi, Dorabella and Don Alfonso
 He's taken a piece
 Of iron in his hand.
 
 Despina
-This is
-A piece of magnet,
+This is a piece of magnet,
 The stone which the great
 Doctor Mesmer discovered
 In Germany
 And then became
 So famous in France.
+
+Instrumental
 
 Fiordiligi, Dorabella and Don Alfonso
 Look, they're moving,
@@ -1168,7 +1016,8 @@ We're standing ready!
 
 Despina
 Hold tight!
-Courage! Now they
+Courage!
+Now they
 Are safe from death.
 
 Fiordiligi, Dorabella and Don Alfonso
@@ -1196,25 +1045,15 @@ That may be so, but such liberties
 Do violence to our reputation.
 
 Ferrando and Guglielmo
-I beg you,
-My adored one,
+I beg you, my adored one,
 Turn your lovely eyes on me.
 
 Fiordiligi and Dorabella
 I can resist no longer!
 
-Ferrando and Guglielmo
-Turn your lovely eyes on me
-
-Despina and Don Alfonso
-Very soon now you'll see,
-By virtue of magnetism's power,
-The end of this paroxysm,
-And they'll be as they were before.
+Blank
 
 Ferrando and Guglielmo
-My lungs are bursting
-With the need to laugh.
 Give me a kiss, my treasure,
 One single kiss, or else I die.
 
@@ -1249,7 +1088,7 @@ And fury are feigned or real,
 But wouldn't wish this fire
 To end in the fire of love.
 I know full well this fire
-Will change to that of love..
+Will change to that of love.
 
 Ferrando and Guglielmo
 I don't know if their rage
@@ -1257,7 +1096,9 @@ And fury are feigned or real,
 But wouldn't wish this fire
 To end in the fire of love.
 I know full well this fire
-Will change to that of love..
+Will change to that of love.
+
+Blank
 
 Act 2
 
@@ -1311,7 +1152,6 @@ Such anguish to our loved ones?
 Despina
 And who says
 You'd be doing them any harm?
-Friends, we are in port!
 
 Dorabella
 Don't you consider
@@ -1372,10 +1212,14 @@ And, like a queen
 On her lofty throne,
 Get her own way
 With “I can” and “I will”
+And, like a queen
+Get her own way
 It seems they're taking
 To this doctrine;
 Hooray for Despina,
 She knows how to do it.
+
+Blank
 
 Fiordiligi
 Sister, what do you say?
@@ -1385,9 +1229,8 @@ I'm dumbfounded
 At the fiendish ideas of that girl.
 
 Fiordiligi
-Believe me, she's crazy.
-Do you think we could possibly
-Follow her counsel?
+Believe me, she's crazy. Do you think 
+We could possibly follow her counsel?
 
 Dorabella
 Of course, if you stood everything
@@ -1413,8 +1256,7 @@ But if it's said
 They've come to see Despina!
 
 Fiordiligi
-Your conscience
-Is too elastic!
+Your conscience is too elastic!
 What will our menfolk say?
 
 Dorabella
@@ -1431,7 +1273,6 @@ Dorabella
 Will stay as they are;
 To amuse ourselves a little
 And not to die of boredom
-Is not to be false,
 My dear sister.
 
 Fiordiligi
@@ -1442,6 +1283,8 @@ So?
 
 Fiordiligi
 So you go ahead:
+
+Fiordiligi
 But I don't want to be involved
 If there should be a scandal.
 
@@ -1483,21 +1326,12 @@ My dearest treasure!
 
 Fiordiligi and Dorabella
 And meanwhile
+
+Fiordiligi and Dorabella
 What sport and pleasure
 I shall have!
 
-Don Alfonso
-Come, make haste to the garden,
-Dear young ladies!
-What fun! What music! Such singing!
-What a brilliant sight!
-What magic! Come along, quickly!
-
-Dorabella
-Whatever's going on?
-
-Don Alfonso
-You'll soon see.
+Blank
 
 Fiordiligi
 What a lovely day!
@@ -1513,8 +1347,7 @@ Yes, yes, very pretty;
 They've more leaves than fruit.
 
 Fiordiligi
-How charming
-These paths are!
+How charming these paths are!
 Shall we take a stroll?
 
 Ferrando
@@ -1539,6 +1372,8 @@ Let us go for a stroll too.
 
 Guglielmo
 Just as you please.
+
+Guglielmo
 Oh dear!
 
 Dorabella
@@ -1551,13 +1386,14 @@ That I think I'm going to die.
 
 Dorabella
 This simply won't do.
-It'll be the after?effects
+
+Dorabella
+It'll be the after effects
 Of the poison that you drank.
 
 Guglielmo
-
 Ah, I drink in
-A for stronger poison
+A far stronger poison
 From the cruel, fiery
 Volcanoes of love!
 
@@ -1590,6 +1426,8 @@ Tell me what you'd have, and we'll see.
 
 Guglielmo
 Is she joking or in earnest?
+
+Guglielmo
 Deign to accept
 This humble offering.
 
@@ -1611,9 +1449,8 @@ Cruel man,
 Do not seek to tempt a faithful heart.
 
 Guglielmo
-The mountain is weakening.
-I don't like this, but I've pledged
-My honour as a soldier.
+The mountain is weakening. I don't like this,
+But I've pledged my honour as a soldier.
 I adore you!
 
 Dorabella
@@ -1663,10 +1500,21 @@ Dorabella
 If you gave me it,
 What is still beating there?
 
+Guglielmo
+Why does it beat here?
+
+Dorabella
+What is still beating there?
+
+Dorabella and Guglielmo
+Why is it beating?
+
 Dorabella and Guglielmo
 It is my own dear heart
 That is no longer mine;
-It's come to lodge with you,
+It's come to lodge with you!
+
+Dorabella and Guglielmo
 And that's what's beating so.
 
 Guglielmo
@@ -1706,6 +1554,10 @@ Of hearts and affections!
 What new delights!
 What sweet pain!
 
+Blank
+
+Instrumental
+
 Ferrando
 We've won, my boy!
 
@@ -1733,13 +1585,11 @@ Ferrando
 And my Dorabella,
 How did she behave?
 Oh, I haven't a doubt of her.
-I know so well
-Her sensitive soul.
+I know so well her sensitive soul.
 
 Guglielmo
 Well, just between ourselves,
-If you had a doubt
-It might not be such a bad thing.
+Maybe doubt is not such a bad thing.
 
 Ferrando
 What?
@@ -1786,8 +1636,7 @@ Ferrando
 No, let me go!
 
 Guglielmo
-Are you raving?
-Would you ruin yourself
+Are you crazy? Would you ruin yourself
 For a worthless woman?
 I wouldn't want him
 To commit some folly!
@@ -1803,9 +1652,11 @@ I'm sure I don't know.
 
 Ferrando
 What should I do now?
-To what course,
 What plan apply myself?
-Take pity on me, give me your counsel.
+
+Ferrando
+Take pity on me!
+Give me your counsel!
 
 Guglielmo
 My friend, I don't know
@@ -1817,6 +1668,8 @@ In a day! In a few hours!
 
 Guglielmo
 It's certainly something to wonder at.
+
+Instrumental
 
 Guglielmo
 Ladies, you treat so many thus
@@ -1832,7 +1685,7 @@ Discourages me, in truth.
 A thousand times I've drawn my sword
 To defend your honour.
 A thousand times I've championed you
-With my tongue and, still more, with my heart.
+With my tongue and with my heart.
 But such treatment of so many
 Is pernicious and a bore.
 You're attractive, you are charming,
@@ -1841,37 +1694,77 @@ And graces envelop you
 From head to foot.
 But thus you treat so many,
 That it's difficult to believe,
+A thousand times I've drawn my sword
+Defended your treasures in heaven
+But thus you treat so many,
+That it's difficult to believe,
 And if your lovers complain
 They have good reason indeed.
 
+Guglielmo
+Why?
+
+Guglielmo
+They have good reason indeed.
+
+Guglielmo
+Why?
+
+Guglielmo
+They have good reason indeed.
+
+Instrumental
+
 Ferrando
-In what fierce strife,
-In what confusion
+In what fierce strife, in what confusion
 Of thoughts and affections I find myself!
 So unusual and novel is my situation
-That neither others nor I myself
-Suffice to give me counsel... oh, Alfonso,
-How you must be laughing
+I do not know what to do... 
+Oh, Alfonso, how you must be laughing
 At my stupidity!
 But I'll be revenged, I'll banish
 The traitress from my mind...
 Banish her?
-O Heaven, too loudly my heart intercedes for her.
 
 Ferrando
-Betrayed and scorned
-By her faithless heart,
+O Heaven, too loudly my heart
+Intercedes for her.
+
+Ferrando
+Betrayed
+
+Ferrando
+Scorned
+
+Ferrando
+By her faithless heart!
+
+Ferrando
+I still know
+That my soul adores her,
+I still hear
+The voice of love for her.
+
+Ferrando
+Betrayed
+
+Ferrando
+Scorned
+
+Ferrando
+By her faithless heart!
+
+Ferrando
 I still know
 That my soul adores her,
 I still hear
 The voice of love for her.
 
 Fiordiligi
-How everything conspires to tempt
-My heart! But no! Let me die rather than yield!
-My eyes must not
-Fall on him again! I'll threaten
-All the servants with dismissal
+How everything conspires to tempt my heart!
+But no! Let me die rather than yield!
+My eyes must not fall on him again!
+I'll threaten all the servants with dismissal.
 In the house are several uniforms
 Of Guglielmo's and Ferrando's: courage now!
 Despina! Despina!
@@ -1881,36 +1774,9 @@ What is it?
 
 Fiordiligi
 Take this key, and without any questions
-Or any back answers,
-Go to the wardrobe and bring me here
-Two swords, two helmets and two tunics
-Of our lovers.
-
-Despina
-What do you want with them?
-
-Fiordiligi
-Go on, and no back answers.
-
-Despina
-Milady's on her high horse!
-
-Fiordiligi
-There's nothing else to do:
-I hope Dorabella herself
-Will follow a good example:
-Away, away!
-No other way is left
-For us to preserve our honour.
-
-Despina
-Here I am.
-
-Fiordiligi
-Now go.
-Send a servant at once
-To order six post?horses;
-Tell Dorabella I want to speak her.
+Or any back answers, go to the wardrobe
+Bring me two swords, two helmets and
+Two tunics of our lovers.
 
 Despina
 Very good, ma'am.
@@ -1945,15 +1811,14 @@ Ah no, dear heart!
 With this sword in your hand
 Strike me to the heart,
 And if you lack the strength,
-By Heaven, I'll guide your hand myself.
+I'll guide your hand myself.
 
 Fiordiligi
 Alas, be silent! I am
 Tormented and unhappy enough!
 
 Fiordiligi and Ferrando
-Ah, now my constancy
-Begins to falter
+Ah, now my constancy begins to falter
 Before his looks and his words!
 
 Fiordiligi
@@ -1974,6 +1839,11 @@ My strength is giving out!
 Ferrando
 Yield, my dearest!
 
+Fiordiligi
+Heaven, direct me!
+
+Ferrando
+Yield, my dearest!
 
 Fiordiligi
 Heaven, direct me!
@@ -1985,15 +1855,18 @@ Husband, lover and more, if you wish.
 Delay no longer, my adored one.
 
 Fiordiligi
-
 Merciful heaven! Cruel man, you've won!
 Do with me what you will.
+
+Blank
 
 Ferrando and Fiordiligi
 Embrace me, my dearest,
 And may the consolation for our sorrows
 Be to spend our time in sweet affection,
 And sigh for joy!
+
+Instrumental
 
 Guglielmo
 Alas, poor me, what have I seen!
@@ -2011,7 +1884,6 @@ The chaste Diana of the age! Strumpet,
 Assassin, cheat, swindler, bitch!
 
 Don Alfonso
-
 Let him get it off his chest.
 
 Ferrando
@@ -2028,14 +1900,12 @@ My Fior... Furies of hell!
 Strangle first her and then me!
 
 Ferrando
-You see now;
-There are distinctions in everything;
+You see now; there are distinctions;
 There's a little extra something...
 
 Guglielmo
 Stop it! Stop
 Taunting me,
-And instead
 Let's find a way
 Of punishing them soundly.
 
@@ -2063,8 +1933,8 @@ Don Alfonso
 There's not so many.
 But what would they do,
 If these act like this?
-At bottom, you still love
-These plucked birds.
+At bottom, you still
+Love these plucked birds.
 
 Guglielmo
 Alas, it's true!
@@ -2074,20 +1944,25 @@ Too true!
 
 Don Alfonso
 Well then, take them as they are.
+
+Don Alfonso
 Meanwhile listen to my song:
 Take heed, and you'll be happy.
 
 Don Alfonso
 Everyone blames women, but I forgive them
-If they change their love
-A thousand times a day;
+If they change their love a thousand times a day;
 Some call it a sin, others a habit,
 But I say it's a necessity of their heart.
 The lover who finds that he's been deceived
-Should blame not others
-But his own mistake;
+Should blame not others but his own mistake;
 Whether they're young or old, fair or plain –
-Repeat with me: Women are all the same!
+
+Don Alfonso
+Repeat with me:
+Women are all the same!
+
+Instrumental
 
 Ferrando and Guglielmo
 Everything now, my dearest,
@@ -2121,15 +1996,21 @@ May every care be drowned,
 And let no memory of the past
 Remain in our hearts.
 
+Blank
+
 Guglielmo
 Would that they were drinking poison,
 The dishonourable jades!
+
+Instrumental
 
 Fiordiligi, Dorabella, Despina, Ferrando and Guglielmo
 What's that noise? What's that music?
 
 Don Alfonso
 Keep quiet: I'll go and see.
+
+Don Alfonso
 Mercy on us!
 God in heaven!
 Disaster is upon us!
@@ -2162,7 +2043,6 @@ Quickly, fly;
 
 Ferrando, Guglielmo, Despina and Don Alfonso
 Suppose we (they) meet them?
-Don Alfonso conduce Despina in una camera
 
 Fiordiligi and Dorabella
 Conceal yourselves,
@@ -2226,11 +2106,13 @@ Guglielmo
 Allow me to have
 This trunk brought into that room.
 Heavens, what do I see!
+
+Guglielmo
 A jacket here!
 It’s not mine! What's this doing here?
 
 Ferrando and Guglielmo
-Merciful heaven! You've signed here,
+Merciful heaven! Who else is here,
 Don't try to deny it!
 Treachery, treachery!
 Let us find the villains
@@ -2260,8 +2142,7 @@ I freeze, I shiver with fright;
 Why did he give them away?
 
 Ferrando
-Lovely lady,
-A noble of Albania
+Lovely lady, a noble of Albania
 Bows before you!
 
 Guglielmo
@@ -2317,6 +2198,8 @@ I'm confused, I feel ashamed;
 I'm slipping badly if they can do to me
 What I have done to many others.
 
+Blank
+
 All
 Happy is the man who looks
 At everything on the right side
@@ -2325,4 +2208,6 @@ Makes reason his guide.
 What always makes another weep
 Will be for him a cause of mirth
 And amid the tempests of this world
-He will find sweet peace.
+He will find sweet peace!
+
+Blank
