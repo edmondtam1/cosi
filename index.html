@@ -59,15 +59,16 @@
         </style>
     </head>
     <body>
-        <button data-status="off">Turn Wake Lock ON</button>
+        <!-- <button data-status="off">Turn Wake Lock ON</button> -->
 
         <section id="status">
           <h2>Wake Lock Status</h2>
           <p></p>
         </section>
         
-        <p>Wake lock will automatically release if if the tab becomes inactive.</p>
-        <p>To re-activate the wake lock automatically when the tab becomes active again, check this box: <input type="checkbox" id="reaquire" /></p>
+        <!-- <p>Wake lock will automatically release if if the tab becomes inactive.</p> -->
+        <!-- <p>To re-activate the wake lock automatically when the tab becomes active again, check this box: <input type="checkbox" id="reaquire" /></p> -->
+
         <button id="size"></button>
         <div class="wrapper">
             <div class="inner">
@@ -5758,15 +5759,13 @@
             // status paragraph
             const statusElem = document.querySelector('#status p');
             // toggle button
-            const wakeButton = document.querySelector('[data-status]');
+            // const wakeButton = document.querySelector('[data-status]');
             // checkbox
-            const reaquireCheck = document.querySelector('#reaquire');
+            // const reaquireCheck = document.querySelector('#reaquire');
 
             // change button and status if wakelock becomes aquired or is released
             const changeUI = (status = 'acquired') => {
               const acquired = status === 'acquired' ? true : false;
-              wakeButton.dataset.status = acquired ? 'on' : 'off';
-              wakeButton.textContent = `Turn Wake Lock ${acquired ? 'OFF' : 'ON'}`;
               statusElem.textContent = `Wake Lock ${acquired ? 'is active!' : 'has been released.'}`;
             }
 
@@ -5775,10 +5774,9 @@
 
             if ('wakeLock' in navigator) {
               isSupported = true;
-              statusElem.textContent = 'Screen Wake Lock API supported 🎉';
+              statusElem.textContent = '';
             } else {
-              wakeButton.disabled = true;
-              statusElem.textContent = 'Wake lock is not supported by this browser.';
+              statusElem.textContent = 'Your browser may fall asleep (not because the opera is boring). Please extend your screen timeout settings.';
             }
 
             if (isSupported) {
@@ -5804,40 +5802,16 @@
 
                 } catch (err) {
                   // if wake lock request fails - usually system related, such as battery
-                  wakeButton.dataset.status = 'off';
-                  wakeButton.textContent = 'Turn Wake Lock ON';
                   statusElem.textContent = `${err.name}, ${err.message}`;
 
                 }
               } // requestWakeLock()
-
-              // if we click our button
-              wakeButton.addEventListener('click', () => {
-                // if wakelock is off request it
-                if (wakeButton.dataset.status === 'off') {
-                  requestWakeLock()
-                } else { // if it's on release it
-                  wakeLock.release()
-                    .then(() => {
-                      wakeLock = null;
-                    })
-                }
-              })
 
               const handleVisibilityChange = () => {
                 if (wakeLock !== null && document.visibilityState === 'visible') {
                   requestWakeLock();
                 }
               }
-
-              reaquireCheck.addEventListener('change', () => {
-                if (reaquireCheck.checked) {
-                  document.addEventListener('visibilitychange', handleVisibilityChange);
-                } else {
-                  document.removeEventListener('visibilitychange', handleVisibilityChange);
-                }
-              });
-
             } // isSupported
 
             const button = document.getElementById("size");
