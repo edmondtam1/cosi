@@ -1111,7 +1111,7 @@
     "number": 148
   },
   {
-    "singers": "Blank",
+    "singers": "Repeat",
     "text": [],
     "number": 149
   },
@@ -1652,7 +1652,7 @@
     "number": 219
   },
   {
-    "singers": "Blank",
+    "singers": "Repeat",
     "text": [],
     "number": 220
   },
@@ -1805,7 +1805,7 @@
     "number": 239
   },
   {
-    "singers": "Blank",
+    "singers": "Repeat",
     "text": [],
     "number": 240
   },
@@ -2705,7 +2705,7 @@
     "number": 356
   },
   {
-    "singers": "Blank",
+    "singers": "Repeat",
     "text": [],
     "number": 357
   },
@@ -2829,7 +2829,7 @@
     "number": 372
   },
   {
-    "singers": "Blank",
+    "singers": "Repeat",
     "text": [],
     "number": 373
   },
@@ -3170,7 +3170,7 @@
     "number": 417
   },
   {
-    "singers": "Blank",
+    "singers": "Repeat",
     "text": [],
     "number": 418
   },
@@ -3429,7 +3429,7 @@
     "number": 451
   },
   {
-    "singers": "Blank",
+    "singers": "Repeat",
     "text": [],
     "number": 452
   },
@@ -3955,7 +3955,7 @@
     "number": 522
   },
   {
-    "singers": "Blank",
+    "singers": "Repeat",
     "text": [],
     "number": 523
   },
@@ -4765,7 +4765,7 @@
     "number": 629
   },
   {
-    "singers": "Blank",
+    "singers": "Repeat",
     "text": [],
     "number": 630
   },
@@ -5104,7 +5104,7 @@
     "number": 675
   },
   {
-    "singers": "Blank",
+    "singers": "Repeat",
     "text": [],
     "number": 676
   },
@@ -5612,7 +5612,7 @@
     "number": 742
   },
   {
-    "singers": "Blank",
+    "singers": "Repeat",
     "text": [],
     "number": 743
   },
@@ -5647,5 +5647,10 @@
       "He will find sweet peace!"
     ],
     "number": 747
+  },
+  {
+    "singers": "Repeat",
+    "text": [],
+    "number": 748
   }
 ]

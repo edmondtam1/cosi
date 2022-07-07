@@ -60,7 +60,7 @@ def main():
                 in [
                     "All",
                     "Instrumental",
-                    "Blank",
+                    "Repeat",
                     "Guglielmo",
                     "Ferrando",
                     "Fiordiligi",
@@ -72,6 +72,7 @@ def main():
                     "Act",
                     "1",
                     "2",
+                    "End",
                 ]
                 for word in re.split(" |, ", singers)
                 # for word in singers.split(" ")

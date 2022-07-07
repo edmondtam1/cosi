@@ -447,7 +447,7 @@ Of tragic love
 With the dreadful sound
 Of my sighs.
 
-Blank
+Repeat
 
 Despina
 My lady Dorabella,
@@ -645,7 +645,7 @@ A flame which warms, and consoles us,
 And death alone could
 Change my heart's devotion.
 
-Blank
+Repeat
 
 Fiordiligi
 Respect this example
@@ -703,7 +703,7 @@ On the hope of love
 Has no need
 Of greater inducement.
 
-Blank
+Repeat
 
 Don Alfonso
 It's quite absurd! There are
@@ -1054,7 +1054,7 @@ Turn your lovely eyes on me.
 Fiordiligi and Dorabella
 I can resist no longer!
 
-Blank
+Repeat
 
 Ferrando and Guglielmo
 Give me a kiss, my treasure,
@@ -1101,7 +1101,7 @@ To end in the fire of love.
 I know full well this fire
 Will change to that of love.
 
-Blank
+Repeat
 
 Act 2
 
@@ -1222,7 +1222,7 @@ To this doctrine;
 Hooray for Despina,
 She knows how to do it.
 
-Blank
+Repeat
 
 Fiordiligi
 Sister, what do you say?
@@ -1334,7 +1334,7 @@ Fiordiligi and Dorabella
 What sport and pleasure
 I shall have!
 
-Blank
+Repeat
 
 Fiordiligi
 What a lovely day!
@@ -1557,7 +1557,7 @@ Of hearts and affections!
 What new delights!
 What sweet pain!
 
-Blank
+Repeat
 
 Instrumental
 
@@ -1861,7 +1861,7 @@ Fiordiligi
 Merciful heaven! Cruel man, you've won!
 Do with me what you will.
 
-Blank
+Repeat
 
 Ferrando and Fiordiligi
 Embrace me, my dearest,
@@ -1999,7 +1999,7 @@ May every care be drowned,
 And let no memory of the past
 Remain in our hearts.
 
-Blank
+Repeat
 
 Guglielmo
 Would that they were drinking poison,
@@ -2201,7 +2201,7 @@ I'm confused, I feel ashamed;
 I'm slipping badly if they can do to me
 What I have done to many others.
 
-Blank
+Repeat
 
 All
 Happy is the man who looks
@@ -2213,4 +2213,6 @@ Will be for him a cause of mirth
 And amid the tempests of this world
 He will find sweet peace!
 
-Blank
+Repeat
+
+End

@@ -70,12 +70,13 @@
 
                 font-size: large;
                 text-align: center;
+                white-space: pre;
             }
         </style>
     </head>
     <body>
         <section id="status">
-          Please turn your phone on silent mode.
+          Please turn your phone on silent mode. 🤫
         </section>
         
         <button id="size"></button>
@@ -1208,7 +1209,7 @@
                 "number": 148
               },
               {
-                "singers": "Blank",
+                "singers": "Repeat",
                 "text": [],
                 "number": 149
               },
@@ -1749,7 +1750,7 @@
                 "number": 219
               },
               {
-                "singers": "Blank",
+                "singers": "Repeat",
                 "text": [],
                 "number": 220
               },
@@ -1902,7 +1903,7 @@
                 "number": 239
               },
               {
-                "singers": "Blank",
+                "singers": "Repeat",
                 "text": [],
                 "number": 240
               },
@@ -2802,7 +2803,7 @@
                 "number": 356
               },
               {
-                "singers": "Blank",
+                "singers": "Repeat",
                 "text": [],
                 "number": 357
               },
@@ -2926,7 +2927,7 @@
                 "number": 372
               },
               {
-                "singers": "Blank",
+                "singers": "Repeat",
                 "text": [],
                 "number": 373
               },
@@ -3267,7 +3268,7 @@
                 "number": 417
               },
               {
-                "singers": "Blank",
+                "singers": "Repeat",
                 "text": [],
                 "number": 418
               },
@@ -3526,7 +3527,7 @@
                 "number": 451
               },
               {
-                "singers": "Blank",
+                "singers": "Repeat",
                 "text": [],
                 "number": 452
               },
@@ -4052,7 +4053,7 @@
                 "number": 522
               },
               {
-                "singers": "Blank",
+                "singers": "Repeat",
                 "text": [],
                 "number": 523
               },
@@ -4862,7 +4863,7 @@
                 "number": 629
               },
               {
-                "singers": "Blank",
+                "singers": "Repeat",
                 "text": [],
                 "number": 630
               },
@@ -5201,7 +5202,7 @@
                 "number": 675
               },
               {
-                "singers": "Blank",
+                "singers": "Repeat",
                 "text": [],
                 "number": 676
               },
@@ -5709,7 +5710,7 @@
                 "number": 742
               },
               {
-                "singers": "Blank",
+                "singers": "Repeat",
                 "text": [],
                 "number": 743
               },
@@ -5744,6 +5745,11 @@
                   "He will find sweet peace!"
                 ],
                 "number": 747
+              },
+              {
+                "singers": "Repeat",
+                "text": [],
+                "number": 748
               }
             ];
 
@@ -5777,10 +5783,10 @@
             if ('wakeLock' in navigator) {
               isSupported = true;
             } else {
-              statusElem.textContent += ' Your phone may fall asleep, not because the opera is boring but due to some silly technical shenanigans. Please extend your screen timeout settings.';
+              statusElem.textContent += 'Your phone may fall asleep, not because the opera is boring, but due to silly surfing shenanigans. 🏄\r\nPlease extend your screen timeout settings. ⏰\r\n';
             }
 
-            statusElem.textContent += ' Click me to hide this message!';
+            statusElem.textContent += ' Click me to hide this message! 🥰';
 
             statusElem.addEventListener("click", () => {
                 statusElem.style.display = "none";
